@@ -1,0 +1,711 @@
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+body {
+  color: #000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+h1 {
+  margin: 0 40px 24px;
+  padding-top: 24px;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  justify-content: space-between;
+  width: 100%;
+  padding: 32px;
+  font-size: 12px;
+  display: flex;
+  position: fixed;
+  inset: auto auto 0% 0%;
+}
+
+.header {
+  width: 100%;
+  padding-bottom: 23px;
+  position: fixed;
+  inset: 0% 0% auto;
+}
+
+.description {
+  max-width: 750px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 21px;
+  line-height: 1.2em;
+}
+
+.devices {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  margin-bottom: 100px;
+  padding-bottom: 26px;
+  display: inline-block;
+  position: relative;
+}
+
+.model {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.6em;
+}
+
+.launch-date {
+  font-size: 11px;
+}
+
+.devices-grid {
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: 1fr;
+  grid-auto-flow: column;
+  place-items: start stretch;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.model-header {
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+  backdrop-filter: saturate(180%) blur(12px);
+  cursor: default;
+  background-color: #fffc;
+  padding: 16px 8px;
+  position: sticky;
+  top: 0;
+}
+
+.model-device {
+  justify-content: center;
+  align-items: flex-end;
+  height: 460px;
+  display: flex;
+}
+
+.model-colors {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+}
+
+.color {
+  cursor: default;
+  background-color: #f5f5f7;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  box-shadow: inset 0 0 1px 1px #0000001a;
+}
+
+.color.white-16 {
+  background-color: #fafafa;
+}
+
+.color.black-16 {
+  background-color: #3c4042;
+}
+
+.color.desert-titanium {
+  background-color: #bfa48f;
+}
+
+.color.natural-titanium-16 {
+  background-color: #c2bcb2;
+}
+
+.color.white-titanium-16 {
+  background-color: #f2f1ed;
+}
+
+.color.black-titanium-16 {
+  background-color: #3c3c3d;
+}
+
+.color.ultramarine {
+  background-color: #9aadf6;
+}
+
+.color.teal {
+  background-color: #b0d4d2;
+}
+
+.color.pink-16 {
+  background-color: #f2adda;
+}
+
+.color.natural-titanium {
+  background-color: #837f7d;
+}
+
+.color.blue-titanium {
+  background-color: #2f4452;
+}
+
+.color.white-titanium {
+  background-color: #ddd;
+}
+
+.color.black-titanium {
+  background-color: #1b1b1b;
+}
+
+.color.pink-15 {
+  background-color: #e3c8ca;
+}
+
+.color.yellow-15 {
+  background-color: #e6e0c1;
+}
+
+.color.green-15 {
+  background-color: #cad4c5;
+}
+
+.color.blue-15 {
+  background-color: #ced5d9;
+}
+
+.color.black-15 {
+  background-color: #35393b;
+}
+
+.color.deep-purple {
+  background-color: #594f63;
+}
+
+.color.gold {
+  background-color: #f4e8ce;
+}
+
+.color.silver {
+  background-color: #f0f2f2;
+}
+
+.color.blue-14 {
+  background-color: #a0b4c7;
+}
+
+.color.midnight-14 {
+  background-color: #222930;
+}
+
+.color.starlight-14 {
+  background-color: #faf6f2;
+}
+
+.color.red-14 {
+  background-color: #fc0324;
+}
+
+.color.midnight-se-3 {
+  background-color: #232a31;
+}
+
+.color.starlight-se-3 {
+  background-color: #faf6f2;
+}
+
+.color.red-se-3 {
+  background-color: #bf0013;
+}
+
+.color.alpine-green-13 {
+  background-color: #576856;
+}
+
+.color.silver-13 {
+  background-color: #f1f2ed;
+}
+
+.color.gold-13 {
+  background-color: #fae7cf;
+}
+
+.color.graphite-13 {
+  background-color: #54524f;
+}
+
+.color.sierra-blue-13 {
+  background-color: #a7c1d9;
+}
+
+.color.green-13 {
+  background-color: #394c38;
+}
+
+.color.pink-13 {
+  background-color: #faddd7;
+}
+
+.color.blue-13 {
+  background-color: #276787;
+}
+
+.color.midnight-13 {
+  background-color: #232a31;
+}
+
+.color.starlight-13 {
+  background-color: #faf6f2;
+}
+
+.color.red-13 {
+  background-color: #bf0013;
+}
+
+.color.pacific-blue-12 {
+  background-color: #2d4e5c;
+}
+
+.color.gold-12 {
+  background-color: #fcebd3;
+}
+
+.color.graphite-12 {
+  background-color: #52514d;
+}
+
+.color.silver-12 {
+  background-color: #e3e4df;
+}
+
+.color.purple-12 {
+  background-color: #b7afe6;
+}
+
+.color.blue-12 {
+  background-color: #023b63;
+}
+
+.color.green-12 {
+  background-color: #d8efd5;
+}
+
+.color.red-12 {
+  background-color: #d82e2e;
+}
+
+.color.white-12 {
+  background-color: #f6f2ef;
+}
+
+.color.black-12 {
+  background-color: #25212b;
+}
+
+.color.black-se-2 {
+  background-color: #262529;
+}
+
+.color.white-se-2 {
+  background-color: #f3f3f3;
+}
+
+.color.red-se-2 {
+  background-color: #b41325;
+}
+
+.color.midnight-green-11 {
+  background-color: #4e5851;
+}
+
+.color.silver-11 {
+  background-color: #ebebe3;
+}
+
+.color.space-gray-11 {
+  background-color: #535150;
+}
+
+.color.gold-11 {
+  background-color: #fad7bd;
+}
+
+.color.purple-11 {
+  background-color: #d1cdda;
+}
+
+.color.yellow-11 {
+  background-color: #ffe681;
+}
+
+.color.green-11 {
+  background-color: #aee1cd;
+}
+
+.color.black-11 {
+  background-color: #1f2020;
+}
+
+.color.white-11 {
+  background-color: #f9f6ef;
+}
+
+.color.red-11 {
+  background-color: #ba0c2e;
+}
+
+.color.silver-xs {
+  background-color: #e4e4e2;
+}
+
+.color.space-gray-xs {
+  background-color: #262529;
+}
+
+.color.gold-xs {
+  background-color: #fadcc2;
+}
+
+.color.blue-xr {
+  background-color: #48aee6;
+}
+
+.color.white-xr {
+  background-color: #f3f3f3;
+}
+
+.color.black-xr {
+  background-color: #2e3034;
+}
+
+.color.yellow-xr {
+  background-color: #f9d045;
+}
+
+.color.coral-xr {
+  background-color: #ff6e5a;
+}
+
+.color.red-xr {
+  background-color: #b41325;
+}
+
+.color.silver-x {
+  background-color: #e4e4e2;
+}
+
+.color.space-gray-x {
+  background-color: #262529;
+}
+
+.color.silver-8 {
+  background-color: #e2e3e4;
+}
+
+.color.space-gray-8 {
+  background-color: #272729;
+}
+
+.color.gold-8 {
+  background-color: #f7e8dd;
+}
+
+.color.silver-7 {
+  background-color: #e2e3e4;
+}
+
+.color.black-7 {
+  background-color: #2e3034;
+}
+
+.color.gold-7 {
+  background-color: #e3ccb4;
+}
+
+.color.rose-gold-7 {
+  background-color: #ecc6c1;
+}
+
+.color.silver-se {
+  background-color: #e4e4e2;
+}
+
+.color.space-gray-se {
+  background-color: #262529;
+}
+
+.color.gold-se {
+  background-color: #fadcc2;
+}
+
+.color.rose-gold-se {
+  background-color: #ecc6c1;
+}
+
+.color.silver-6s {
+  background-color: #e2e3e4;
+}
+
+.color.space-gray-6s {
+  background-color: #b1b2b7;
+}
+
+.color.gold-6s {
+  background-color: #e3ccb4;
+}
+
+.color.rose-gold-6s {
+  background-color: #ecc6c1;
+}
+
+.color.silver-6 {
+  background-color: #e2e3e4;
+}
+
+.color.space-gray-6 {
+  background-color: #b1b2b7;
+}
+
+.color.gold-6 {
+  background-color: #e3ccb4;
+}
+
+.color.white-5c {
+  background-color: #f0eff2;
+}
+
+.color.red-5c {
+  background-color: #f67873;
+}
+
+.color.yellow-5c {
+  background-color: #fdf078;
+}
+
+.color.blue-5c {
+  background-color: #4dbdf9;
+}
+
+.color.green-5c {
+  background-color: #a2ee73;
+}
+
+.color.white-4 {
+  background-color: #f6f2ef;
+}
+
+.color.black-4 {
+  background-color: #2e3034;
+}
+
+.color.white-3g {
+  background-color: #f3f3f3;
+}
+
+.color.lavander-17 {
+  background-color: #dfceea;
+}
+
+.color.sage-17 {
+  background-color: #a9b689;
+}
+
+.color.mist-blue-17 {
+  background-color: #96aed1;
+}
+
+.color.black-17 {
+  background-color: #353839;
+}
+
+.color.cosmic-orange-17 {
+  background-color: #f77e2d;
+}
+
+.color.deep-blue-17 {
+  background-color: #32374a;
+}
+
+.color.silver-17 {
+  background-color: #f5f5f5;
+}
+
+.color.sky-blue-air {
+  background-color: #f0f9ff;
+}
+
+.color.space-black-air {
+  background-color: #000;
+}
+
+.color.light-gold-air {
+  background-color: #fffcf5;
+}
+
+.color.cloud-white-air {
+  background-color: #fcfcfc;
+}
+
+.model-content {
+  width: 380px;
+  padding-top: 20px;
+}
+
+.model-screen-size {
+  text-align: center;
+  font-size: 68px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.model-screen-detail {
+  text-align: center;
+  margin-top: 17px;
+  font-weight: 500;
+}
+
+.model-screen-detail.hidden {
+  opacity: 0;
+}
+
+.model-screen-detail.empty {
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+.content-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.content-image.hidden {
+  opacity: 0;
+}
+
+.model-device-pic {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.device-support-status {
+  color: #fff;
+  background-color: #000;
+  border-radius: 20px;
+  padding: 4px 16px;
+  display: inline-block;
+}
+
+.device-support-status.vintage {
+  background-color: #999;
+}
+
+.device-support-status.obsolete {
+  color: #000;
+  background-color: #ccc;
+}
+
+.model-screen-detail-title {
+  text-align: center;
+  margin-top: 17px;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.highlighted-block {
+  padding-top: 40px;
+}
+
+.highlighted-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.highlighted-image.hidden {
+  opacity: 0;
+}
+
+.details-list {
+  color: #000;
+  text-align: center;
+  padding-left: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2em;
+  list-style-type: none;
+}
+
+.detail-item {
+  margin-top: 17px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+@media screen and (max-width: 991px) {
+  .footer {
+    flex-flow: column;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .heading {
+    font-size: 54px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+  }
+
+  .heading {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .description {
+    font-size: 14px;
+  }
+
+  .devices {
+    margin-bottom: 120px;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+}
+
+#w-node-_7dc9ce3c-1ac1-99cb-889d-3237ef612cde-1f50721c, #w-node-_87fb736c-4343-4237-2ecf-32b9b4b63582-1f50721c, #w-node-_8cd83154-81b1-4561-725d-2b92f30080f9-1f50721c, #w-node-c6fb3990-3769-3567-53f9-b7a7ea926d3b-1f50721c {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+
