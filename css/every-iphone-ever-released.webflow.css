@@ -685,14 +685,6 @@ a:hover {
   .devices {
     margin-top: 210px;
   }
-
-  .heading {
-    font-size: 54px;
-  }
-
-  .heading-2 {
-    font-size: 48px;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -711,18 +703,6 @@ a:hover {
     padding-left: 20px;
     padding-right: 20px;
   }
-
-  .heading {
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 42px;
-  }
-
-  .heading-2 {
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 40px;
-  }
 }
 
 @media screen and (max-width: 479px) {
@@ -737,10 +717,6 @@ a:hover {
   .devices {
     margin-top: 250px;
     margin-bottom: 120px;
-  }
-
-  .heading, .heading-2, .heading-3 {
-    font-size: 32px;
   }
 }
 
