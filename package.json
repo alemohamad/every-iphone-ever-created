@@ -1,0 +1,10 @@
+{
+  "name": "every-iphone-ever-created",
+  "version": "1.0.0",
+  "description": "A visual timeline of every iPhone ever released",
+  "scripts": {
+    "build": "node scripts/generate-html.js"
+  },
+  "author": "Ale Mohamad",
+  "license": "MIT"
+}

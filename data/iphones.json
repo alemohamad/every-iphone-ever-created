@@ -1,0 +1,6023 @@
+{
+  "iphones": [
+    {
+      "id": "iphone-17-pro-max",
+      "model": "iPhone 17 Pro Max",
+      "launchYear": 2025,
+      "device": "iphone17_pro_max.jpg",
+      "colors": [
+        {
+          "name": "Cosmic Orange",
+          "hex": "#f77e2d"
+        },
+        {
+          "name": "Deep Blue",
+          "hex": "#32374a"
+        },
+        {
+          "name": "Silver",
+          "hex": "#f5f5f5"
+        }
+      ],
+      "display": {
+        "size": "6.9″",
+        "type": "Super Retina XDR display",
+        "features": [
+          "ProMotion technology",
+          "Always-On display"
+        ]
+      },
+      "design": [
+        "Aluminum frame\n",
+        "Action button",
+        "Camera Control for faster access\nto photo and video tools"
+      ],
+      "appleIntelligence": true,
+      "chip": {
+        "image": "icon_A19PRO.jpg",
+        "name": "A19 Pro chip",
+        "features": [
+          "6-core CPU",
+          "6-core CPU with\nNeural Accelerators",
+          "16-core Neural Engine",
+          "Hardware-accelerated ray tracing"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_camera_center_stage.jpg",
+        "features": [
+          "18MP Center Stage front camera",
+          "Tap to zoom and rotate",
+          "Center Stage for photos",
+          "Ultra-stabilized video",
+          "Dual Capture",
+          "Center Stage for video calls"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_triple4_lens.jpg",
+        "features": [
+          "48MP Pro Fusion camera system\n48MP Fusion Main | 48MP Fusion\nUltra Wide | 48MP Fusion Telephoto",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "Macro photography",
+          "Dolby Vision up to 4K at 120 fps",
+          "Spatial photos and videos",
+          "Latest-generation\nPhotographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_9.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 26",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 39 hours video playback",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 3 for up to\n20x faster transfers"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield 2 front,\n3x better scratch resistance",
+          "Ceramic Shield back",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more",
+          "MagSafe wireless charging up to 25W\nwith 30W adapter or higher"
+        ]
+      },
+      "capacity": [
+        "256GB",
+        "512GB",
+        "1TB",
+        "2TB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 6.43,
+          "mm": 163.4
+        },
+        "width": {
+          "inches": 3.07,
+          "mm": 78
+        },
+        "depth": {
+          "inches": 0.34,
+          "mm": 8.75
+        },
+        "weight": {
+          "ounces": 8.22,
+          "grams": 233
+        }
+      }
+    },
+    {
+      "id": "iphone-17-pro",
+      "model": "iPhone 17 Pro",
+      "launchYear": 2025,
+      "device": "iphone17_pro.jpg",
+      "colors": [
+        {
+          "name": "Cosmic Orange",
+          "hex": "#f77e2d"
+        },
+        {
+          "name": "Deep Blue",
+          "hex": "#32374a"
+        },
+        {
+          "name": "Silver",
+          "hex": "#f5f5f5"
+        }
+      ],
+      "display": {
+        "size": "6.3″",
+        "type": "Super Retina XDR display",
+        "features": [
+          "ProMotion technology",
+          "Always-On display"
+        ]
+      },
+      "design": [
+        "Aluminum frame\n",
+        "Action button",
+        "Camera Control for faster access\nto photo and video tools"
+      ],
+      "appleIntelligence": true,
+      "chip": {
+        "image": "icon_A19PRO.jpg",
+        "name": "A19 Pro chip",
+        "features": [
+          "6-core CPU",
+          "6-core CPU with\nNeural Accelerators",
+          "16-core Neural Engine",
+          "Hardware-accelerated ray tracing"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_camera_center_stage.jpg",
+        "features": [
+          "18MP Center Stage front camera",
+          "Tap to zoom and rotate",
+          "Center Stage for photos",
+          "Ultra-stabilized video",
+          "Dual Capture",
+          "Center Stage for video calls"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_triple4_lens.jpg",
+        "features": [
+          "48MP Pro Fusion camera system\n48MP Fusion Main | 48MP Fusion\nUltra Wide | 48MP Fusion Telephoto",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "Macro photography",
+          "Dolby Vision up to 4K at 120 fps",
+          "Spatial photos and videos",
+          "Latest-generation\nPhotographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_9.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 26",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 33 hours video playback",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 3 for up to\n20x faster transfers"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield 2 front,\n3x better scratch resistance",
+          "Ceramic Shield back",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more",
+          "MagSafe wireless charging up to 25W\nwith 30W adapter or higher"
+        ]
+      },
+      "capacity": [
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.91,
+          "mm": 150
+        },
+        "width": {
+          "inches": 2.83,
+          "mm": 71.9
+        },
+        "depth": {
+          "inches": 0.34,
+          "mm": 8.75
+        },
+        "weight": {
+          "ounces": 7.27,
+          "grams": 206
+        }
+      }
+    },
+    {
+      "id": "iphone-air",
+      "model": "iPhone Air",
+      "launchYear": 2025,
+      "device": "iPhone_Air.jpg",
+      "colors": [
+        {
+          "name": "Sky Blue",
+          "hex": "#f0f9ff"
+        },
+        {
+          "name": "Light Gold",
+          "hex": "#fffcf5"
+        },
+        {
+          "name": "Cloud White",
+          "hex": "#fcfcfc"
+        },
+        {
+          "name": "Space Black",
+          "hex": "#000"
+        }
+      ],
+      "display": {
+        "size": "6.5″",
+        "type": "Super Retina XDR display",
+        "features": [
+          "ProMotion technology",
+          "Always-On display"
+        ]
+      },
+      "design": [
+        "Aluminum frame\n",
+        "Action button",
+        "Camera Control for faster access\nto photo and video tools"
+      ],
+      "appleIntelligence": true,
+      "chip": {
+        "image": "icon_A19PRO.jpg",
+        "name": "A19 Pro chip",
+        "features": [
+          "6-core CPU",
+          "5-core CPU with\nNeural Accelerators",
+          "16-core Neural Engine",
+          "Hardware-accelerated ray tracing"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_camera_center_stage.jpg",
+        "features": [
+          "18MP Center Stage front camera",
+          "Tap to zoom and rotate",
+          "Center Stage for photos",
+          "Ultra-stabilized video",
+          "Dual Capture",
+          "Center Stage for video calls"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_air_single_lens.jpg",
+        "features": [
+          "48MP Fusion camera system\n48MP Fusion Main\n&nbsp;",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "&nbsp;",
+          "Dolby Vision up to 4K at 120 fps",
+          "&nbsp;",
+          "Latest-generation\nPhotographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_2.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 26",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 27 hours video playback",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield 2 front,\n3x better scratch resistance",
+          "Ceramic Shield back",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more",
+          "MagSafe wireless charging up to 25W\nwith 30W adapter or higher"
+        ]
+      },
+      "capacity": [
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 6.15,
+          "mm": 156.2
+        },
+        "width": {
+          "inches": 2.94,
+          "mm": 74.7
+        },
+        "depth": {
+          "inches": 0.22,
+          "mm": 5.64
+        },
+        "weight": {
+          "ounces": 5.82,
+          "grams": 165
+        }
+      }
+    },
+    {
+      "id": "iphone-17",
+      "model": "iPhone 17",
+      "launchYear": 2025,
+      "device": "iphone17.jpg",
+      "colors": [
+        {
+          "name": "Lavender",
+          "hex": "#dfceea"
+        },
+        {
+          "name": "Sage",
+          "hex": "#a9b689"
+        },
+        {
+          "name": "Mist Blue",
+          "hex": "#96aed1"
+        },
+        {
+          "name": "White",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Black",
+          "hex": "#353839"
+        }
+      ],
+      "display": {
+        "size": "6.3″",
+        "type": "Super Retina XDR display",
+        "features": [
+          "ProMotion technology",
+          "Always-On display"
+        ]
+      },
+      "design": [
+        "Aluminum frame\n",
+        "Action button",
+        "Camera Control for faster access\nto photo and video tools"
+      ],
+      "appleIntelligence": true,
+      "chip": {
+        "image": "icon_A19.jpg",
+        "name": "A19 chip",
+        "features": [
+          "6-core CPU",
+          "5-core CPU with\nNeural Accelerators",
+          "16-core Neural Engine",
+          "Hardware-accelerated ray tracing"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_camera_center_stage.jpg",
+        "features": [
+          "18MP Center Stage front camera",
+          "Tap to zoom and rotate",
+          "Center Stage for photos",
+          "Ultra-stabilized video",
+          "Dual Capture",
+          "Center Stage for video calls"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_dual5_lens.jpg",
+        "features": [
+          "48MP Dual Fusion camera system\n48MP Fusion Main | 48MP Fusion\nUltra Wide",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "Macro photography",
+          "Dolby Vision up to 4K at 120 fps",
+          "Spatial photos and videos",
+          "Latest-generation\nPhotographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 26",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 30 hours video playback",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield 2 front,\n3x better scratch resistance",
+          "&nbsp;",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more",
+          "MagSafe wireless charging up to 25W\nwith 30W adapter or higher"
+        ]
+      },
+      "capacity": [
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.89,
+          "mm": 149.6
+        },
+        "width": {
+          "inches": 2.81,
+          "mm": 71.5
+        },
+        "depth": {
+          "inches": 0.31,
+          "mm": 7.95
+        },
+        "weight": {
+          "ounces": 6.24,
+          "grams": 177
+        }
+      }
+    },
+    {
+      "id": "iphone-16e",
+      "model": "iPhone 16e",
+      "launchYear": 2024,
+      "device": "iphone16e.jpg",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#fafafa"
+        },
+        {
+          "name": "Black",
+          "hex": "#3c4042"
+        }
+      ],
+      "display": {
+        "size": "6.1″",
+        "type": "Super Retina XDR display",
+        "features": []
+      },
+      "design": [
+        "Aluminum with glass back\n",
+        "Action button"
+      ],
+      "appleIntelligence": true,
+      "chip": {
+        "image": "icon_A18.jpg",
+        "name": "A18 chip",
+        "features": [
+          "6-core CPU",
+          "4-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_7_8.jpg",
+        "features": [
+          "2-in-1 camera system\n48MP Fusion Main\n&nbsp;",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "Portrait mode with Depth Control\n&nbsp;",
+          "&nbsp;",
+          "Dolby Vision up to 4K at 60 fps",
+          "&nbsp;",
+          "Photographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_2.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 18",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 26 hours video playback",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Latest-generation Ceramic Shield front,\ntougher than any smartphone glass",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Qi wireless charging up to 7.5W"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.78,
+          "mm": 146.7
+        },
+        "width": {
+          "inches": 2.82,
+          "mm": 71.5
+        },
+        "depth": {
+          "inches": 0.31,
+          "mm": 7.8
+        },
+        "weight": {
+          "ounces": 5.88,
+          "grams": 167
+        }
+      }
+    },
+    {
+      "id": "iphone-16-pro-max",
+      "model": "iPhone 16 Pro Max",
+      "launchYear": 2024,
+      "device": "iphone16-pro-max.jpg",
+      "colors": [
+        {
+          "name": "Desert Titanium",
+          "hex": "#bfa48f"
+        },
+        {
+          "name": "Natural Titanium",
+          "hex": "#c2bcb2"
+        },
+        {
+          "name": "White Titanium",
+          "hex": "#f2f1ed"
+        },
+        {
+          "name": "Black Titanium",
+          "hex": "#3c3c3d"
+        }
+      ],
+      "display": {
+        "size": "6.9″",
+        "type": "Super Retina XDR display",
+        "features": [
+          "ProMotion technology",
+          "Always-On display"
+        ]
+      },
+      "design": [
+        "Titanium with textured\nmatte glass back",
+        "Action button"
+      ],
+      "appleIntelligence": true,
+      "chip": {
+        "image": "icon_A18PRO.jpg",
+        "name": "A18 Pro chip",
+        "features": [
+          "6-core CPU",
+          "6-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_true_depth.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_triple2_lens.jpg",
+        "features": [
+          "Pro camera system\n48MP Fusion Main | 48MP\nUltra Wide | Telephoto",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "Macro photography",
+          "Dolby Vision up to 4K at 120 fps",
+          "Spatial photos and videos",
+          "Latest-generation\nPhotographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_8.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 18",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 33 hours video playback",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 3 for up to\n20x faster transfers"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Latest-generation Ceramic Shield front,\ntougher than any smartphone glass",
+          "Aerospace-grade titanium",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more",
+          "MagSafe wireless charging up to 25W\nwith 30W adapter or higher"
+        ]
+      },
+      "capacity": [
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 6.42,
+          "mm": 163
+        },
+        "width": {
+          "inches": 3.06,
+          "mm": 77.6
+        },
+        "depth": {
+          "inches": 0.32,
+          "mm": 8.25
+        },
+        "weight": {
+          "ounces": 7.99,
+          "grams": 227
+        }
+      }
+    },
+    {
+      "id": "iphone-16-pro",
+      "model": "iPhone 16 Pro",
+      "launchYear": 2024,
+      "device": "iphone16-pro.jpg",
+      "colors": [
+        {
+          "name": "Desert Titanium",
+          "hex": "#bfa48f"
+        },
+        {
+          "name": "Natural Titanium",
+          "hex": "#c2bcb2"
+        },
+        {
+          "name": "White Titanium",
+          "hex": "#f2f1ed"
+        },
+        {
+          "name": "Black Titanium",
+          "hex": "#3c3c3d"
+        }
+      ],
+      "display": {
+        "size": "6.3″",
+        "type": "Super Retina XDR display",
+        "features": [
+          "ProMotion technology",
+          "Always-On display"
+        ]
+      },
+      "design": [
+        "Titanium with textured\nmatte glass back",
+        "Action button"
+      ],
+      "appleIntelligence": true,
+      "chip": {
+        "image": "icon_A18PRO.jpg",
+        "name": "A18 Pro chip",
+        "features": [
+          "6-core CPU",
+          "6-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_true_depth.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_triple2_lens.jpg",
+        "features": [
+          "Pro camera system\n48MP Fusion Main | 48MP\nUltra Wide | Telephoto",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "Macro photography",
+          "Dolby Vision up to 4K at 120 fps",
+          "Spatial photos and videos",
+          "Latest-generation\nPhotographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_8.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 18",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 27 hours video playback",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 3 for up to\n20x faster transfers"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Latest-generation Ceramic Shield front,\ntougher than any smartphone glass",
+          "Aerospace-grade titanium",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more",
+          "MagSafe wireless charging up to 25W\nwith 30W adapter or higher"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.89,
+          "mm": 149.6
+        },
+        "width": {
+          "inches": 2.81,
+          "mm": 71.5
+        },
+        "depth": {
+          "inches": 0.32,
+          "mm": 8.25
+        },
+        "weight": {
+          "ounces": 7.03,
+          "grams": 199
+        }
+      }
+    },
+    {
+      "id": "iphone-16-plus",
+      "model": "iPhone 16 Plus",
+      "launchYear": 2024,
+      "device": "iphone16-plus.jpg",
+      "colors": [
+        {
+          "name": "Ultramarine",
+          "hex": "#9aadf6"
+        },
+        {
+          "name": "Teal",
+          "hex": "#b0d4d2"
+        },
+        {
+          "name": "Pink",
+          "hex": "#f2adda"
+        },
+        {
+          "name": "White",
+          "hex": "#fafafa"
+        },
+        {
+          "name": "Black",
+          "hex": "#3c4042"
+        }
+      ],
+      "display": {
+        "size": "6.7″",
+        "type": "Super Retina XDR display",
+        "features": []
+      },
+      "design": [
+        "Aluminum with color-infused\nglass back",
+        "Action button"
+      ],
+      "appleIntelligence": true,
+      "chip": {
+        "image": "icon_A18.jpg",
+        "name": "A18 chip",
+        "features": [
+          "6-core CPU",
+          "5-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_true_depth.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_dual5_lens.jpg",
+        "features": [
+          "Advanced dual-camera system\n48MP Fusion | 12MP Ultra Wide\n&nbsp;",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "Macro photography",
+          "Dolby Vision up to 4K at 60 fps",
+          "Spatial photos and videos",
+          "Latest-generation\nPhotographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 18",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 27 hours video playback",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Latest-generation Ceramic Shield front,\ntougher than any smartphone glass",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 6 meter\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more",
+          "MagSafe wireless charging up to 25W\nwith 30W adapter or higher"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 6.33,
+          "mm": 160.9
+        },
+        "width": {
+          "inches": 3.06,
+          "mm": 77.8
+        },
+        "depth": {
+          "inches": 0.31,
+          "mm": 7.8
+        },
+        "weight": {
+          "ounces": 7.03,
+          "grams": 199
+        }
+      }
+    },
+    {
+      "id": "iphone-16",
+      "model": "iPhone 16",
+      "launchYear": 2024,
+      "device": "iphone16.jpg",
+      "colors": [
+        {
+          "name": "Ultramarine",
+          "hex": "#9aadf6"
+        },
+        {
+          "name": "Teal",
+          "hex": "#b0d4d2"
+        },
+        {
+          "name": "Pink",
+          "hex": "#f2adda"
+        },
+        {
+          "name": "White",
+          "hex": "#fafafa"
+        },
+        {
+          "name": "Black",
+          "hex": "#3c4042"
+        }
+      ],
+      "display": {
+        "size": "6.1″",
+        "type": "Super Retina XDR display",
+        "features": []
+      },
+      "design": [
+        "Aluminum with color-infused\nglass back",
+        "Action button"
+      ],
+      "appleIntelligence": true,
+      "chip": {
+        "image": "icon_A18.jpg",
+        "name": "A18 chip",
+        "features": [
+          "6-core CPU",
+          "5-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_true_depth.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_dual5_lens.jpg",
+        "features": [
+          "Advanced dual-camera system\n48MP Fusion | 12MP Ultra Wide\n&nbsp;",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "Macro photography",
+          "Dolby Vision up to 4K at 60 fps",
+          "Spatial photos and videos",
+          "Latest-generation\nPhotographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 18",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 22 hours video playback",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Latest-generation Ceramic Shield front,\ntougher than any smartphone glass",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more",
+          "MagSafe wireless charging up to 25W\nwith 30W adapter or higher"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.81,
+          "mm": 147.6
+        },
+        "width": {
+          "inches": 2.82,
+          "mm": 71.6
+        },
+        "depth": {
+          "inches": 0.31,
+          "mm": 7.8
+        },
+        "weight": {
+          "ounces": 6,
+          "grams": 170
+        }
+      }
+    },
+    {
+      "id": "iphone-15-pro-max",
+      "model": "iPhone 15 Pro Max",
+      "launchYear": 2023,
+      "device": "iphone15_pro_max.jpg",
+      "colors": [
+        {
+          "name": "Natural Titanium",
+          "hex": "#837f7d"
+        },
+        {
+          "name": "Blue Titanium",
+          "hex": "#2f4452"
+        },
+        {
+          "name": "White Titanium",
+          "hex": "#ddd"
+        },
+        {
+          "name": "Black Titanium",
+          "hex": "#1b1b1b"
+        }
+      ],
+      "display": {
+        "size": "6.7″",
+        "type": "Super Retina XDR display",
+        "features": [
+          "ProMotion technology",
+          "Always-On display"
+        ]
+      },
+      "design": [
+        "Titanium with textured\nmatte glass back",
+        "Action button"
+      ],
+      "appleIntelligence": true,
+      "chip": {
+        "image": "icon_A17PRO.jpg",
+        "name": "A17 Pro chip",
+        "features": [
+          "6-core CPU",
+          "6-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_true_depth.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_triple2_lens.jpg",
+        "features": [
+          "Pro camera system\n48MP Main | Ultra Wide | Telephoto\n&nbsp;",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "Macro photography",
+          "Dolby Vision up to 4K at 60 fps",
+          "Spatial videos",
+          "Photographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_8.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 17",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 29 hours video playback",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 3 for up to\n20x faster transfers"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Latest-generation Ceramic Shield front,\ntougher than any smartphone glass",
+          "Aerospace-grade titanium",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more"
+        ]
+      },
+      "capacity": [
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 6.29,
+          "mm": 159.9
+        },
+        "width": {
+          "inches": 3.02,
+          "mm": 76.7
+        },
+        "depth": {
+          "inches": 0.32,
+          "mm": 8.25
+        },
+        "weight": {
+          "ounces": 7.81,
+          "grams": 221
+        }
+      }
+    },
+    {
+      "id": "iphone-15-pro",
+      "model": "iPhone 15 Pro",
+      "launchYear": 2023,
+      "device": "iphone15_pro.jpg",
+      "colors": [
+        {
+          "name": "Natural Titanium",
+          "hex": "#837f7d"
+        },
+        {
+          "name": "Blue Titanium",
+          "hex": "#2f4452"
+        },
+        {
+          "name": "White Titanium",
+          "hex": "#ddd"
+        },
+        {
+          "name": "Black Titanium",
+          "hex": "#1b1b1b"
+        }
+      ],
+      "display": {
+        "size": "6.1″",
+        "type": "Super Retina XDR display",
+        "features": [
+          "ProMotion technology",
+          "Always-On display"
+        ]
+      },
+      "design": [
+        "Titanium with textured\nmatte glass back",
+        "Action button"
+      ],
+      "appleIntelligence": true,
+      "chip": {
+        "image": "icon_A17PRO.jpg",
+        "name": "A17 Pro chip",
+        "features": [
+          "6-core CPU",
+          "6-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_true_depth.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_triple2_lens.jpg",
+        "features": [
+          "Pro camera system\n48MP Main | Ultra Wide | Telephoto\n&nbsp;",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "Macro photography",
+          "Dolby Vision up to 4K at 60 fps",
+          "Spatial videos",
+          "Photographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_7.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 17",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 23 hours video playback",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 3 for up to\n20x faster transfers"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Latest-generation Ceramic Shield front,\ntougher than any smartphone glass",
+          "Aerospace-grade titanium",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.77,
+          "mm": 146.6
+        },
+        "width": {
+          "inches": 2.78,
+          "mm": 70.6
+        },
+        "depth": {
+          "inches": 0.32,
+          "mm": 8.25
+        },
+        "weight": {
+          "ounces": 6.6,
+          "grams": 187
+        }
+      }
+    },
+    {
+      "id": "iphone-15-plus",
+      "model": "iPhone 15 Plus",
+      "launchYear": 2023,
+      "device": "iphone15_plus.jpg",
+      "colors": [
+        {
+          "name": "Pink",
+          "hex": "#e3c8ca"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#e6e0c1"
+        },
+        {
+          "name": "Green",
+          "hex": "#cad4c5"
+        },
+        {
+          "name": "Blue",
+          "hex": "#ced5d9"
+        },
+        {
+          "name": "Black",
+          "hex": "#35393b"
+        }
+      ],
+      "display": {
+        "size": "6.7″",
+        "type": "Super Retina XDR display",
+        "features": []
+      },
+      "design": [
+        "Aluminum with color-infused\nglass back",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A16.jpg",
+        "name": "A16 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "5-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_true_depth.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_dual3_lens.jpg",
+        "features": [
+          "Advanced dual-camera system\n48MP Main | Ultra Wide\n&nbsp;",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "&nbsp;",
+          "Dolby Vision up to 4K at 60 fps",
+          "&nbsp;",
+          "Photographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 17",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 26 hours video playback",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Latest-generation Ceramic Shield front,\ntougher than any smartphone glass",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 6.33,
+          "mm": 160.9
+        },
+        "width": {
+          "inches": 3.06,
+          "mm": 77.8
+        },
+        "depth": {
+          "inches": 0.31,
+          "mm": 7.8
+        },
+        "weight": {
+          "ounces": 7.09,
+          "grams": 201
+        }
+      }
+    },
+    {
+      "id": "iphone-15",
+      "model": "iPhone 15",
+      "launchYear": 2023,
+      "device": "iphone15.jpg",
+      "colors": [
+        {
+          "name": "Pink",
+          "hex": "#e3c8ca"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#e6e0c1"
+        },
+        {
+          "name": "Green",
+          "hex": "#cad4c5"
+        },
+        {
+          "name": "Blue",
+          "hex": "#ced5d9"
+        },
+        {
+          "name": "Black",
+          "hex": "#35393b"
+        }
+      ],
+      "display": {
+        "size": "6.1″",
+        "type": "Super Retina XDR display",
+        "features": []
+      },
+      "design": [
+        "Aluminum with color-infused\nglass back",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A16.jpg",
+        "name": "A16 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "5-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_true_depth.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_dual3_lens.jpg",
+        "features": [
+          "Advanced dual-camera system\n48MP Main | Ultra Wide\n&nbsp;",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "&nbsp;",
+          "Dolby Vision up to 4K at 60 fps",
+          "&nbsp;",
+          "Photographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 17",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 20 hours video playback",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Latest-generation Ceramic Shield front,\ntougher than any smartphone glass",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.81,
+          "mm": 147.6
+        },
+        "width": {
+          "inches": 2.82,
+          "mm": 71.6
+        },
+        "depth": {
+          "inches": 0.31,
+          "mm": 7.8
+        },
+        "weight": {
+          "ounces": 6.02,
+          "grams": 171
+        }
+      }
+    },
+    {
+      "id": "iphone-14-pro-max",
+      "model": "iPhone 14 Pro Max",
+      "launchYear": 2022,
+      "device": "iphone14_pro_max.jpg",
+      "colors": [
+        {
+          "name": "Deep Purple",
+          "hex": "#594f63"
+        },
+        {
+          "name": "Gold",
+          "hex": "#f4e8ce"
+        },
+        {
+          "name": "Silver",
+          "hex": "#f0f2f2"
+        },
+        {
+          "name": "Black Titanium",
+          "hex": "#1b1b1b"
+        }
+      ],
+      "display": {
+        "size": "6.7″",
+        "type": "Super Retina XDR display",
+        "features": [
+          "ProMotion technology",
+          "Always-On display"
+        ]
+      },
+      "design": [
+        "Stainless steel with textured matte\nglass back",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A16.jpg",
+        "name": "A16 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "5-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_true_depth.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_triple2_lens.jpg",
+        "features": [
+          "Pro camera system\n48MP Main | Ultra Wide | Telephoto\n&nbsp;",
+          "Super-high-resolution photos (48MP)\n&nbsp;",
+          "Portrait mode with Focus and Depth\nControl",
+          "Macro photography",
+          "Dolby Vision up to 4K at 60 fps",
+          "&nbsp;",
+          "Photographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_7.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 16",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 29 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield front, tougher than\nany smartphone glass",
+          "Surgical-grade stainless steel",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 6.33,
+          "mm": 160.7
+        },
+        "width": {
+          "inches": 3.05,
+          "mm": 77.6
+        },
+        "depth": {
+          "inches": 0.31,
+          "mm": 7.85
+        },
+        "weight": {
+          "ounces": 8.47,
+          "grams": 240
+        }
+      }
+    },
+    {
+      "id": "iphone-14-pro",
+      "model": "iPhone 14 Pro",
+      "launchYear": 2022,
+      "device": "iphone14_pro.jpg",
+      "colors": [
+        {
+          "name": "Deep Purple",
+          "hex": "#594f63"
+        },
+        {
+          "name": "Gold",
+          "hex": "#f4e8ce"
+        },
+        {
+          "name": "Silver",
+          "hex": "#f0f2f2"
+        },
+        {
+          "name": "Black Titanium",
+          "hex": "#1b1b1b"
+        }
+      ],
+      "display": {
+        "size": "6.1″",
+        "type": "Super Retina XDR display",
+        "features": [
+          "ProMotion technology",
+          "Always-On display"
+        ]
+      },
+      "design": [
+        "Stainless steel with textured matte\nglass back",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A16.jpg",
+        "name": "A16 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "5-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_true_depth.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_triple2_lens.jpg",
+        "features": [
+          "Pro camera system\n48MP Main | Ultra Wide | Telephoto\n&nbsp;",
+          "Super-high-resolution photos (48MP)\n&nbsp;",
+          "Portrait mode with Focus and Depth\nControl",
+          "Macro photography",
+          "Dolby Vision up to 4K at 60 fps",
+          "&nbsp;",
+          "Photographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_7.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 16",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 23 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield front, tougher than\nany smartphone glass",
+          "Surgical-grade stainless steel",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.81,
+          "mm": 147.5
+        },
+        "width": {
+          "inches": 2.81,
+          "mm": 71.5
+        },
+        "depth": {
+          "inches": 0.31,
+          "mm": 7.85
+        },
+        "weight": {
+          "ounces": 7.27,
+          "grams": 206
+        }
+      }
+    },
+    {
+      "id": "iphone-14-plus",
+      "model": "iPhone 14 Plus",
+      "launchYear": 2022,
+      "device": "iphone14_plus.jpg",
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#a0b4c7"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#e6e0c1"
+        },
+        {
+          "name": "Green",
+          "hex": "#cad4c5"
+        },
+        {
+          "name": "Midnight",
+          "hex": "#222930"
+        },
+        {
+          "name": "Starlight",
+          "hex": "#faf6f2"
+        },
+        {
+          "name": "Red",
+          "hex": "#fc0324"
+        }
+      ],
+      "display": {
+        "size": "6.7″",
+        "type": "Super Retina XDR display",
+        "features": []
+      },
+      "design": [
+        "Aluminum with glass back\n",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A15.jpg",
+        "name": "A15 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "5-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_dual3_lens.jpg",
+        "features": [
+          "Dual-camera system\n12MP Main | Ultra Wide\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Focus and Depth\nControl",
+          "&nbsp;",
+          "Dolby Vision up to 4K at 60 fps",
+          "&nbsp;",
+          "Photographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_3.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 16",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 26 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield front, tougher than\nany smartphone glass",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 6.33,
+          "mm": 160.8
+        },
+        "width": {
+          "inches": 3.07,
+          "mm": 78.1
+        },
+        "depth": {
+          "inches": 0.31,
+          "mm": 7.8
+        },
+        "weight": {
+          "ounces": 7.16,
+          "grams": 203
+        }
+      }
+    },
+    {
+      "id": "iphone-14",
+      "model": "iPhone 14",
+      "launchYear": 2022,
+      "device": "iphone14.jpg",
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#a0b4c7"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#e6e0c1"
+        },
+        {
+          "name": "Green",
+          "hex": "#cad4c5"
+        },
+        {
+          "name": "Midnight",
+          "hex": "#222930"
+        },
+        {
+          "name": "Starlight",
+          "hex": "#faf6f2"
+        },
+        {
+          "name": "Red",
+          "hex": "#fc0324"
+        }
+      ],
+      "display": {
+        "size": "6.1″",
+        "type": "Super Retina XDR display",
+        "features": []
+      },
+      "design": [
+        "Aluminum with glass back\n",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A15.jpg",
+        "name": "A15 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "5-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_dual3_lens.jpg",
+        "features": [
+          "Dual-camera system\n12MP Main | Ultra Wide\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Focus and Depth\nControl",
+          "&nbsp;",
+          "Dolby Vision up to 4K at 60 fps",
+          "&nbsp;",
+          "Photographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_3.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 16",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 20 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield front, tougher than\nany smartphone glass",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.78,
+          "mm": 146.7
+        },
+        "width": {
+          "inches": 2.82,
+          "mm": 71.5
+        },
+        "depth": {
+          "inches": 0.31,
+          "mm": 7.8
+        },
+        "weight": {
+          "ounces": 6.07,
+          "grams": 172
+        }
+      }
+    },
+    {
+      "id": "iphone-se-(3rd-generation)",
+      "model": "iPhone SE (3rd generation)",
+      "launchYear": 2022,
+      "device": "iphoneSE_3rd_gen.jpg",
+      "colors": [
+        {
+          "name": "Midnight",
+          "hex": "#232a31"
+        },
+        {
+          "name": "Starlight",
+          "hex": "#faf6f2"
+        },
+        {
+          "name": "Red",
+          "hex": "#bf0013"
+        }
+      ],
+      "display": {
+        "size": "4.7″",
+        "type": "Retina HD display",
+        "features": []
+      },
+      "design": [
+        "Aluminum and glass\n",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A15.jpg",
+        "name": "A15 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "4-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "7MP TrueDepth HD camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_7_8.jpg",
+        "features": [
+          "Single-camera system\n12MP Main\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Depth Control\n&nbsp;",
+          "&nbsp;",
+          "&nbsp;",
+          "&nbsp;",
+          "Photographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 15",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 15 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Touch ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "5G cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": [
+          "Glass front and back\n&nbsp;",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "64GB",
+        "128GB",
+        "256GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.45,
+          "mm": 138.4
+        },
+        "width": {
+          "inches": 2.65,
+          "mm": 67.3
+        },
+        "depth": {
+          "inches": 0.29,
+          "mm": 7.3
+        },
+        "weight": {
+          "ounces": 5.09,
+          "grams": 144
+        }
+      }
+    },
+    {
+      "id": "iphone-13-pro-max",
+      "model": "iPhone 13 Pro Max",
+      "launchYear": 2021,
+      "device": "iphone13_pro_max.jpg",
+      "colors": [
+        {
+          "name": "Alpine Green",
+          "hex": "#576856"
+        },
+        {
+          "name": "Silver",
+          "hex": "#f1f2ed"
+        },
+        {
+          "name": "Gold",
+          "hex": "#fae7cf"
+        },
+        {
+          "name": "Graphite",
+          "hex": "#54524f"
+        },
+        {
+          "name": "Sierra Blue",
+          "hex": "#a7c1d9"
+        }
+      ],
+      "display": {
+        "size": "6.7″",
+        "type": "Super Retina XDR display",
+        "features": [
+          "ProMotion technology"
+        ]
+      },
+      "design": [
+        "Stainless steel with textured matte\nglass back",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A15.jpg",
+        "name": "A15 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "5-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_triple2_lens.jpg",
+        "features": [
+          "Pro camera system\n12MP Main | Ultra Wide | Telephoto\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Focus and Depth\nControl",
+          "Macro photography",
+          "Dolby Vision up to 4K at 60 fps",
+          "&nbsp;",
+          "Photographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_6.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 15",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 28 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield front, tougher than\nany smartphone glass",
+          "Surgical-grade stainless steel",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 6.33,
+          "mm": 160.8
+        },
+        "width": {
+          "inches": 2.65,
+          "mm": 67.3
+        },
+        "depth": {
+          "inches": 0.29,
+          "mm": 7.3
+        },
+        "weight": {
+          "ounces": 5.09,
+          "grams": 144
+        }
+      }
+    },
+    {
+      "id": "iphone-13-pro",
+      "model": "iPhone 13 Pro",
+      "launchYear": 2021,
+      "device": "iphone13_pro.jpg",
+      "colors": [
+        {
+          "name": "Alpine Green",
+          "hex": "#576856"
+        },
+        {
+          "name": "Silver",
+          "hex": "#f1f2ed"
+        },
+        {
+          "name": "Gold",
+          "hex": "#fae7cf"
+        },
+        {
+          "name": "Graphite",
+          "hex": "#54524f"
+        },
+        {
+          "name": "Sierra Blue",
+          "hex": "#a7c1d9"
+        }
+      ],
+      "display": {
+        "size": "6.1″",
+        "type": "Super Retina XDR display",
+        "features": [
+          "ProMotion technology"
+        ]
+      },
+      "design": [
+        "Stainless steel with textured matte\nglass back",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A15.jpg",
+        "name": "A15 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "5-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_triple2_lens.jpg",
+        "features": [
+          "Pro camera system\n12MP Main | Ultra Wide | Telephoto\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Focus and Depth\nControl",
+          "Macro photography",
+          "Dolby Vision up to 4K at 60 fps",
+          "&nbsp;",
+          "Photographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_6.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 15",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 22 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield front, tougher than\nany smartphone glass",
+          "Surgical-grade stainless steel",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.78,
+          "mm": 146.7
+        },
+        "width": {
+          "inches": 2.82,
+          "mm": 71.5
+        },
+        "depth": {
+          "inches": 0.3,
+          "mm": 7.65
+        },
+        "weight": {
+          "ounces": 7.19,
+          "grams": 204
+        }
+      }
+    },
+    {
+      "id": "iphone-13",
+      "model": "iPhone 13",
+      "launchYear": 2021,
+      "device": "iphone13.jpg",
+      "colors": [
+        {
+          "name": "Green",
+          "hex": "#394c38"
+        },
+        {
+          "name": "Pink",
+          "hex": "#faddd7"
+        },
+        {
+          "name": "Blue",
+          "hex": "#276787"
+        },
+        {
+          "name": "Midnight",
+          "hex": "#232a31"
+        },
+        {
+          "name": "Starlight",
+          "hex": "#faf6f2"
+        },
+        {
+          "name": "Red",
+          "hex": "#bf0013"
+        }
+      ],
+      "display": {
+        "size": "6.1″",
+        "type": "Super Retina XDR display",
+        "features": []
+      },
+      "design": [
+        "Aluminum with glass back\n",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A15.jpg",
+        "name": "A15 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "5-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_dual3_lens.jpg",
+        "features": [
+          "Dual-camera system\n12MP Main | Ultra Wide\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Focus and Depth\nControl",
+          "&nbsp;",
+          "Dolby Vision up to 4K at 60 fps",
+          "&nbsp;",
+          "Photographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_3.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 15",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 19 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield front, tougher than\nany smartphone glass",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.78,
+          "mm": 146.7
+        },
+        "width": {
+          "inches": 2.82,
+          "mm": 71.5
+        },
+        "depth": {
+          "inches": 0.3,
+          "mm": 7.65
+        },
+        "weight": {
+          "ounces": 6.14,
+          "grams": 174
+        }
+      }
+    },
+    {
+      "id": "iphone-13-mini",
+      "model": "iPhone 13 mini",
+      "launchYear": 2021,
+      "device": "iphone13_mini.jpg",
+      "colors": [
+        {
+          "name": "Green",
+          "hex": "#394c38"
+        },
+        {
+          "name": "Pink",
+          "hex": "#faddd7"
+        },
+        {
+          "name": "Blue",
+          "hex": "#276787"
+        },
+        {
+          "name": "Midnight",
+          "hex": "#232a31"
+        },
+        {
+          "name": "Starlight",
+          "hex": "#faf6f2"
+        },
+        {
+          "name": "Red",
+          "hex": "#bf0013"
+        }
+      ],
+      "display": {
+        "size": "5.4″",
+        "type": "Super Retina XDR display",
+        "features": []
+      },
+      "design": [
+        "Aluminum with glass back\n",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A15.jpg",
+        "name": "A15 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "5-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_dual3_lens.jpg",
+        "features": [
+          "Dual-camera system\n12MP Main | Ultra Wide\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Focus and Depth\nControl",
+          "&nbsp;",
+          "Dolby Vision up to 4K at 60 fps",
+          "&nbsp;",
+          "Photographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_3.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 15",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 17 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield front, tougher than\nany smartphone glass",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.18,
+          "mm": 131.5
+        },
+        "width": {
+          "inches": 2.53,
+          "mm": 64.2
+        },
+        "depth": {
+          "inches": 0.3,
+          "mm": 7.65
+        },
+        "weight": {
+          "ounces": 4.97,
+          "grams": 141
+        }
+      }
+    },
+    {
+      "id": "iphone-12-pro-max",
+      "model": "iPhone 12 Pro Max",
+      "launchYear": 2020,
+      "device": "iphone12_pro_max.jpg",
+      "colors": [
+        {
+          "name": "Pacific Blue",
+          "hex": "#2d4e5c"
+        },
+        {
+          "name": "Gold",
+          "hex": "#fcebd3"
+        },
+        {
+          "name": "Graphite",
+          "hex": "#52514d"
+        },
+        {
+          "name": "Silver",
+          "hex": "#e3e4df"
+        }
+      ],
+      "display": {
+        "size": "6.7″",
+        "type": "Super Retina XDR display",
+        "features": []
+      },
+      "design": [
+        "Stainless steel with textured matte\nglass back",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A14.jpg",
+        "name": "A14 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "4-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_triple2_lens.jpg",
+        "features": [
+          "Pro camera system\n12MP Main | Ultra Wide | Telephoto\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Depth Control\n&nbsp;",
+          "&nbsp;",
+          "Dolby Vision up to 4K at 60 fps"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_5.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 14",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 20 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield front\n&nbsp;",
+          "Surgical-grade stainless steel",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 6.33,
+          "mm": 160.8
+        },
+        "width": {
+          "inches": 3.07,
+          "mm": 78.1
+        },
+        "depth": {
+          "inches": 0.29,
+          "mm": 7.4
+        },
+        "weight": {
+          "ounces": 8.03,
+          "grams": 228
+        }
+      }
+    },
+    {
+      "id": "iphone-12-pro",
+      "model": "iPhone 12 Pro",
+      "launchYear": 2020,
+      "device": "iphone12_pro.jpg",
+      "colors": [
+        {
+          "name": "Pacific Blue",
+          "hex": "#2d4e5c"
+        },
+        {
+          "name": "Gold",
+          "hex": "#fcebd3"
+        },
+        {
+          "name": "Graphite",
+          "hex": "#52514d"
+        },
+        {
+          "name": "Silver",
+          "hex": "#e3e4df"
+        }
+      ],
+      "display": {
+        "size": "6.1″",
+        "type": "Super Retina XDR display",
+        "features": []
+      },
+      "design": [
+        "Stainless steel with textured matte\nglass back",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A14.jpg",
+        "name": "A14 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "4-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_triple2_lens.jpg",
+        "features": [
+          "Pro camera system\n12MP Main | Ultra Wide | Telephoto\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Depth Control\n&nbsp;",
+          "&nbsp;",
+          "Dolby Vision up to 4K at 60 fps"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 14",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 17 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield front\n&nbsp;",
+          "Surgical-grade stainless steel",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more"
+        ]
+      },
+      "capacity": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.78,
+          "mm": 146.7
+        },
+        "width": {
+          "inches": 2.82,
+          "mm": 71.5
+        },
+        "depth": {
+          "inches": 0.29,
+          "mm": 7.4
+        },
+        "weight": {
+          "ounces": 6.66,
+          "grams": 189
+        }
+      }
+    },
+    {
+      "id": "iphone-12",
+      "model": "iPhone 12",
+      "launchYear": 2020,
+      "device": "iphone12.jpg",
+      "colors": [
+        {
+          "name": "Purple",
+          "hex": "#b7afe6"
+        },
+        {
+          "name": "Blue",
+          "hex": "#023b63"
+        },
+        {
+          "name": "Green",
+          "hex": "#d8efd5"
+        },
+        {
+          "name": "Red",
+          "hex": "#d82e2e"
+        },
+        {
+          "name": "White",
+          "hex": "#f6f2ef"
+        },
+        {
+          "name": "Black",
+          "hex": "#25212b"
+        }
+      ],
+      "display": {
+        "size": "6.1″",
+        "type": "Super Retina XDR display",
+        "features": []
+      },
+      "design": [
+        "Aluminum with glass back\n",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A14.jpg",
+        "name": "A14 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "4-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_dual3_lens.jpg",
+        "features": [
+          "Dual-camera system\n12MP Main | Ultra Wide\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Depth Control\n&nbsp;",
+          "&nbsp;",
+          "Dolby Vision up to 4K at 30 fps"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_3.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 14",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 17 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield front\n&nbsp;",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more"
+        ]
+      },
+      "capacity": [
+        "64GB",
+        "128GB",
+        "256GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.78,
+          "mm": 146.7
+        },
+        "width": {
+          "inches": 2.82,
+          "mm": 71.5
+        },
+        "depth": {
+          "inches": 0.29,
+          "mm": 7.4
+        },
+        "weight": {
+          "ounces": 5.78,
+          "grams": 164
+        }
+      }
+    },
+    {
+      "id": "iphone-12-mini",
+      "model": "iPhone 12 mini",
+      "launchYear": 2020,
+      "device": "iphone12_mini.jpg",
+      "colors": [
+        {
+          "name": "Purple",
+          "hex": "#b7afe6"
+        },
+        {
+          "name": "Blue",
+          "hex": "#023b63"
+        },
+        {
+          "name": "Green",
+          "hex": "#d8efd5"
+        },
+        {
+          "name": "Red",
+          "hex": "#d82e2e"
+        },
+        {
+          "name": "White",
+          "hex": "#f6f2ef"
+        },
+        {
+          "name": "Black",
+          "hex": "#25212b"
+        }
+      ],
+      "display": {
+        "size": "5.4″",
+        "type": "Super Retina XDR display",
+        "features": []
+      },
+      "design": [
+        "Aluminum with glass back\n",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A14.jpg",
+        "name": "A14 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "4-core CPU\n&nbsp;",
+          "16-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_dual3_lens.jpg",
+        "features": [
+          "Dual-camera system\n12MP Main | Ultra Wide\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Depth Control\n&nbsp;",
+          "&nbsp;",
+          "Dolby Vision up to 4K at 30 fps"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_3.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 14",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 15 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield front\n&nbsp;",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more"
+        ]
+      },
+      "capacity": [
+        "64GB",
+        "128GB",
+        "256GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.18,
+          "mm": 131.5
+        },
+        "width": {
+          "inches": 2.53,
+          "mm": 64.2
+        },
+        "depth": {
+          "inches": 0.29,
+          "mm": 7.4
+        },
+        "weight": {
+          "ounces": 4.76,
+          "grams": 135
+        }
+      }
+    },
+    {
+      "id": "iphone-se-(2nd-generation)",
+      "model": "iPhone SE (2nd generation)",
+      "launchYear": 2020,
+      "device": "iphoneSE_2nd_gen.jpg",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#262529"
+        },
+        {
+          "name": "White",
+          "hex": "#f3f3f3"
+        },
+        {
+          "name": "Red",
+          "hex": "#b41325"
+        }
+      ],
+      "display": {
+        "size": "4.7″",
+        "type": "Retina HD display",
+        "features": []
+      },
+      "design": [
+        "Aluminum and glass\n",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A13.jpg",
+        "name": "A13 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "4-core CPU\n&nbsp;",
+          "8-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "7MP TrueDepth HD camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_7_8.jpg",
+        "features": [
+          "Single-camera\n12MP Main\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Depth Control"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 13",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 13 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Touch ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": [
+          "Glass front and back\n&nbsp;",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 1 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "64GB",
+        "128GB",
+        "256GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.45,
+          "mm": 138.4
+        },
+        "width": {
+          "inches": 2.65,
+          "mm": 67.3
+        },
+        "depth": {
+          "inches": 0.29,
+          "mm": 7.3
+        },
+        "weight": {
+          "ounces": 5.22,
+          "grams": 148
+        }
+      }
+    },
+    {
+      "id": "iphone-11-pro-max",
+      "model": "iPhone 11 Pro Max",
+      "launchYear": 2019,
+      "device": "iphone11_pro_max.jpg",
+      "colors": [
+        {
+          "name": "Midnight Green",
+          "hex": "#4e5851"
+        },
+        {
+          "name": "Silver",
+          "hex": "#ebebe3"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "#535150"
+        },
+        {
+          "name": "Gold",
+          "hex": "#fad7bd"
+        }
+      ],
+      "display": {
+        "size": "6.5″",
+        "type": "Super Retina XDR display",
+        "features": []
+      },
+      "design": [
+        "Stainless steel with textured matte\nglass",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A13.jpg",
+        "name": "A13 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "4-core CPU\n&nbsp;",
+          "8-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_triple2_lens.jpg",
+        "features": [
+          "Triple cameras\n12MP Main | Ultra Wide | Telephoto\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Depth Control"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 13",
+        "status": "Vintage"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 20 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": [
+          "Glass front and back\n&nbsp;",
+          "Surgical-grade stainless steel",
+          "Water resistant to a depth of 4 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "64GB",
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 6.22,
+          "mm": 158
+        },
+        "width": {
+          "inches": 3.06,
+          "mm": 77.8
+        },
+        "depth": {
+          "inches": 0.32,
+          "mm": 8.1
+        },
+        "weight": {
+          "ounces": 7.97,
+          "grams": 226
+        }
+      }
+    },
+    {
+      "id": "iphone-11-pro",
+      "model": "iPhone 11 Pro",
+      "launchYear": 2019,
+      "device": "iphone11_pro.jpg",
+      "colors": [
+        {
+          "name": "Midnight Green",
+          "hex": "#4e5851"
+        },
+        {
+          "name": "Silver",
+          "hex": "#ebebe3"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "#535150"
+        },
+        {
+          "name": "Gold",
+          "hex": "#fad7bd"
+        }
+      ],
+      "display": {
+        "size": "5.8″",
+        "type": "Super Retina XDR display",
+        "features": []
+      },
+      "design": [
+        "Aluminum with glass\n",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A13.jpg",
+        "name": "A13 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "4-core CPU\n&nbsp;",
+          "8-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_triple2_lens.jpg",
+        "features": [
+          "Triple cameras\n12MP Main | Ultra Wide | Telephoto\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Depth Control"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 13",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 18 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": [
+          "Glass front and back\n&nbsp;",
+          "Surgical-grade stainless steel",
+          "Water resistant to a depth of 4 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "64GB",
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.67,
+          "mm": 144
+        },
+        "width": {
+          "inches": 2.81,
+          "mm": 71.4
+        },
+        "depth": {
+          "inches": 0.32,
+          "mm": 8.1
+        },
+        "weight": {
+          "ounces": 6.63,
+          "grams": 188
+        }
+      }
+    },
+    {
+      "id": "iphone-11",
+      "model": "iPhone 11",
+      "launchYear": 2019,
+      "device": "iphone11.jpg",
+      "colors": [
+        {
+          "name": "Purple",
+          "hex": "#d1cdda"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#ffe681"
+        },
+        {
+          "name": "Green",
+          "hex": "#aee1cd"
+        },
+        {
+          "name": "Black",
+          "hex": "#1f2020"
+        },
+        {
+          "name": "White",
+          "hex": "#f9f6ef"
+        },
+        {
+          "name": "Red",
+          "hex": "#ba0c2e"
+        }
+      ],
+      "display": {
+        "size": "6.1″",
+        "type": "Liquid Retina HD display",
+        "features": []
+      },
+      "design": [
+        "Aluminum with glass\n",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A13.jpg",
+        "name": "A13 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "4-core CPU\n&nbsp;",
+          "8-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_dual3_lens.jpg",
+        "features": [
+          "Dual-camera system\n12MP Main | Ultra Wide\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Depth Control"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_3.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 13",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 17 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": [
+          "Glass front and back\n&nbsp;",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 2 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "64GB",
+        "128GB",
+        "256GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.94,
+          "mm": 150.9
+        },
+        "width": {
+          "inches": 2.98,
+          "mm": 75.7
+        },
+        "depth": {
+          "inches": 0.33,
+          "mm": 8.3
+        },
+        "weight": {
+          "ounces": 6.84,
+          "grams": 194
+        }
+      }
+    },
+    {
+      "id": "iphone-xs-max",
+      "model": "iPhone XS Max",
+      "launchYear": 2018,
+      "device": "iphoneXS_max.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "#e4e4e2"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "#262529"
+        },
+        {
+          "name": "Gold",
+          "hex": "#fadcc2"
+        }
+      ],
+      "display": {
+        "size": "6.5″",
+        "type": "Super Retina HD display",
+        "features": []
+      },
+      "design": [
+        "Stainless steel and glass\n",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A12.jpg",
+        "name": "A12 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "4-core CPU\n&nbsp;",
+          "8-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "7MP TrueDepth camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_xs_max.jpg",
+        "features": [
+          "Dual cameras\n12MP Main | Telephoto\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Depth Control"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_2.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 18",
+        "shipped": "iOS 12",
+        "status": "Vintage"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 15 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": [
+          "Glass front and back\n&nbsp;",
+          "Surgical-grade stainless steel",
+          "Water resistant to a depth of 2 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "64GB",
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 6.22,
+          "mm": 158
+        },
+        "width": {
+          "inches": 3.06,
+          "mm": 77.8
+        },
+        "depth": {
+          "inches": 0.32,
+          "mm": 8.1
+        },
+        "weight": {
+          "ounces": 7.97,
+          "grams": 226
+        }
+      }
+    },
+    {
+      "id": "iphone-xs",
+      "model": "iPhone XS",
+      "launchYear": 2018,
+      "device": "iphoneXS.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "#e4e4e2"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "#262529"
+        },
+        {
+          "name": "Gold",
+          "hex": "#fadcc2"
+        }
+      ],
+      "display": {
+        "size": "5.8″",
+        "type": "Super Retina HD display",
+        "features": []
+      },
+      "design": [
+        "Stainless steel and glass\n",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A12.jpg",
+        "name": "A12 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "4-core CPU\n&nbsp;",
+          "8-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "7MP TrueDepth camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_xs_max.jpg",
+        "features": [
+          "Dual cameras\n12MP Main | Telephoto\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Depth Control"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_2.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 18",
+        "shipped": "iOS 12",
+        "status": "Vintage"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 14 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": [
+          "Glass front and back\n&nbsp;",
+          "Surgical-grade stainless steel",
+          "Water resistant to a depth of 2 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "64GB",
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.67,
+          "mm": 144
+        },
+        "width": {
+          "inches": 2.81,
+          "mm": 71.4
+        },
+        "depth": {
+          "inches": 0.32,
+          "mm": 8.1
+        },
+        "weight": {
+          "ounces": 6.63,
+          "grams": 188
+        }
+      }
+    },
+    {
+      "id": "iphone-xr",
+      "model": "iPhone XR",
+      "launchYear": 2018,
+      "device": "iphoneXR.jpg",
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#48aee6"
+        },
+        {
+          "name": "White",
+          "hex": "#f3f3f3"
+        },
+        {
+          "name": "Black",
+          "hex": "#2e3034"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#f9d045"
+        },
+        {
+          "name": "Coral",
+          "hex": "#ff6e5a"
+        },
+        {
+          "name": "Red",
+          "hex": "#b41325"
+        }
+      ],
+      "display": {
+        "size": "6.1″",
+        "type": "Liquid Retina HD display",
+        "features": []
+      },
+      "design": [
+        "Aluminum with glass\n",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A12.jpg",
+        "name": "A12 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "4-core CPU\n&nbsp;",
+          "8-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "7MP TrueDepth camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_xr.jpg",
+        "features": [
+          "Single camera\n12MP Main\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode with Depth Control"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 18",
+        "shipped": "iOS 12",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 16 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": [
+          "Glass front and back\n&nbsp;",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 1 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "64GB",
+        "128GB",
+        "256GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.94,
+          "mm": 150.9
+        },
+        "width": {
+          "inches": 2.98,
+          "mm": 75.7
+        },
+        "depth": {
+          "inches": 0.33,
+          "mm": 8.3
+        },
+        "weight": {
+          "ounces": 6.84,
+          "grams": 194
+        }
+      }
+    },
+    {
+      "id": "iphone-x",
+      "model": "iPhone X",
+      "launchYear": 2017,
+      "device": "iphoneX.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "#e4e4e2"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "#262529"
+        }
+      ],
+      "display": {
+        "size": "5.8″",
+        "type": "Super Retina HD display",
+        "features": []
+      },
+      "design": [
+        "Stainless steel and glass\n",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A11.jpg",
+        "name": "A11 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "3-core CPU\n&nbsp;",
+          "2-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "7MP TrueDepth camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_x_xs.jpg",
+        "features": [
+          "Dual cameras\n12MP Main | Telephoto\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_2.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 16",
+        "shipped": "iOS 11",
+        "status": "Vintage"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 13 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": [
+          "Glass front and back\n&nbsp;",
+          "Surgical-grade stainless steel",
+          "Water resistant to a depth of 1 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "64GB",
+        "256GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.65,
+          "mm": 143.6
+        },
+        "width": {
+          "inches": 2.79,
+          "mm": 70.9
+        },
+        "depth": {
+          "inches": 0.3,
+          "mm": 7.7
+        },
+        "weight": {
+          "ounces": 6.14,
+          "grams": 174
+        }
+      }
+    },
+    {
+      "id": "iphone-8-plus",
+      "model": "iPhone 8 Plus",
+      "launchYear": 2017,
+      "device": "iphone8plus.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "#e2e3e4"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "#272729"
+        },
+        {
+          "name": "Gold",
+          "hex": "#f7e8dd"
+        }
+      ],
+      "display": {
+        "size": "5.5″",
+        "type": "Retina HD display",
+        "features": []
+      },
+      "design": [
+        "Aluminum and glass\n",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A11.jpg",
+        "name": "A11 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "3-core CPU\n&nbsp;",
+          "2-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "7MP TrueDepth HD camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_7_8plus.jpg",
+        "features": [
+          "Dual cameras\n12MP Main | Telephoto\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_2.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 16",
+        "shipped": "iOS 11",
+        "status": "Vintage"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 14 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Touch ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": [
+          "Glass front and back\n&nbsp;",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 1 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "64GB",
+        "128GB",
+        "256GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 6.24,
+          "mm": 158.4
+        },
+        "width": {
+          "inches": 3.07,
+          "mm": 78.1
+        },
+        "depth": {
+          "inches": 0.3,
+          "mm": 7.5
+        },
+        "weight": {
+          "ounces": 7.13,
+          "grams": 202
+        }
+      }
+    },
+    {
+      "id": "iphone-8",
+      "model": "iPhone 8",
+      "launchYear": 2017,
+      "device": "iphone8.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "#e2e3e4"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "#272729"
+        },
+        {
+          "name": "Gold",
+          "hex": "#f7e8dd"
+        }
+      ],
+      "display": {
+        "size": "4.7″",
+        "type": "Retina HD display",
+        "features": []
+      },
+      "design": [
+        "Aluminum and glass\n",
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A11.jpg",
+        "name": "A11 Bionic chip",
+        "features": [
+          "6-core CPU",
+          "3-core CPU\n&nbsp;",
+          "2-core Neural Engine"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "7MP TrueDepth HD camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_7_8.jpg",
+        "features": [
+          "Single camera\n12MP Main"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 16",
+        "shipped": "iOS 11",
+        "status": "Vintage"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 13 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Touch ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": [
+          "Glass front and back\n&nbsp;",
+          "Aerospace-grade aluminum",
+          "Water resistant to a depth of 1 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "64GB",
+        "128GB",
+        "256GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.45,
+          "mm": 138.4
+        },
+        "width": {
+          "inches": 2.65,
+          "mm": 67.3
+        },
+        "depth": {
+          "inches": 0.29,
+          "mm": 7.3
+        },
+        "weight": {
+          "ounces": 5.22,
+          "grams": 148
+        }
+      }
+    },
+    {
+      "id": "iphone-7-plus",
+      "model": "iPhone 7 Plus",
+      "launchYear": 2016,
+      "device": "iphone7plus.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "#e2e3e4"
+        },
+        {
+          "name": "Black",
+          "hex": "#2e3034"
+        },
+        {
+          "name": "Gold",
+          "hex": "#e3ccb4"
+        },
+        {
+          "name": "Rose Gold",
+          "hex": "#ecc6c1"
+        }
+      ],
+      "display": {
+        "size": "5.5″",
+        "type": "Retina HD display",
+        "features": []
+      },
+      "design": [
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A10.jpg",
+        "name": "A10 Fusion chip",
+        "features": []
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "7MP TrueDepth HD camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_7_8plus.jpg",
+        "features": [
+          "Dual cameras\n12MP Main | Telephoto\n&nbsp;",
+          "&nbsp;\n&nbsp;",
+          "Portrait mode"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_2.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 15",
+        "shipped": "iOS 10",
+        "status": "Vintage"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 14 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Touch ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": [
+          "&nbsp;\n&nbsp;",
+          "&nbsp;",
+          "Water resistant to a depth of 1 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "32GB",
+        "128GB",
+        "256GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 6.23,
+          "mm": 158.2
+        },
+        "width": {
+          "inches": 3.07,
+          "mm": 77.9
+        },
+        "depth": {
+          "inches": 0.29,
+          "mm": 7.3
+        },
+        "weight": {
+          "ounces": 6.63,
+          "grams": 188
+        }
+      }
+    },
+    {
+      "id": "iphone-7",
+      "model": "iPhone 7",
+      "launchYear": 2016,
+      "device": "iphone7.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "#e2e3e4"
+        },
+        {
+          "name": "Black",
+          "hex": "#2e3034"
+        },
+        {
+          "name": "Gold",
+          "hex": "#e3ccb4"
+        },
+        {
+          "name": "Rose Gold",
+          "hex": "#ecc6c1"
+        }
+      ],
+      "display": {
+        "size": "4.7″",
+        "type": "Retina HD display",
+        "features": []
+      },
+      "design": [
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A10.jpg",
+        "name": "A10 Fusion chip",
+        "features": []
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "7MP TrueDepth HD camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_7_8.jpg",
+        "features": [
+          "Single camera\n12MP Main"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 15",
+        "shipped": "iOS 10",
+        "status": "Vintage"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 13 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Touch ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": [
+          "&nbsp;\n&nbsp;",
+          "&nbsp;",
+          "Water resistant to a depth of 1 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "32GB",
+        "128GB",
+        "256GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.44,
+          "mm": 138.3
+        },
+        "width": {
+          "inches": 2.64,
+          "mm": 67.1
+        },
+        "depth": {
+          "inches": 0.28,
+          "mm": 7.1
+        },
+        "weight": {
+          "ounces": 4.87,
+          "grams": 138
+        }
+      }
+    },
+    {
+      "id": "iphone-se-(1st-generation)",
+      "model": "iPhone SE (1st generation)",
+      "launchYear": 2016,
+      "device": "iphoneSE.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "#e4e4e2"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "#262529"
+        },
+        {
+          "name": "Gold",
+          "hex": "#fadcc2"
+        },
+        {
+          "name": "Rose Gold",
+          "hex": "#ecc6c1"
+        }
+      ],
+      "display": {
+        "size": "4″",
+        "type": "Retina display",
+        "features": []
+      },
+      "design": [
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A9.jpg",
+        "name": "A9 chip",
+        "features": []
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "1.2MP camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_se.jpg",
+        "features": [
+          "Single camera\n12MP Main"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 15",
+        "shipped": "iOS 9",
+        "status": "Vintage"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 13 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Touch ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": []
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "16GB",
+        "32GB",
+        "64GB",
+        "128GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 4.87,
+          "mm": 123.8
+        },
+        "width": {
+          "inches": 2.31,
+          "mm": 58.6
+        },
+        "depth": {
+          "inches": 0.3,
+          "mm": 7.6
+        },
+        "weight": {
+          "ounces": 3.99,
+          "grams": 113
+        }
+      }
+    },
+    {
+      "id": "iphone-6s-plus",
+      "model": "iPhone 6s Plus",
+      "launchYear": 2015,
+      "device": "iphone6splus.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "#e2e3e4"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "#b1b2b7"
+        },
+        {
+          "name": "Gold",
+          "hex": "#e3ccb4"
+        },
+        {
+          "name": "Rose Gold",
+          "hex": "#ecc6c1"
+        }
+      ],
+      "display": {
+        "size": "5.5″",
+        "type": "Retina HD display",
+        "features": []
+      },
+      "design": [
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A9.jpg",
+        "name": "A9 chip",
+        "features": []
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "5MP camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_se.jpg",
+        "features": [
+          "Single camera\n12MP Main"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 15",
+        "shipped": "iOS 9",
+        "status": "Obsolete"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 14 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Touch ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": []
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "16GB",
+        "32GB",
+        "64GB",
+        "128GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 6.23,
+          "mm": 158.2
+        },
+        "width": {
+          "inches": 3.07,
+          "mm": 77.9
+        },
+        "depth": {
+          "inches": 0.29,
+          "mm": 7.3
+        },
+        "weight": {
+          "ounces": 6.77,
+          "grams": 192
+        }
+      }
+    },
+    {
+      "id": "iphone-6s",
+      "model": "iPhone 6s",
+      "launchYear": 2015,
+      "device": "iphone6s.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "#e2e3e4"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "#b1b2b7"
+        },
+        {
+          "name": "Gold",
+          "hex": "#e3ccb4"
+        },
+        {
+          "name": "Rose Gold",
+          "hex": "#ecc6c1"
+        }
+      ],
+      "display": {
+        "size": "4.7″",
+        "type": "Retina HD display",
+        "features": []
+      },
+      "design": [
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A9.jpg",
+        "name": "A9 chip",
+        "features": []
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "5MP camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_se.jpg",
+        "features": [
+          "Single camera\n12MP Main"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 15",
+        "shipped": "iOS 9",
+        "status": "Obsolete"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 11 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Touch ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": []
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "16GB",
+        "32GB",
+        "64GB",
+        "128GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.44,
+          "mm": 138.3
+        },
+        "width": {
+          "inches": 2.64,
+          "mm": 67.1
+        },
+        "depth": {
+          "inches": 0.28,
+          "mm": 7.1
+        },
+        "weight": {
+          "ounces": 5.04,
+          "grams": 143
+        }
+      }
+    },
+    {
+      "id": "iphone-6-plus",
+      "model": "iPhone 6 Plus",
+      "launchYear": 2014,
+      "device": "iphone6plus.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "#e2e3e4"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "#b1b2b7"
+        },
+        {
+          "name": "Gold",
+          "hex": "#e3ccb4"
+        }
+      ],
+      "display": {
+        "size": "5.5″",
+        "type": "Retina HD display",
+        "features": []
+      },
+      "design": [
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A8.jpg",
+        "name": "A8 chip",
+        "features": []
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "1.2MP camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_se.jpg",
+        "features": [
+          "Single camera\n8MP Main"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 12",
+        "shipped": "iOS 8",
+        "status": "Obsolete"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 14 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Touch ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": []
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "16GB",
+        "64GB",
+        "128GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 6.22,
+          "mm": 158.1
+        },
+        "width": {
+          "inches": 3.06,
+          "mm": 77.8
+        },
+        "depth": {
+          "inches": 0.28,
+          "mm": 7.1
+        },
+        "weight": {
+          "ounces": 6.07,
+          "grams": 172
+        }
+      }
+    },
+    {
+      "id": "iphone-6",
+      "model": "iPhone 6",
+      "launchYear": 2014,
+      "device": "iphone6.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "#e2e3e4"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "#b1b2b7"
+        },
+        {
+          "name": "Gold",
+          "hex": "#e3ccb4"
+        }
+      ],
+      "display": {
+        "size": "4.7″",
+        "type": "Retina HD display",
+        "features": []
+      },
+      "design": [
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A8.jpg",
+        "name": "A8 chip",
+        "features": []
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "1.2MP camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_se.jpg",
+        "features": [
+          "Single camera\n8MP Main"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 12",
+        "shipped": "iOS 8",
+        "status": "Obsolete"
+      },
+      "emergency": {
+        "sos": true,
+        "features": []
+      },
+      "battery": "Up to 11 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Touch ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": []
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "16GB",
+        "32GB",
+        "64GB",
+        "128GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.44,
+          "mm": 138.1
+        },
+        "width": {
+          "inches": 2.64,
+          "mm": 67
+        },
+        "depth": {
+          "inches": 0.27,
+          "mm": 6.9
+        },
+        "weight": {
+          "ounces": 4.55,
+          "grams": 129
+        }
+      }
+    },
+    {
+      "id": "iphone-5s",
+      "model": "iPhone 5s",
+      "launchYear": 2013,
+      "device": "iphone5s.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "#e2e3e4"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "#b1b2b7"
+        },
+        {
+          "name": "Gold",
+          "hex": "#e3ccb4"
+        }
+      ],
+      "display": {
+        "size": "4″",
+        "type": "Retina display",
+        "features": []
+      },
+      "design": [
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A7.jpg",
+        "name": "A7 chip",
+        "features": []
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "1.2MP camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_se.jpg",
+        "features": [
+          "Single camera\n8MP Main"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 12",
+        "shipped": "iOS 7",
+        "status": "Obsolete"
+      },
+      "emergency": {
+        "sos": false,
+        "features": []
+      },
+      "battery": "Up to 10 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Touch ID",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": []
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "16GB",
+        "32GB",
+        "64GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 4.87,
+          "mm": 123.8
+        },
+        "width": {
+          "inches": 2.31,
+          "mm": 58.6
+        },
+        "depth": {
+          "inches": 0.3,
+          "mm": 7.6
+        },
+        "weight": {
+          "ounces": 3.95,
+          "grams": 112
+        }
+      }
+    },
+    {
+      "id": "iphone-5c",
+      "model": "iPhone 5c",
+      "launchYear": 2013,
+      "device": "iphone5c.jpg",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#f0eff2"
+        },
+        {
+          "name": "Red",
+          "hex": "#f67873"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#fdf078"
+        },
+        {
+          "name": "Blue",
+          "hex": "#4dbdf9"
+        },
+        {
+          "name": "Green",
+          "hex": "#a2ee73"
+        }
+      ],
+      "display": {
+        "size": "4″",
+        "type": "Retina display",
+        "features": []
+      },
+      "design": [
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A6.jpg",
+        "name": "A6 chip",
+        "features": []
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "1.2MP camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_se.jpg",
+        "features": [
+          "Single camera\n8MP Main"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 10",
+        "shipped": "iOS 7",
+        "status": "Obsolete"
+      },
+      "emergency": {
+        "sos": false,
+        "features": []
+      },
+      "battery": "Up to 10 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Slide to unlock",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": []
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "8GB",
+        "16GB",
+        "32GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 4.9,
+          "mm": 124.4
+        },
+        "width": {
+          "inches": 2.33,
+          "mm": 59.2
+        },
+        "depth": {
+          "inches": 0.35,
+          "mm": 8.97
+        },
+        "weight": {
+          "ounces": 4.65,
+          "grams": 132
+        }
+      }
+    },
+    {
+      "id": "iphone-5",
+      "model": "iPhone 5",
+      "launchYear": 2012,
+      "device": "iphone5.jpg",
+      "colors": [
+        {
+          "name": "Silver",
+          "hex": "#e2e3e4"
+        },
+        {
+          "name": "Space Gray",
+          "hex": "#262529"
+        }
+      ],
+      "display": {
+        "size": "4″",
+        "type": "Retina display",
+        "features": []
+      },
+      "design": [
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A6.jpg",
+        "name": "A6 chip",
+        "features": []
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "1.2MP camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_se.jpg",
+        "features": [
+          "Single camera\n8MP Main"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 10",
+        "shipped": "iOS 6",
+        "status": "Obsolete"
+      },
+      "emergency": {
+        "sos": false,
+        "features": []
+      },
+      "battery": "Up to 10 hours video playback",
+      "connector": {
+        "icon": "icon_lightning.png",
+        "type": "Lightning",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Slide to unlock",
+      "cellular": {
+        "icon": "icon_4g.jpg",
+        "label": "4G LTE cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": []
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "16GB",
+        "32GB",
+        "64GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 4.87,
+          "mm": 123.8
+        },
+        "width": {
+          "inches": 2.31,
+          "mm": 58.6
+        },
+        "depth": {
+          "inches": 0.3,
+          "mm": 7.6
+        },
+        "weight": {
+          "ounces": 3.95,
+          "grams": 112
+        }
+      }
+    },
+    {
+      "id": "iphone-4s",
+      "model": "iPhone 4s",
+      "launchYear": 2011,
+      "device": "iphone4s.jpg",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#f6f2ef"
+        },
+        {
+          "name": "Black",
+          "hex": "#2e3034"
+        }
+      ],
+      "display": {
+        "size": "3.5″",
+        "type": "Retina display",
+        "features": []
+      },
+      "design": [
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A5.jpg",
+        "name": "A5 chip",
+        "features": []
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "0.9MP camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_se.jpg",
+        "features": [
+          "Single camera\n8MP Main"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 9",
+        "shipped": "iOS 5",
+        "status": "Obsolete"
+      },
+      "emergency": {
+        "sos": false,
+        "features": []
+      },
+      "battery": "Up to 10 hours video playback",
+      "connector": {
+        "icon": "icon_30pin_.png",
+        "type": "30-pin dock connector",
+        "speed": ""
+      },
+      "biometrics": "Slide to unlock",
+      "cellular": {
+        "icon": "icon_3g.jpg",
+        "label": "3G cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": []
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "8GB",
+        "16GB",
+        "32GB",
+        "64GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 4.5,
+          "mm": 115.2
+        },
+        "width": {
+          "inches": 2.31,
+          "mm": 58.6
+        },
+        "depth": {
+          "inches": 0.37,
+          "mm": 9.3
+        },
+        "weight": {
+          "ounces": 4.9,
+          "grams": 140
+        }
+      }
+    },
+    {
+      "id": "iphone-4",
+      "model": "iPhone 4",
+      "launchYear": 2010,
+      "device": "iPhone4.jpg",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#f6f2ef"
+        },
+        {
+          "name": "Black",
+          "hex": "#2e3034"
+        }
+      ],
+      "display": {
+        "size": "3.5″",
+        "type": "Retina display",
+        "features": []
+      },
+      "design": [
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_A4.jpg",
+        "name": "A4 chip",
+        "features": []
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": [
+          "0.3MP camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_se.jpg",
+        "features": [
+          "Single camera\n5MP Main"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 7",
+        "shipped": "iOS 4",
+        "status": "Obsolete"
+      },
+      "emergency": {
+        "sos": false,
+        "features": []
+      },
+      "battery": "Up to 10 hours video playback",
+      "connector": {
+        "icon": "icon_30pin_.png",
+        "type": "30-pin dock connector",
+        "speed": ""
+      },
+      "biometrics": "Slide to unlock",
+      "cellular": {
+        "icon": "icon_3g.jpg",
+        "label": "3G cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": []
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "8GB",
+        "16GB",
+        "32GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 4.5,
+          "mm": 115.2
+        },
+        "width": {
+          "inches": 2.31,
+          "mm": 58.6
+        },
+        "depth": {
+          "inches": 0.37,
+          "mm": 9.3
+        },
+        "weight": {
+          "ounces": 4.8,
+          "grams": 137
+        }
+      }
+    },
+    {
+      "id": "iphone-3gs",
+      "model": "iPhone 3GS",
+      "launchYear": 2009,
+      "device": "iphone3gs.jpg",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#f3f3f3"
+        },
+        {
+          "name": "Black",
+          "hex": "#2e3034"
+        }
+      ],
+      "display": {
+        "size": "3.5″",
+        "type": "Multi-touch display",
+        "features": []
+      },
+      "design": [
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_no_chip.jpg",
+        "name": "APL0298C05",
+        "features": []
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": []
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_3g.jpg",
+        "features": [
+          "Single camera\n3MP Main"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 6",
+        "shipped": "iPhone OS 3",
+        "status": "Obsolete"
+      },
+      "emergency": {
+        "sos": false,
+        "features": []
+      },
+      "battery": "Up to 10 hours video playback",
+      "connector": {
+        "icon": "icon_30pin_.png",
+        "type": "30-pin dock connector",
+        "speed": ""
+      },
+      "biometrics": "Slide to unlock",
+      "cellular": {
+        "icon": "icon_3g.jpg",
+        "label": "3G cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": []
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "8GB",
+        "16GB",
+        "32GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 4.5,
+          "mm": 115.5
+        },
+        "width": {
+          "inches": 2.4,
+          "mm": 62.1
+        },
+        "depth": {
+          "inches": 0.48,
+          "mm": 12.3
+        },
+        "weight": {
+          "ounces": 4.8,
+          "grams": 135
+        }
+      }
+    },
+    {
+      "id": "iphone-3g",
+      "model": "iPhone 3G",
+      "launchYear": 2008,
+      "device": "iphone3g.jpg",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#f3f3f3"
+        },
+        {
+          "name": "Black",
+          "hex": "#2e3034"
+        }
+      ],
+      "display": {
+        "size": "3.5″",
+        "type": "Multi-touch display",
+        "features": []
+      },
+      "design": [
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_no_chip.jpg",
+        "name": "APL0098",
+        "features": []
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": []
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_3g.jpg",
+        "features": [
+          "Single camera\n2MP Main"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 4",
+        "shipped": "iPhone OS 2",
+        "status": "Obsolete"
+      },
+      "emergency": {
+        "sos": false,
+        "features": []
+      },
+      "battery": "Up to 7 hours video playback",
+      "connector": {
+        "icon": "icon_30pin_.png",
+        "type": "30-pin dock connector",
+        "speed": ""
+      },
+      "biometrics": "Slide to unlock",
+      "cellular": {
+        "icon": "icon_3g.jpg",
+        "label": "3G cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": []
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "8GB",
+        "16GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 4.5,
+          "mm": 115.5
+        },
+        "width": {
+          "inches": 2.4,
+          "mm": 62.1
+        },
+        "depth": {
+          "inches": 0.48,
+          "mm": 12.3
+        },
+        "weight": {
+          "ounces": 4.7,
+          "grams": 133
+        }
+      }
+    },
+    {
+      "id": "iphone",
+      "model": "iPhone",
+      "launchYear": 2007,
+      "device": "iphone.jpg",
+      "colors": [
+        {
+          "name": "Original",
+          "hex": "#f5f5f7"
+        }
+      ],
+      "display": {
+        "size": "3.5″",
+        "type": "Multi-touch display",
+        "features": []
+      },
+      "design": [
+        "Ring/Silent switch"
+      ],
+      "appleIntelligence": false,
+      "chip": {
+        "image": "icon_no_chip.jpg",
+        "name": "APL0098",
+        "features": []
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_no_front_camera.jpg",
+        "features": []
+      },
+      "rearCamera": {
+        "icon": "images/icon_iphone_3g.jpg",
+        "features": [
+          "Single camera\n2MP Main"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iPhone OS 3",
+        "shipped": "iPhone OS 1",
+        "status": "Obsolete"
+      },
+      "emergency": {
+        "sos": false,
+        "features": []
+      },
+      "battery": "Up to 7 hours video playback",
+      "connector": {
+        "icon": "icon_30pin_.png",
+        "type": "30-pin dock connector",
+        "speed": ""
+      },
+      "biometrics": "Slide to unlock",
+      "cellular": {
+        "icon": "icon_2g.jpg",
+        "label": "2G cellular"
+      },
+      "durability": {
+        "show_icon": false,
+        "features": []
+      },
+      "magsafe": {
+        "compatible": false,
+        "features": []
+      },
+      "capacity": [
+        "4GB",
+        "8GB",
+        "16GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 4.5,
+          "mm": 115.5
+        },
+        "width": {
+          "inches": 2.4,
+          "mm": 62
+        },
+        "depth": {
+          "inches": 0.46,
+          "mm": 11.6
+        },
+        "weight": {
+          "ounces": 4.8,
+          "grams": 135
+        }
+      }
+    }
+  ]
+}
