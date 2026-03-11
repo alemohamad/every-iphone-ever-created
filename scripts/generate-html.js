@@ -394,7 +394,7 @@ ${iphoneEntries}
 }
 
 // Write the output
-const outputPath = path.join(__dirname, '..', './website/index.html');
+const outputPath = path.join(__dirname, '..', './docs/index.html');
 const html = generateHTML();
 fs.writeFileSync(outputPath, html, 'utf8');
 
