@@ -1,6 +1,130 @@
 {
   "iphones": [
     {
+      "id": "iphone-17e",
+      "model": "iPhone 17e",
+      "launchYear": 2026,
+      "device": "iphone17e.jpg",
+      "colors": [
+        {
+          "name": "Soft Pink",
+          "hex": "#fce7e6"
+        },
+        {
+          "name": "White",
+          "hex": "#fafafa"
+        },
+        {
+          "name": "Black",
+          "hex": "#3c4042"
+        }
+      ],
+      "display": {
+        "size": "6.1″",
+        "type": "Super Retina XDR display",
+        "features": []
+      },
+      "design": [
+        "Aluminum frame\n",
+        "Action button"
+      ],
+      "appleIntelligence": true,
+      "chip": {
+        "image": "icon_A19.jpg",
+        "name": "A19 chip",
+        "features": [
+          "6-core CPU",
+          "4-core GPU with\nNeural Accelerators",
+          "16-core Neural Engine",
+          "Hardware-accelerated ray tracing"
+        ]
+      },
+      "dynamicIsland": false,
+      "frontCamera": {
+        "icon": "icon_camera_front_17e.jpg",
+        "features": [
+          "12MP TrueDepth camera",
+          "Tap to zoom"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_7_8.jpg",
+        "features": [
+          "48MP Fusion camera system\n48MP Fusion Main\n&nbsp;",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "&nbsp;",
+          "Dolby Vision up to 4K at 60 fps",
+          "&nbsp;",
+          "Photographic Styles"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_2.jpg",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 26",
+        "shipped": "iOS 26",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 26 hours video playback",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 2"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield 2 front,\n3x better scratch resistance",
+          "&nbsp;",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more",
+          "MagSafe wireless charging up to 25W\nwith 30W adapter or higher"
+        ]
+      },
+      "capacity": [
+        "256GB",
+        "512GB"
+      ],
+      "dimensions": {
+        "height": {
+          "inches": 5.78,
+          "mm": 146.7
+        },
+        "width": {
+          "inches": 2.82,
+          "mm": 71.5
+        },
+        "depth": {
+          "inches": 0.31,
+          "mm": 7.80
+        },
+        "weight": {
+          "ounces": 5.96,
+          "grams": 169
+        }
+      }
+    },
+    {
       "id": "iphone-17-pro-max",
       "model": "iPhone 17 Pro Max",
       "launchYear": 2025,
@@ -580,7 +704,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "12MP TrueDepth camera",
           "Tap to zoom"
@@ -2026,7 +2150,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "12MP TrueDepth camera",
           "Tap to zoom"
@@ -2161,7 +2285,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "12MP TrueDepth camera",
           "Tap to zoom"
@@ -2409,7 +2533,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "12MP TrueDepth camera",
           "Tap to zoom"
@@ -2538,7 +2662,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "12MP TrueDepth camera",
           "Tap to zoom"
@@ -2669,7 +2793,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "12MP TrueDepth camera",
           "Tap to zoom"
@@ -2799,7 +2923,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "12MP TrueDepth camera",
           "Tap to zoom"
@@ -2921,7 +3045,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "12MP TrueDepth camera",
           "Tap to zoom"
@@ -3041,7 +3165,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "12MP TrueDepth camera",
           "Tap to zoom"
@@ -3169,7 +3293,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "12MP TrueDepth camera",
           "Tap to zoom"
@@ -3297,7 +3421,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "12MP TrueDepth camera",
           "Tap to zoom"
@@ -3528,7 +3652,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "12MP TrueDepth camera",
           "Tap to zoom"
@@ -3644,7 +3768,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "12MP TrueDepth camera",
           "Tap to zoom"
@@ -3768,7 +3892,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "12MP TrueDepth camera",
           "Tap to zoom"
@@ -3880,7 +4004,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "7MP TrueDepth camera"
         ]
@@ -3991,7 +4115,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "7MP TrueDepth camera"
         ]
@@ -4114,7 +4238,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "7MP TrueDepth camera"
         ]
@@ -4221,7 +4345,7 @@
       },
       "dynamicIsland": false,
       "frontCamera": {
-        "icon": "icon_no_front_camera.jpg",
+        "icon": "icon_camera_front_17e.jpg",
         "features": [
           "7MP TrueDepth camera"
         ]
