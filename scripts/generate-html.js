@@ -359,7 +359,7 @@ function generateHTML() {
   <meta content="Apple’s iPhone has developed MASSIVELY over the past decade, adding in faster processors and bigger screens. But it’s not until you look at ALL the iPhone models that have been released, do you see just how far we’ve come since 2007." name="description">
   <meta content="Every iPhone ever released" property="og:title">
   <meta content="Apple’s iPhone has developed MASSIVELY over the past decade, adding in faster processors and bigger screens. But it’s not until you look at ALL the iPhone models that have been released, do you see just how far we’ve come since 2007." property="og:description">
-  <meta content="https://cdn.prod.website-files.com/690262dc38f8fd331f507117/6903b3607bf29a570590e5df_f9ba9d9c6f68e924f9426841004cef8c_every-iphone-ever-released.jpg" property="og:image">
+  <meta content="https://everyiphone.info/images/every-iphone-ever-released.jpg" property="og:image">
   <meta content="Every iPhone ever released" property="twitter:title">
   <meta content="Apple’s iPhone has developed MASSIVELY over the past decade, adding in faster processors and bigger screens. But it’s not until you look at ALL the iPhone models that have been released, do you see just how far we’ve come since 2007." property="twitter:description">
   <meta property="og:type" content="website">
