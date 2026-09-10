@@ -200,7 +200,7 @@
       ],
       "appleIntelligence": true,
       "chip": {
-        "image": "icon_A20pro.jpg",
+        "image": "icon_a20pro.jpg",
         "name": "A20 Pro chip",
         "features": [
           "7-core CPU",
@@ -354,7 +354,7 @@
       ],
       "appleIntelligence": true,
       "chip": {
-        "image": "icon_A20pro.jpg",
+        "image": "icon_a20pro.jpg",
         "name": "A20 Pro chip",
         "features": [
           "7-core CPU",
