@@ -1,6 +1,476 @@
 {
   "iphones": [
     {
+      "id": "iphone-duo",
+      "model": "iPhone Duo",
+      "launchYear": 2026,
+      "device": "iphone_duo.jpg",
+      "colors": [
+        {
+          "name": "Star White",
+          "hex": "#fafafa"
+        },
+        {
+          "name": "Night Sky",
+          "hex": "#3c4042"
+        }
+      ],
+      "display": {
+        "size": "7.6″",
+        "type": "7.6-inch Super Retina XDR folding\ndisplay with nano-texture\n\n5.4-inch Super Retina XDR outer\ndisplay",
+        "features": [
+          "ProMotion technology",
+          "Always-On display"
+        ]
+      },
+      "design": [
+        "Titanium frame and hinge cover\n",
+        "&nbsp;",
+        "Camera Control for faster access\nto photo and video tools"
+      ],
+      "appleIntelligence": true,
+      "chip": {
+        "image": "icon_a20pro.jpg",
+        "name": "A20 Pro chip",
+        "features": [
+          "6-core CPU",
+          "7-core CPU with\nNeural Accelerators",
+          "Dual 16-core Neural Engine",
+          "Hardware-accelerated ray tracing"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_camera_center_stage.jpg",
+        "features": [
+          "12MP Center Stage front camera",
+          "Tap to zoom and rotate",
+          "Center Stage for photos",
+          "Ultra-stabilized video",
+          "Dual Capture",
+          "Center Stage for video calls",
+          "Under-display FaceTime camera"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_duo.jpg",
+        "features": [
+          "48MP Pro Fusion camera system\n48MP Fusion Main | 48MP Fusion\nUltra Wide\n&nbsp;",
+          "&nbsp;",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "Smart Take",
+          "Duo Preview",
+          "Photographic Styles 3",
+          "Dolby Vision up to 4K at 120 fps",
+          "Smart focus tracking",
+          "Cinematic mode effects from video",
+          "Improved low-light video",
+          "&nbsp;",
+          "Next-generation portraits with\nFocus and Depth Control",
+          "Macro photography"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "apertureCamera": "",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 27",
+        "shipped": "iOS 27",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 31 hours video playback when\nusing the inner display\n\nUp to 44 hours video playback when\nusing the outer display",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 3 for up to\n20x faster transfers"
+      },
+      "biometrics": "Touch ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield 2 front,\n3x better scratch resistance",
+          "Ceramic Shield back",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more",
+          "MagSafe wireless charging up to 25W\nwith 30W adapter or higher"
+        ]
+      },
+      "capacity": [
+        "256GB",
+        "512GB",
+        "1TB",
+        "2TB"
+      ],
+      "dimensions": {
+        "height": [
+          {
+            "label": "closed",
+            "inches": 4.64,
+            "mm": 117.8
+          },
+          {
+            "label": "open",
+            "inches": 4.64,
+            "mm": 117.8
+          }
+        ],
+        "width": [
+          {
+            "label": "closed",
+            "inches": 3.31,
+            "mm": 84.1
+          },
+          {
+            "label": "open",
+            "inches": 6.48,
+            "mm": 164.6
+          }
+        ],
+        "depth": [
+          {
+            "label": "closed",
+            "inches": 0.44,
+            "mm": 11.3
+          },
+          {
+            "label": "open",
+            "inches": 0.21,
+            "mm": 5.2
+          }
+        ],
+        "weight": {
+          "ounces": 8.96,
+          "grams": 254
+        }
+      }
+    },
+    {
+      "id": "iphone-18-pro-max",
+      "model": "iPhone 18 Pro Max",
+      "launchYear": 2026,
+      "device": "iphone18_pro_max.jpg",
+      "colors": [
+        {
+          "name": "Burgundy",
+          "hex": "#4d1821"
+        },
+        {
+          "name": "Glacier",
+          "hex": "#e8f2ff"
+        },
+        {
+          "name": "Silver",
+          "hex": "#f7f7f7"
+        },
+        {
+          "name": "Black",
+          "hex": "#3c3c3c"
+        }
+      ],
+      "display": {
+        "size": "6.9″",
+        "type": "Super Retina XDR display",
+        "features": [
+          "ProMotion technology",
+          "Always-On display"
+        ]
+      },
+      "design": [
+        "Aluminum unibody\n",
+        "Action button",
+        "Camera Control for faster access\nto photo and video tools"
+      ],
+      "appleIntelligence": true,
+      "chip": {
+        "image": "icon_A20pro.jpg",
+        "name": "A20 Pro chip",
+        "features": [
+          "7-core CPU",
+          "6-core CPU with\nNeural Accelerators",
+          "Dual 16-core Neural Engine",
+          "Hardware-accelerated ray tracing"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_camera_center_stage.jpg",
+        "features": [
+          "18MP Center Stage front camera",
+          "Tap to zoom and rotate",
+          "Center Stage for photos",
+          "Ultra-stabilized video",
+          "Dual Capture",
+          "Center Stage for video calls"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_triple4_lens.jpg",
+        "features": [
+          "48MP Pro Fusion camera system\n48MP Fusion Main with variable\naperture | 48MP Fusion\nUltra Wide | 48MP Fusion Telephoto",
+          "Pro controls",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "&nbsp;",
+          "&nbsp;",
+          "Photographic Styles 3",
+          "Dolby Vision up to 4K at 120 fps",
+          "Smart focus tracking",
+          "Cinematic mode effects from video",
+          "Improved low-light video",
+          "Apple Reference Image (Fusion Main)",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "Macro photography"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_9.jpg",
+      "apertureCamera": "ƒ/1.48, ƒ/1.8, ƒ/2.8, ƒ/4.0 variable\naperture options (Fusion Main)",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 27",
+        "shipped": "iOS 27",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 45 hours video playback",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 3 for up to\n20x faster transfers"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield 2 front,\n3x better scratch resistance",
+          "Ceramic Shield back",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more",
+          "MagSafe wireless charging up to 25W\nwith 30W adapter or higher"
+        ]
+      },
+      "capacity": [
+        "256GB",
+        "512GB",
+        "1TB",
+        "2TB"
+      ],
+      "dimensions": {
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.43,
+            "mm": 163.4
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 3.07,
+            "mm": 78
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.34,
+            "mm": 8.75
+          }
+        ],
+        "weight": {
+          "ounces": 8.78,
+          "grams": 249
+        }
+      }
+    },
+    {
+      "id": "iphone-18-pro",
+      "model": "iPhone 18 Pro",
+      "launchYear": 2026,
+      "device": "iphone18_pro.jpg",
+      "colors": [
+        {
+          "name": "Burgundy",
+          "hex": "#4d1821"
+        },
+        {
+          "name": "Glacier",
+          "hex": "#e8f2ff"
+        },
+        {
+          "name": "Silver",
+          "hex": "#f7f7f7"
+        },
+        {
+          "name": "Black",
+          "hex": "#3c3c3c"
+        }
+      ],
+      "display": {
+        "size": "6.3″",
+        "type": "Super Retina XDR display",
+        "features": [
+          "ProMotion technology",
+          "Always-On display"
+        ]
+      },
+      "design": [
+        "Aluminum unibody\n",
+        "Action button",
+        "Camera Control for faster access\nto photo and video tools"
+      ],
+      "appleIntelligence": true,
+      "chip": {
+        "image": "icon_A20pro.jpg",
+        "name": "A20 Pro chip",
+        "features": [
+          "7-core CPU",
+          "6-core CPU with\nNeural Accelerators",
+          "Dual 16-core Neural Engine",
+          "Hardware-accelerated ray tracing"
+        ]
+      },
+      "dynamicIsland": true,
+      "frontCamera": {
+        "icon": "icon_camera_center_stage.jpg",
+        "features": [
+          "18MP Center Stage front camera",
+          "Tap to zoom and rotate",
+          "Center Stage for photos",
+          "Ultra-stabilized video",
+          "Dual Capture",
+          "Center Stage for video calls"
+        ]
+      },
+      "rearCamera": {
+        "icon": "icon_iphone_triple4_lens.jpg",
+        "features": [
+          "48MP Pro Fusion camera system\n48MP Fusion Main with variable\naperture | 48MP Fusion\nUltra Wide | 48MP Fusion Telephoto",
+          "Pro controls",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "&nbsp;",
+          "&nbsp;",
+          "Photographic Styles 3",
+          "Dolby Vision up to 4K at 120 fps",
+          "Smart focus tracking",
+          "Cinematic mode effects from video",
+          "Improved low-light video",
+          "Apple Reference Image (Fusion Main)",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "Macro photography"
+        ]
+      },
+      "opticalZoomIcon": "icon_optical_zoom_9.jpg",
+      "apertureCamera": "ƒ/1.48, ƒ/1.8, ƒ/2.8, ƒ/4.0 variable\naperture options (Fusion Main)",
+      "ios": {
+        "icon": "icon_ios.jpg",
+        "supported": "iOS 27",
+        "shipped": "iOS 27",
+        "status": "Supported"
+      },
+      "emergency": {
+        "sos": true,
+        "features": [
+          "Emergency SOS via satellite",
+          "Crash Detection",
+          "Roadside Assistance via satellite",
+          "Messages via satellite"
+        ]
+      },
+      "battery": "Up to 36 hours video playback",
+      "connector": {
+        "icon": "icon_usbc.png",
+        "type": "USB-C",
+        "speed": "Supports USB 3 for up to\n20x faster transfers"
+      },
+      "biometrics": "Face ID",
+      "cellular": {
+        "icon": "icon_5g.jpg",
+        "label": "Superfast 5G cellular"
+      },
+      "durability": {
+        "show_icon": true,
+        "features": [
+          "Ceramic Shield 2 front,\n3x better scratch resistance",
+          "Ceramic Shield back",
+          "Water resistant to a depth of 6 meters\nfor up to 30 minutes"
+        ]
+      },
+      "magsafe": {
+        "compatible": true,
+        "features": [
+          "Compatible with MagSafe cases,\nwallets, wireless chargers, and more",
+          "MagSafe wireless charging up to 25W\nwith 30W adapter or higher"
+        ]
+      },
+      "capacity": [
+        "256GB",
+        "512GB",
+        "1TB",
+        "2TB"
+      ],
+      "dimensions": {
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.91,
+            "mm": 150
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.83,
+            "mm": 71.9
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.34,
+            "mm": 8.75
+          }
+        ],
+        "weight": {
+          "ounces": 7.44,
+          "grams": 211
+        }
+      }
+    },
+    {
       "id": "iphone-17e",
       "model": "iPhone 17e",
       "launchYear": 2026,
@@ -50,19 +520,25 @@
       "rearCamera": {
         "icon": "icon_iphone_7_8.jpg",
         "features": [
-          "48MP Fusion camera system\n48MP Fusion Main\n&nbsp;",
-          "Super-high-resolution photos\n(24MP and 48MP)",
-          "Next-generation portraits with Focus\nand Depth Control",
+          "48MP Fusion camera system\n48MP Fusion Main\n&nbsp;\n&nbsp;",
           "&nbsp;",
+          "Super-high-resolution photos\n(24MP and 48MP)",
+          "&nbsp;",
+          "&nbsp;",
+          "Photographic Styles",
           "Dolby Vision up to 4K at 60 fps",
           "&nbsp;",
-          "Photographic Styles"
+          "&nbsp;",
+          "&nbsp;",
+          "&nbsp;",
+          "Next-generation portraits with Focus\nand Depth Control"
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_2.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 26",
         "status": "Supported"
       },
@@ -106,18 +582,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.78,
-          "mm": 146.7
-        },
-        "width": {
-          "inches": 2.82,
-          "mm": 71.5
-        },
-        "depth": {
-          "inches": 0.31,
-          "mm": 7.80
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.78,
+            "mm": 146.7
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.82,
+            "mm": 71.5
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.31,
+            "mm": 7.80
+          }
+        ],
         "weight": {
           "ounces": 5.96,
           "grams": 169
@@ -182,19 +667,26 @@
       "rearCamera": {
         "icon": "icon_iphone_triple4_lens.jpg",
         "features": [
-          "48MP Pro Fusion camera system\n48MP Fusion Main | 48MP Fusion\nUltra Wide | 48MP Fusion Telephoto",
+          "48MP Pro Fusion camera system\n48MP Fusion Main | 48MP Fusion\nUltra Wide | 48MP Fusion Telephoto\n&nbsp;",
+          "&nbsp;",
           "Super-high-resolution photos\n(24MP and 48MP)",
-          "Next-generation portraits with Focus\nand Depth Control",
-          "Macro photography",
+          "&nbsp;",
+          "&nbsp;",
+          "Photographic Styles 2",
           "Dolby Vision up to 4K at 120 fps",
-          "Spatial photos and videos",
-          "Latest-generation\nPhotographic Styles"
+          "&nbsp;",
+          "&nbsp;",
+          "&nbsp;",
+          "&nbsp;",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "Macro photography"
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_9.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 26",
         "status": "Supported"
       },
@@ -240,18 +732,27 @@
         "2TB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 6.43,
-          "mm": 163.4
-        },
-        "width": {
-          "inches": 3.07,
-          "mm": 78
-        },
-        "depth": {
-          "inches": 0.34,
-          "mm": 8.75
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.43,
+            "mm": 163.4
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 3.07,
+            "mm": 78
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.34,
+            "mm": 8.75
+          }
+        ],
         "weight": {
           "ounces": 8.22,
           "grams": 233
@@ -316,19 +817,26 @@
       "rearCamera": {
         "icon": "icon_iphone_triple4_lens.jpg",
         "features": [
-          "48MP Pro Fusion camera system\n48MP Fusion Main | 48MP Fusion\nUltra Wide | 48MP Fusion Telephoto",
+          "48MP Pro Fusion camera system\n48MP Fusion Main | 48MP Fusion\nUltra Wide | 48MP Fusion Telephoto\n&nbsp;",
+          "&nbsp;",
           "Super-high-resolution photos\n(24MP and 48MP)",
-          "Next-generation portraits with Focus\nand Depth Control",
-          "Macro photography",
+          "&nbsp;",
+          "&nbsp;",
+          "Photographic Styles 2",
           "Dolby Vision up to 4K at 120 fps",
-          "Spatial photos and videos",
-          "Latest-generation\nPhotographic Styles"
+          "&nbsp;",
+          "&nbsp;",
+          "&nbsp;",
+          "&nbsp;",
+          "Next-generation portraits with Focus\nand Depth Control",
+          "Macro photography"
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_9.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 26",
         "status": "Supported"
       },
@@ -373,18 +881,27 @@
         "1TB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.91,
-          "mm": 150
-        },
-        "width": {
-          "inches": 2.83,
-          "mm": 71.9
-        },
-        "depth": {
-          "inches": 0.34,
-          "mm": 8.75
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.91,
+            "mm": 150
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.83,
+            "mm": 71.9
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.34,
+            "mm": 8.75
+          }
+        ],
         "weight": {
           "ounces": 7.27,
           "grams": 206
@@ -453,19 +970,25 @@
       "rearCamera": {
         "icon": "icon_iphone_air_single_lens.jpg",
         "features": [
-          "48MP Fusion camera system\n48MP Fusion Main\n&nbsp;",
+          "48MP Pro Fusion camera system\n48MP Fusion Main | 48MP Fusion\nUltra Wide | 48MP Fusion Telephoto\n&nbsp;",
+          "&nbsp;",
           "Super-high-resolution photos\n(24MP and 48MP)",
-          "Next-generation portraits with Focus\nand Depth Control",
           "&nbsp;",
-          "Dolby Vision up to 4K at 120 fps",
           "&nbsp;",
-          "Latest-generation\nPhotographic Styles"
+          "Photographic Styles 2",
+          "Dolby Vision up to 4K at 60 fps",
+          "&nbsp;",
+          "&nbsp;",
+          "&nbsp;",
+          "&nbsp;",
+          "Next-generation portraits with Focus\nand Depth Control"
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_2.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 26",
         "status": "Supported"
       },
@@ -510,18 +1033,27 @@
         "1TB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 6.15,
-          "mm": 156.2
-        },
-        "width": {
-          "inches": 2.94,
-          "mm": 74.7
-        },
-        "depth": {
-          "inches": 0.22,
-          "mm": 5.64
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.15,
+            "mm": 156.2
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.94,
+            "mm": 74.7
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.22,
+            "mm": 5.64
+          }
+        ],
         "weight": {
           "ounces": 5.82,
           "grams": 165
@@ -594,19 +1126,26 @@
       "rearCamera": {
         "icon": "icon_iphone_dual5_lens.jpg",
         "features": [
-          "48MP Dual Fusion camera system\n48MP Fusion Main | 48MP Fusion\nUltra Wide",
+          "48MP Pro Fusion camera system\n48MP Fusion Main | 48MP Fusion\nUltra Wide | 48MP Fusion Telephoto\n&nbsp;",
+          "&nbsp;",
           "Super-high-resolution photos\n(24MP and 48MP)",
+          "&nbsp;",
+          "&nbsp;",
+          "Photographic Styles 2",
+          "Dolby Vision up to 4K at 60 fps",
+          "&nbsp;",
+          "&nbsp;",
+          "&nbsp;",
+          "&nbsp;",
           "Next-generation portraits with Focus\nand Depth Control",
-          "Macro photography",
-          "Dolby Vision up to 4K at 120 fps",
-          "Spatial photos and videos",
-          "Latest-generation\nPhotographic Styles"
+          "Macro photography"
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 26",
         "status": "Supported"
       },
@@ -650,18 +1189,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.89,
-          "mm": 149.6
-        },
-        "width": {
-          "inches": 2.81,
-          "mm": 71.5
-        },
-        "depth": {
-          "inches": 0.31,
-          "mm": 7.95
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.89,
+            "mm": 149.6
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.81,
+            "mm": 71.5
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.31,
+            "mm": 7.95
+          }
+        ],
         "weight": {
           "ounces": 6.24,
           "grams": 177
@@ -723,9 +1271,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_2.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 18",
         "status": "Supported"
       },
@@ -769,18 +1318,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.78,
-          "mm": 146.7
-        },
-        "width": {
-          "inches": 2.82,
-          "mm": 71.5
-        },
-        "depth": {
-          "inches": 0.31,
-          "mm": 7.8
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.78,
+            "mm": 146.7
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.82,
+            "mm": 71.5
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.31,
+            "mm": 7.8
+          }
+        ],
         "weight": {
           "ounces": 5.88,
           "grams": 167
@@ -853,9 +1411,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_8.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 18",
         "status": "Supported"
       },
@@ -900,18 +1459,27 @@
         "1TB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 6.42,
-          "mm": 163
-        },
-        "width": {
-          "inches": 3.06,
-          "mm": 77.6
-        },
-        "depth": {
-          "inches": 0.32,
-          "mm": 8.25
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.42,
+            "mm": 163
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 3.06,
+            "mm": 77.6
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.32,
+            "mm": 8.25
+          }
+        ],
         "weight": {
           "ounces": 7.99,
           "grams": 227
@@ -984,9 +1552,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_8.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 18",
         "status": "Supported"
       },
@@ -1032,18 +1601,27 @@
         "1TB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.89,
-          "mm": 149.6
-        },
-        "width": {
-          "inches": 2.81,
-          "mm": 71.5
-        },
-        "depth": {
-          "inches": 0.32,
-          "mm": 8.25
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.89,
+            "mm": 149.6
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.81,
+            "mm": 71.5
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.32,
+            "mm": 8.25
+          }
+        ],
         "weight": {
           "ounces": 7.03,
           "grams": 199
@@ -1117,9 +1695,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 18",
         "status": "Supported"
       },
@@ -1164,18 +1743,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 6.33,
-          "mm": 160.9
-        },
-        "width": {
-          "inches": 3.06,
-          "mm": 77.8
-        },
-        "depth": {
-          "inches": 0.31,
-          "mm": 7.8
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.33,
+            "mm": 160.9
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 3.06,
+            "mm": 77.8
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.31,
+            "mm": 7.8
+          }
+        ],
         "weight": {
           "ounces": 7.03,
           "grams": 199
@@ -1249,9 +1837,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 18",
         "status": "Supported"
       },
@@ -1296,18 +1885,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.81,
-          "mm": 147.6
-        },
-        "width": {
-          "inches": 2.82,
-          "mm": 71.6
-        },
-        "depth": {
-          "inches": 0.31,
-          "mm": 7.8
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.81,
+            "mm": 147.6
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.82,
+            "mm": 71.6
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.31,
+            "mm": 7.8
+          }
+        ],
         "weight": {
           "ounces": 6,
           "grams": 170
@@ -1380,9 +1978,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_8.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 17",
         "status": "Supported"
       },
@@ -1426,18 +2025,27 @@
         "1TB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 6.29,
-          "mm": 159.9
-        },
-        "width": {
-          "inches": 3.02,
-          "mm": 76.7
-        },
-        "depth": {
-          "inches": 0.32,
-          "mm": 8.25
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.29,
+            "mm": 159.9
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 3.02,
+            "mm": 76.7
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.32,
+            "mm": 8.25
+          }
+        ],
         "weight": {
           "ounces": 7.81,
           "grams": 221
@@ -1510,9 +2118,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_7.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 17",
         "status": "Supported"
       },
@@ -1557,18 +2166,27 @@
         "1TB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.77,
-          "mm": 146.6
-        },
-        "width": {
-          "inches": 2.78,
-          "mm": 70.6
-        },
-        "depth": {
-          "inches": 0.32,
-          "mm": 8.25
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.77,
+            "mm": 146.6
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.78,
+            "mm": 70.6
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.32,
+            "mm": 8.25
+          }
+        ],
         "weight": {
           "ounces": 6.6,
           "grams": 187
@@ -1642,9 +2260,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 17",
         "status": "Supported"
       },
@@ -1688,18 +2307,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 6.33,
-          "mm": 160.9
-        },
-        "width": {
-          "inches": 3.06,
-          "mm": 77.8
-        },
-        "depth": {
-          "inches": 0.31,
-          "mm": 7.8
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.33,
+            "mm": 160.9
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 3.06,
+            "mm": 77.8
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.31,
+            "mm": 7.8
+          }
+        ],
         "weight": {
           "ounces": 7.09,
           "grams": 201
@@ -1773,9 +2401,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 17",
         "status": "Supported"
       },
@@ -1819,18 +2448,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.81,
-          "mm": 147.6
-        },
-        "width": {
-          "inches": 2.82,
-          "mm": 71.6
-        },
-        "depth": {
-          "inches": 0.31,
-          "mm": 7.8
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.81,
+            "mm": 147.6
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.82,
+            "mm": 71.6
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.31,
+            "mm": 7.8
+          }
+        ],
         "weight": {
           "ounces": 6.02,
           "grams": 171
@@ -1903,9 +2541,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_7.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 16",
         "status": "Supported"
       },
@@ -1949,18 +2588,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 6.33,
-          "mm": 160.7
-        },
-        "width": {
-          "inches": 3.05,
-          "mm": 77.6
-        },
-        "depth": {
-          "inches": 0.31,
-          "mm": 7.85
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.33,
+            "mm": 160.7
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 3.05,
+            "mm": 77.6
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.31,
+            "mm": 7.85
+          }
+        ],
         "weight": {
           "ounces": 8.47,
           "grams": 240
@@ -2033,9 +2681,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_7.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 16",
         "status": "Supported"
       },
@@ -2080,18 +2729,27 @@
         "1TB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.81,
-          "mm": 147.5
-        },
-        "width": {
-          "inches": 2.81,
-          "mm": 71.5
-        },
-        "depth": {
-          "inches": 0.31,
-          "mm": 7.85
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.81,
+            "mm": 147.5
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.81,
+            "mm": 71.5
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.31,
+            "mm": 7.85
+          }
+        ],
         "weight": {
           "ounces": 7.27,
           "grams": 206
@@ -2169,9 +2827,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_3.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 16",
         "status": "Supported"
       },
@@ -2215,18 +2874,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 6.33,
-          "mm": 160.8
-        },
-        "width": {
-          "inches": 3.07,
-          "mm": 78.1
-        },
-        "depth": {
-          "inches": 0.31,
-          "mm": 7.8
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.33,
+            "mm": 160.8
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 3.07,
+            "mm": 78.1
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.31,
+            "mm": 7.8
+          }
+        ],
         "weight": {
           "ounces": 7.16,
           "grams": 203
@@ -2304,9 +2972,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_3.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 16",
         "status": "Supported"
       },
@@ -2350,18 +3019,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.78,
-          "mm": 146.7
-        },
-        "width": {
-          "inches": 2.82,
-          "mm": 71.5
-        },
-        "depth": {
-          "inches": 0.31,
-          "mm": 7.8
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.78,
+            "mm": 146.7
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.82,
+            "mm": 71.5
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.31,
+            "mm": 7.8
+          }
+        ],
         "weight": {
           "ounces": 6.07,
           "grams": 172
@@ -2426,9 +3104,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 15",
         "status": "Supported"
       },
@@ -2465,18 +3144,27 @@
         "256GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.45,
-          "mm": 138.4
-        },
-        "width": {
-          "inches": 2.65,
-          "mm": 67.3
-        },
-        "depth": {
-          "inches": 0.29,
-          "mm": 7.3
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.45,
+            "mm": 138.4
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.65,
+            "mm": 67.3
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.29,
+            "mm": 7.3
+          }
+        ],
         "weight": {
           "ounces": 5.09,
           "grams": 144
@@ -2552,9 +3240,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_6.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 15",
         "status": "Supported"
       },
@@ -2594,18 +3283,27 @@
         "1TB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 6.33,
-          "mm": 160.8
-        },
-        "width": {
-          "inches": 2.65,
-          "mm": 67.3
-        },
-        "depth": {
-          "inches": 0.29,
-          "mm": 7.3
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.33,
+            "mm": 160.8
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.65,
+            "mm": 67.3
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.29,
+            "mm": 7.3
+          }
+        ],
         "weight": {
           "ounces": 5.09,
           "grams": 144
@@ -2681,9 +3379,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_6.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 15",
         "status": "Supported"
       },
@@ -2723,18 +3422,27 @@
         "1TB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.78,
-          "mm": 146.7
-        },
-        "width": {
-          "inches": 2.82,
-          "mm": 71.5
-        },
-        "depth": {
-          "inches": 0.3,
-          "mm": 7.65
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.78,
+            "mm": 146.7
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.82,
+            "mm": 71.5
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.3,
+            "mm": 7.65
+          }
+        ],
         "weight": {
           "ounces": 7.19,
           "grams": 204
@@ -2812,9 +3520,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_3.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 15",
         "status": "Supported"
       },
@@ -2853,18 +3562,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.78,
-          "mm": 146.7
-        },
-        "width": {
-          "inches": 2.82,
-          "mm": 71.5
-        },
-        "depth": {
-          "inches": 0.3,
-          "mm": 7.65
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.78,
+            "mm": 146.7
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.82,
+            "mm": 71.5
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.3,
+            "mm": 7.65
+          }
+        ],
         "weight": {
           "ounces": 6.14,
           "grams": 174
@@ -2942,9 +3660,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_3.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 15",
         "status": "Supported"
       },
@@ -2983,18 +3702,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.18,
-          "mm": 131.5
-        },
-        "width": {
-          "inches": 2.53,
-          "mm": 64.2
-        },
-        "depth": {
-          "inches": 0.3,
-          "mm": 7.65
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.18,
+            "mm": 131.5
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.53,
+            "mm": 64.2
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.3,
+            "mm": 7.65
+          }
+        ],
         "weight": {
           "ounces": 4.97,
           "grams": 141
@@ -3062,9 +3790,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_5.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 14",
         "status": "Supported"
       },
@@ -3103,18 +3832,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 6.33,
-          "mm": 160.8
-        },
-        "width": {
-          "inches": 3.07,
-          "mm": 78.1
-        },
-        "depth": {
-          "inches": 0.29,
-          "mm": 7.4
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.33,
+            "mm": 160.8
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 3.07,
+            "mm": 78.1
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.29,
+            "mm": 7.4
+          }
+        ],
         "weight": {
           "ounces": 8.03,
           "grams": 228
@@ -3182,9 +3920,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 14",
         "status": "Supported"
       },
@@ -3223,18 +3962,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.78,
-          "mm": 146.7
-        },
-        "width": {
-          "inches": 2.82,
-          "mm": 71.5
-        },
-        "depth": {
-          "inches": 0.29,
-          "mm": 7.4
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.78,
+            "mm": 146.7
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.82,
+            "mm": 71.5
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.29,
+            "mm": 7.4
+          }
+        ],
         "weight": {
           "ounces": 6.66,
           "grams": 189
@@ -3310,9 +4058,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_3.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 14",
         "status": "Supported"
       },
@@ -3351,18 +4100,27 @@
         "256GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.78,
-          "mm": 146.7
-        },
-        "width": {
-          "inches": 2.82,
-          "mm": 71.5
-        },
-        "depth": {
-          "inches": 0.29,
-          "mm": 7.4
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.78,
+            "mm": 146.7
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.82,
+            "mm": 71.5
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.29,
+            "mm": 7.4
+          }
+        ],
         "weight": {
           "ounces": 5.78,
           "grams": 164
@@ -3438,9 +4196,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_3.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 14",
         "status": "Supported"
       },
@@ -3479,18 +4238,27 @@
         "256GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.18,
-          "mm": 131.5
-        },
-        "width": {
-          "inches": 2.53,
-          "mm": 64.2
-        },
-        "depth": {
-          "inches": 0.29,
-          "mm": 7.4
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.18,
+            "mm": 131.5
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.53,
+            "mm": 64.2
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.29,
+            "mm": 7.4
+          }
+        ],
         "weight": {
           "ounces": 4.76,
           "grams": 135
@@ -3551,9 +4319,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 13",
         "status": "Supported"
       },
@@ -3590,18 +4359,27 @@
         "256GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.45,
-          "mm": 138.4
-        },
-        "width": {
-          "inches": 2.65,
-          "mm": 67.3
-        },
-        "depth": {
-          "inches": 0.29,
-          "mm": 7.3
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.45,
+            "mm": 138.4
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.65,
+            "mm": 67.3
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.29,
+            "mm": 7.3
+          }
+        ],
         "weight": {
           "ounces": 5.22,
           "grams": 148
@@ -3667,9 +4445,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 13",
         "status": "Vintage"
       },
@@ -3706,18 +4485,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 6.22,
-          "mm": 158
-        },
-        "width": {
-          "inches": 3.06,
-          "mm": 77.8
-        },
-        "depth": {
-          "inches": 0.32,
-          "mm": 8.1
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.22,
+            "mm": 158
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 3.06,
+            "mm": 77.8
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.32,
+            "mm": 8.1
+          }
+        ],
         "weight": {
           "ounces": 7.97,
           "grams": 226
@@ -3783,9 +4571,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_4.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 13",
         "status": "Supported"
       },
@@ -3822,18 +4611,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.67,
-          "mm": 144
-        },
-        "width": {
-          "inches": 2.81,
-          "mm": 71.4
-        },
-        "depth": {
-          "inches": 0.32,
-          "mm": 8.1
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.67,
+            "mm": 144
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.81,
+            "mm": 71.4
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.32,
+            "mm": 8.1
+          }
+        ],
         "weight": {
           "ounces": 6.63,
           "grams": 188
@@ -3907,9 +4705,10 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_3.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
-        "supported": "iOS 26",
+        "supported": "iOS 27",
         "shipped": "iOS 13",
         "status": "Supported"
       },
@@ -3946,18 +4745,27 @@
         "256GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.94,
-          "mm": 150.9
-        },
-        "width": {
-          "inches": 2.98,
-          "mm": 75.7
-        },
-        "depth": {
-          "inches": 0.33,
-          "mm": 8.3
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.94,
+            "mm": 150.9
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.98,
+            "mm": 75.7
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.33,
+            "mm": 8.3
+          }
+        ],
         "weight": {
           "ounces": 6.84,
           "grams": 194
@@ -4018,6 +4826,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_2.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 18",
@@ -4057,18 +4866,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 6.22,
-          "mm": 158
-        },
-        "width": {
-          "inches": 3.06,
-          "mm": 77.8
-        },
-        "depth": {
-          "inches": 0.32,
-          "mm": 8.1
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.22,
+            "mm": 158
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 3.06,
+            "mm": 77.8
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.32,
+            "mm": 8.1
+          }
+        ],
         "weight": {
           "ounces": 7.97,
           "grams": 226
@@ -4129,6 +4947,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_2.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 18",
@@ -4168,18 +4987,27 @@
         "512GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.67,
-          "mm": 144
-        },
-        "width": {
-          "inches": 2.81,
-          "mm": 71.4
-        },
-        "depth": {
-          "inches": 0.32,
-          "mm": 8.1
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.67,
+            "mm": 144
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.81,
+            "mm": 71.4
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.32,
+            "mm": 8.1
+          }
+        ],
         "weight": {
           "ounces": 6.63,
           "grams": 188
@@ -4252,6 +5080,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 18",
@@ -4291,18 +5120,27 @@
         "256GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.94,
-          "mm": 150.9
-        },
-        "width": {
-          "inches": 2.98,
-          "mm": 75.7
-        },
-        "depth": {
-          "inches": 0.33,
-          "mm": 8.3
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.94,
+            "mm": 150.9
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.98,
+            "mm": 75.7
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.33,
+            "mm": 8.3
+          }
+        ],
         "weight": {
           "ounces": 6.84,
           "grams": 194
@@ -4359,6 +5197,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_2.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 16",
@@ -4397,18 +5236,27 @@
         "256GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.65,
-          "mm": 143.6
-        },
-        "width": {
-          "inches": 2.79,
-          "mm": 70.9
-        },
-        "depth": {
-          "inches": 0.3,
-          "mm": 7.7
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.65,
+            "mm": 143.6
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.79,
+            "mm": 70.9
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.3,
+            "mm": 7.7
+          }
+        ],
         "weight": {
           "ounces": 6.14,
           "grams": 174
@@ -4469,6 +5317,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_2.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 16",
@@ -4508,18 +5357,27 @@
         "256GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 6.24,
-          "mm": 158.4
-        },
-        "width": {
-          "inches": 3.07,
-          "mm": 78.1
-        },
-        "depth": {
-          "inches": 0.3,
-          "mm": 7.5
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.24,
+            "mm": 158.4
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 3.07,
+            "mm": 78.1
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.3,
+            "mm": 7.5
+          }
+        ],
         "weight": {
           "ounces": 7.13,
           "grams": 202
@@ -4578,6 +5436,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 16",
@@ -4617,18 +5476,27 @@
         "256GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.45,
-          "mm": 138.4
-        },
-        "width": {
-          "inches": 2.65,
-          "mm": 67.3
-        },
-        "depth": {
-          "inches": 0.29,
-          "mm": 7.3
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.45,
+            "mm": 138.4
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.65,
+            "mm": 67.3
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.29,
+            "mm": 7.3
+          }
+        ],
         "weight": {
           "ounces": 5.22,
           "grams": 148
@@ -4688,6 +5556,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_2.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 15",
@@ -4727,18 +5596,27 @@
         "256GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 6.23,
-          "mm": 158.2
-        },
-        "width": {
-          "inches": 3.07,
-          "mm": 77.9
-        },
-        "depth": {
-          "inches": 0.29,
-          "mm": 7.3
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.23,
+            "mm": 158.2
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 3.07,
+            "mm": 77.9
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.29,
+            "mm": 7.3
+          }
+        ],
         "weight": {
           "ounces": 6.63,
           "grams": 188
@@ -4796,6 +5674,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 15",
@@ -4835,18 +5714,27 @@
         "256GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.44,
-          "mm": 138.3
-        },
-        "width": {
-          "inches": 2.64,
-          "mm": 67.1
-        },
-        "depth": {
-          "inches": 0.28,
-          "mm": 7.1
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.44,
+            "mm": 138.3
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.64,
+            "mm": 67.1
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.28,
+            "mm": 7.1
+          }
+        ],
         "weight": {
           "ounces": 4.87,
           "grams": 138
@@ -4904,6 +5792,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 15",
@@ -4940,18 +5829,27 @@
         "128GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 4.87,
-          "mm": 123.8
-        },
-        "width": {
-          "inches": 2.31,
-          "mm": 58.6
-        },
-        "depth": {
-          "inches": 0.3,
-          "mm": 7.6
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 4.87,
+            "mm": 123.8
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.31,
+            "mm": 58.6
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.3,
+            "mm": 7.6
+          }
+        ],
         "weight": {
           "ounces": 3.99,
           "grams": 113
@@ -5009,6 +5907,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 15",
@@ -5045,18 +5944,27 @@
         "128GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 6.23,
-          "mm": 158.2
-        },
-        "width": {
-          "inches": 3.07,
-          "mm": 77.9
-        },
-        "depth": {
-          "inches": 0.29,
-          "mm": 7.3
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.23,
+            "mm": 158.2
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 3.07,
+            "mm": 77.9
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.29,
+            "mm": 7.3
+          }
+        ],
         "weight": {
           "ounces": 6.77,
           "grams": 192
@@ -5114,6 +6022,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 15",
@@ -5150,18 +6059,27 @@
         "128GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.44,
-          "mm": 138.3
-        },
-        "width": {
-          "inches": 2.64,
-          "mm": 67.1
-        },
-        "depth": {
-          "inches": 0.28,
-          "mm": 7.1
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.44,
+            "mm": 138.3
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.64,
+            "mm": 67.1
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.28,
+            "mm": 7.1
+          }
+        ],
         "weight": {
           "ounces": 5.04,
           "grams": 143
@@ -5215,6 +6133,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 12",
@@ -5250,18 +6169,27 @@
         "128GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 6.22,
-          "mm": 158.1
-        },
-        "width": {
-          "inches": 3.06,
-          "mm": 77.8
-        },
-        "depth": {
-          "inches": 0.28,
-          "mm": 7.1
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 6.22,
+            "mm": 158.1
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 3.06,
+            "mm": 77.8
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.28,
+            "mm": 7.1
+          }
+        ],
         "weight": {
           "ounces": 6.07,
           "grams": 172
@@ -5315,6 +6243,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 12",
@@ -5351,18 +6280,27 @@
         "128GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 5.44,
-          "mm": 138.1
-        },
-        "width": {
-          "inches": 2.64,
-          "mm": 67
-        },
-        "depth": {
-          "inches": 0.27,
-          "mm": 6.9
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 5.44,
+            "mm": 138.1
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.64,
+            "mm": 67
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.27,
+            "mm": 6.9
+          }
+        ],
         "weight": {
           "ounces": 4.55,
           "grams": 129
@@ -5416,6 +6354,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 12",
@@ -5451,18 +6390,27 @@
         "64GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 4.87,
-          "mm": 123.8
-        },
-        "width": {
-          "inches": 2.31,
-          "mm": 58.6
-        },
-        "depth": {
-          "inches": 0.3,
-          "mm": 7.6
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 4.87,
+            "mm": 123.8
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.31,
+            "mm": 58.6
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.3,
+            "mm": 7.6
+          }
+        ],
         "weight": {
           "ounces": 3.95,
           "grams": 112
@@ -5524,6 +6472,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 10",
@@ -5559,18 +6508,27 @@
         "32GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 4.9,
-          "mm": 124.4
-        },
-        "width": {
-          "inches": 2.33,
-          "mm": 59.2
-        },
-        "depth": {
-          "inches": 0.35,
-          "mm": 8.97
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 4.9,
+            "mm": 124.4
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.33,
+            "mm": 59.2
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.35,
+            "mm": 8.97
+          }
+        ],
         "weight": {
           "ounces": 4.65,
           "grams": 132
@@ -5620,6 +6578,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 10",
@@ -5655,18 +6614,27 @@
         "64GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 4.87,
-          "mm": 123.8
-        },
-        "width": {
-          "inches": 2.31,
-          "mm": 58.6
-        },
-        "depth": {
-          "inches": 0.3,
-          "mm": 7.6
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 4.87,
+            "mm": 123.8
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.31,
+            "mm": 58.6
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.3,
+            "mm": 7.6
+          }
+        ],
         "weight": {
           "ounces": 3.95,
           "grams": 112
@@ -5716,6 +6684,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 9",
@@ -5752,18 +6721,27 @@
         "64GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 4.5,
-          "mm": 115.2
-        },
-        "width": {
-          "inches": 2.31,
-          "mm": 58.6
-        },
-        "depth": {
-          "inches": 0.37,
-          "mm": 9.3
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 4.5,
+            "mm": 115.2
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.31,
+            "mm": 58.6
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.37,
+            "mm": 9.3
+          }
+        ],
         "weight": {
           "ounces": 4.9,
           "grams": 140
@@ -5813,6 +6791,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 7",
@@ -5848,18 +6827,27 @@
         "32GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 4.5,
-          "mm": 115.2
-        },
-        "width": {
-          "inches": 2.31,
-          "mm": 58.6
-        },
-        "depth": {
-          "inches": 0.37,
-          "mm": 9.3
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 4.5,
+            "mm": 115.2
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.31,
+            "mm": 58.6
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.37,
+            "mm": 9.3
+          }
+        ],
         "weight": {
           "ounces": 4.8,
           "grams": 137
@@ -5907,6 +6895,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 6",
@@ -5942,18 +6931,27 @@
         "32GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 4.5,
-          "mm": 115.5
-        },
-        "width": {
-          "inches": 2.4,
-          "mm": 62.1
-        },
-        "depth": {
-          "inches": 0.48,
-          "mm": 12.3
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 4.5,
+            "mm": 115.5
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.4,
+            "mm": 62.1
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.48,
+            "mm": 12.3
+          }
+        ],
         "weight": {
           "ounces": 4.8,
           "grams": 135
@@ -6001,6 +6999,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iOS 4",
@@ -6035,18 +7034,27 @@
         "16GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 4.5,
-          "mm": 115.5
-        },
-        "width": {
-          "inches": 2.4,
-          "mm": 62.1
-        },
-        "depth": {
-          "inches": 0.48,
-          "mm": 12.3
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 4.5,
+            "mm": 115.5
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.4,
+            "mm": 62.1
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.48,
+            "mm": 12.3
+          }
+        ],
         "weight": {
           "ounces": 4.7,
           "grams": 133
@@ -6090,6 +7098,7 @@
         ]
       },
       "opticalZoomIcon": "icon_optical_zoom_1.jpg",
+      "apertureCamera": "",
       "ios": {
         "icon": "icon_ios.jpg",
         "supported": "iPhone OS 3",
@@ -6125,18 +7134,27 @@
         "16GB"
       ],
       "dimensions": {
-        "height": {
-          "inches": 4.5,
-          "mm": 115.5
-        },
-        "width": {
-          "inches": 2.4,
-          "mm": 62
-        },
-        "depth": {
-          "inches": 0.46,
-          "mm": 11.6
-        },
+        "height": [
+          {
+            "label": "&nbsp;",
+            "inches": 4.5,
+            "mm": 115.5
+          }
+        ],
+        "width": [
+          {
+            "label": "&nbsp;",
+            "inches": 2.4,
+            "mm": 62
+          }
+        ],
+        "depth": [
+          {
+            "label": "&nbsp;",
+            "inches": 0.46,
+            "mm": 11.6
+          }
+        ],
         "weight": {
           "ounces": 4.8,
           "grams": 135

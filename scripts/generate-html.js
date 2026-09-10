@@ -11,10 +11,24 @@ function formatText(text) {
   return text.replace(/\n/g, '<br>');
 }
 
-// Helper function to format dimension value
-function formatDimension(value, unit, isDepth = false) {
+// Helper function to format a single dimension measurement
+function formatMeasurement(value, unit, isDepth = false) {
   const inchLabel = isDepth ? 'inch' : 'inches';
   return `${value.inches} ${inchLabel} (${value.mm} ${unit})`;
+}
+
+// Helper function to format a dimension value.
+// Takes an array of measurements (a single object is also accepted). Each entry
+// may carry a label rendered after the value on the same line - folding models
+// use Closed / Open, every other model uses `&nbsp;` to keep the layout aligned.
+function formatDimension(value, unit, isDepth = false) {
+  const measurements = Array.isArray(value) ? value : [value];
+  return measurements
+    .map(measurement => {
+      const formatted = formatMeasurement(measurement, unit, isDepth);
+      return measurement.label ? `${formatted} ${measurement.label}` : formatted;
+    })
+    .join('<br>');
 }
 
 // Generate color swatches with inline styles
@@ -23,26 +37,29 @@ function generateColors(colors) {
     return '<div class="color"></div>';
   }
   return colors
-    .map(color => `<div class="color" style="background-color: ${color.hex}"></div>`)
+    .map(color => `<div class="color" style="background-color: ${color.hex}" title="${color.name}"></div>`)
     .join('\n        ');
 }
 
 // Generate display section
-function generateDisplay(display) {
+function generateDisplay(display, hasDI) {
   let html = `<div class="model-content">
         <div class="model-screen-size">${display.size}</div>
-        <div class="model-screen-detail">${display.type}</div>`;
+        <div class="model-screen-detail">${formatText(display.type)}</div>`;
 
   if (display.features && display.features.length > 0) {
     display.features.forEach(feature => {
       html += `\n        <div class="model-screen-detail">${feature}</div>`;
     });
+    if (hasDI) {
+      html += `\n        <div class="model-screen-detail">Dynamic Island</div>`;
+    }
   } else {
     // Add hidden placeholders for alignment
     html += `\n        <div class="model-screen-detail hidden">-</div>`;
     html += `\n        <div class="model-screen-detail hidden">-</div>`;
   }
-
+  
   html += '\n      </div>';
   return html;
 }
@@ -70,7 +87,7 @@ function generateDesign(design) {
 function generateAppleIntelligence(hasAI) {
   if (hasAI) {
     return `<div class="model-content"><img src="images/apple_intelligence.png" loading="lazy" alt="" class="content-image">
-        <div class="model-screen-detail">Apple Intelligence</div>
+        <div class="model-screen-detail">Apple Intelligence<br><br>Siri AI</div>
       </div>`;
   }
   return `<div class="model-content">
@@ -101,6 +118,7 @@ function generateChip(chip) {
 
 // Generate Dynamic Island section
 function generateDynamicIsland(hasDI) {
+  return ``; // hidden
   if (hasDI) {
     return `<div class="model-content"><img src="images/icon_dynamic_island.jpg" loading="lazy" alt="" class="content-image">
         <div class="model-screen-detail">Dynamic Island<br>A magical way to interact with iPhone</div>
@@ -168,6 +186,18 @@ function generateOpticalZoom(icon) {
       </div>`;
 }
 
+// Generate aperture camera section
+function generateApertureCamera(apertureCamera) {
+  if (!apertureCamera) {
+    return `<div class="model-content">
+        <div class="model-screen-detail empty">&nbsp;</div>
+      </div>`;
+  }
+  return `<div class="model-content"><img src="images/camera_aperture.png" loading="lazy" alt="" class="content-image">
+        <div class="model-screen-detail">${formatText(apertureCamera)}</div>
+      </div>`;
+}
+
 // Generate iOS section
 function generateiOS(ios) {
   if (!ios) {
@@ -211,7 +241,7 @@ function generateEmergency(emergency) {
 // Generate battery section
 function generateBattery(battery) {
   return `<div class="model-content"><img src="images/icon_battery.jpg" loading="lazy" alt="" class="content-image">
-        <div class="model-screen-detail">${battery}</div>
+        <div class="model-screen-detail">${formatText(battery)}</div>
       </div>`;
 }
 
@@ -327,7 +357,7 @@ function generateiPhone(iphone) {
       <div class="model-colors">
         ${generateColors(iphone.colors)}
       </div>
-      ${generateDisplay(iphone.display)}
+      ${generateDisplay(iphone.display, iphone.dynamicIsland)}
       ${generateDesign(iphone.design)}
       ${generateAppleIntelligence(iphone.appleIntelligence)}
       ${generateChip(iphone.chip)}
@@ -335,6 +365,7 @@ function generateiPhone(iphone) {
       ${generateFrontCamera(iphone.frontCamera)}
       ${generateRearCamera(iphone.rearCamera)}
       ${generateOpticalZoom(iphone.opticalZoomIcon)}
+      ${generateApertureCamera(iphone.apertureCamera)}
       ${generateiOS(iphone.ios)}
       ${generateEmergency(iphone.emergency)}
       ${generateBattery(iphone.battery)}

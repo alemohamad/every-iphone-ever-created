@@ -60,6 +60,7 @@ Edit `data/iphones.json`, then run `npm run build`.
     "features": ["48MP Pro Fusion camera system"]
   },
   "opticalZoomIcon": "icon_optical_zoom_9.jpg",
+  "apertureCamera": "ƒ/1.78 aperture",
   "ios": {
     "icon": "icon_ios.jpg",
     "supported": "iOS 26",
@@ -91,9 +92,9 @@ Edit `data/iphones.json`, then run `npm run build`.
   },
   "capacity": ["256GB", "512GB", "1TB", "2TB"],
   "dimensions": {
-    "height": { "inches": 6.43, "mm": 163.4 },
-    "width": { "inches": 3.07, "mm": 78 },
-    "depth": { "inches": 0.34, "mm": 8.75 },
+    "height": [{ "label": "&nbsp;", "inches": 6.43, "mm": 163.4 }],
+    "width": [{ "label": "&nbsp;", "inches": 3.07, "mm": 78 }],
+    "depth": [{ "label": "&nbsp;", "inches": 0.34, "mm": 8.75 }],
     "weight": { "ounces": 8.22, "grams": 233 }
   }
 }
@@ -108,7 +109,20 @@ Edit `data/iphones.json`, then run `npm run build`.
 ### Notes
 
 - Colors use inline styles with hex codes
-- Use `\n` in JSON strings to create line breaks (converted to `<br>`)
+- Use `\n` in JSON strings to create line breaks (converted to `<br>`), including in `display.type`
+- `dimensions.height`, `width` and `depth` are arrays of measurements, so folding models can
+  carry a closed and an open size. `label` renders after the value on the same line; models with
+  a single measurement use `&nbsp;` so the layout stays aligned:
+
+```json
+"width": [
+  { "label": "Closed", "inches": 3.31, "mm": 84.1 },
+  { "label": "Open", "inches": 6.42, "mm": 163.1 }
+]
+```
+
+  `dimensions.weight` stays a single `{ ounces, grams }` object - it is never an array.
+- `apertureCamera` is a plain string; leave it `""` and the whole section is omitted (no em-dash placeholder)
 - Use `—` (em-dash) for empty/unavailable features
 - Images go in `images/` folder
 - iPhones are displayed in order they appear in the JSON array (newest first)
