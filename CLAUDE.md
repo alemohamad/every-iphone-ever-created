@@ -34,6 +34,7 @@ Edit `data/iphones.json`, then run `npm run build`.
   "id": "iphone-17-pro-max",
   "model": "iPhone 17 Pro Max",
   "launchYear": 2025,
+  "line": "pro",
   "device": "iphone_17_pro_max_cosmic_orange.jpg",
   "colors": [
     { "name": "Cosmic Orange", "hex": "#f77e2d", "image": "iphone_17_pro_max_cosmic_orange.jpg" }
@@ -99,6 +100,16 @@ Edit `data/iphones.json`, then run `npm run build`.
   }
 }
 ```
+
+### Product Line Values
+
+Used by the line filter at the top of the page:
+
+- `pro` - Pro and Pro Max models
+- `iphone` - Standard and Plus models (also the original iPhone through iPhone X / XS / XR)
+- `mini` - mini models
+- `se-e` - iPhone SE and the "e" models
+- `air-duo` - iPhone Air and iPhone Duo
 
 ### iOS Status Values
 

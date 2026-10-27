@@ -398,11 +398,42 @@ function generateYearNav(iphones) {
     </nav>`;
 }
 
+// Product lines for the filter, in the order they're shown
+const LINES = [
+  { id: 'pro', label: 'Pro' },
+  { id: 'iphone', label: 'iPhone' },
+  { id: 'mini', label: 'mini' },
+  { id: 'se-e', label: 'SE & e' },
+  { id: 'air-duo', label: 'Air & Duo' }
+];
+
+// Generate the product line filter (only lines that have models)
+function generateLineFilter(iphones) {
+  const pills = [{ id: 'all', label: 'All' }]
+    .concat(LINES.filter(line => iphones.some(iphone => iphone.line === line.id)))
+    .map(line => `<button type="button" class="line-filter-option" data-line="${line.id}" aria-pressed="${line.id === 'all'}">${line.label}</button>`)
+    .join('\n      ');
+  return `<div class="line-filter" role="group" aria-label="Filter by product line">
+      ${pills}
+    </div>`;
+}
+
+// Generate the compare controls shown in the footer once models are picked
+function generateCompareBar() {
+  return `<div class="compare-bar" hidden>
+      <button type="button" class="compare-show"></button>
+      <button type="button" class="compare-clear" aria-label="Clear comparison"><svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 2l6 6M8 2 2 8" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg></button>
+    </div>`;
+}
+
 // Generate a single iPhone entry
 function generateiPhone(iphone) {
-  return `      <div class="model-header" id="${modelAnchor(iphone)}" data-year="${iphone.launchYear}">
-        <div class="launch-date">${iphone.launchYear}</div>
-        <a href="#${modelAnchor(iphone)}" class="model">${iphone.model}</a>
+  return `      <div class="model-header" id="${modelAnchor(iphone)}" data-year="${iphone.launchYear}" data-line="${iphone.line}">
+        <div class="model-title">
+          <div class="launch-date">${iphone.launchYear}</div>
+          <a href="#${modelAnchor(iphone)}" class="model">${iphone.model}</a>
+        </div>
+        <button type="button" class="compare-toggle" aria-pressed="false" aria-label="Compare ${iphone.model.replace(/ /g, ' ')}"><span class="compare-toggle-icon" aria-hidden="true"></span>Compare</button>
       </div>
       <div class="model-device"><img src="${deviceImageUrl(iphone.device)}" loading="lazy" alt="${iphone.model}" class="model-device-pic"></div>
       <div class="model-colors">
@@ -461,6 +492,7 @@ function generateHTML() {
   <section class="header">
     <h1>Every iPhone ever released</h1>
     <div class="description">Apple’s iPhone has developed massively over more than a decade, adding in faster processors and bigger screens. But it’s not until you look at all the iPhone models that have been released, do you see just how far we’ve come since 2007.</div>
+    ${generateLineFilter(data.iphones)}
   </section>
   <section class="devices">
     <div class="w-layout-grid devices-grid">
@@ -470,6 +502,7 @@ ${iphoneEntries}
   <section class="footer">
     <div>iPhone is a trademark of Apple Inc., registered in the U.S. and other countries.</div>
     ${generateYearNav(data.iphones)}
+    ${generateCompareBar()}
     <a href="https://alemohamad.com/" target="_blank">Curated by <strong class="bold-text">Ale Mohamad</strong></a>
   </section>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=690262dc38f8fd331f507117" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>

@@ -114,10 +114,201 @@
   }
 
   .year-nav {
+    order: -2;
+  }
+
+  .compare-bar {
     order: -1;
+    justify-content: center;
   }
 
   .devices {
     margin-bottom: 170px;
+  }
+}
+
+/* Models hidden by the line filter or the comparison */
+.is-filtered-out {
+  display: none !important;
+}
+
+/* Product line filter under the description */
+.line-filter {
+  display: flex;
+  gap: 6px;
+  margin: 24px 40px 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.line-filter::-webkit-scrollbar {
+  display: none;
+}
+
+.line-filter-option {
+  flex: none;
+  padding: 7px 14px;
+  border: 0;
+  border-radius: 980px;
+  color: #1d1d1f;
+  background-color: #f5f5f7;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2em;
+  cursor: pointer;
+}
+
+.line-filter-option:hover {
+  background-color: #e8e8ed;
+}
+
+.line-filter-option[aria-pressed="true"] {
+  color: #fff;
+  background-color: #000;
+}
+
+/* Model header: name on the left, compare toggle on the right */
+.model-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.compare-toggle {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 11px 5px 9px;
+  border: 1px solid #d2d2d7;
+  border-radius: 980px;
+  color: #1d1d1f;
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2em;
+  cursor: pointer;
+}
+
+.compare-toggle:hover {
+  border-color: #86868b;
+}
+
+.compare-toggle-icon::before {
+  content: "+";
+  display: inline-block;
+  width: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.compare-toggle[aria-pressed="true"] {
+  border-color: #000;
+  color: #fff;
+  background-color: #000;
+}
+
+.compare-toggle[aria-pressed="true"] .compare-toggle-icon::before {
+  content: "✓";
+  font-size: 11px;
+}
+
+/* Compare controls in the footer, shown once a model is picked */
+.compare-bar {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 6px;
+}
+
+.compare-bar[hidden] {
+  display: none;
+}
+
+.compare-show {
+  padding: 7px 14px;
+  border: 0;
+  border-radius: 980px;
+  color: #fff;
+  background-color: #0071e3;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2em;
+  cursor: pointer;
+}
+
+.compare-show:disabled {
+  color: #6e6e73;
+  background-color: #0000000f;
+  cursor: default;
+}
+
+.compare-clear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  color: #000;
+  background-color: #0000000f;
+  cursor: pointer;
+}
+
+.compare-clear:hover {
+  background-color: #0000001f;
+}
+
+/* While comparing, specs that are the same for every model fade back */
+.is-same {
+  opacity: 0.3;
+  transition: opacity 0.2s;
+}
+
+.line-filter-option:focus-visible,
+.compare-toggle:focus-visible,
+.compare-show:focus-visible,
+.compare-clear:focus-visible {
+  outline: 2px solid #0071e3;
+  outline-offset: 2px;
+}
+
+/* Room for the line filter under the header text */
+.devices {
+  margin-top: 300px;
+}
+
+@media screen and (max-width: 991px) {
+  .devices {
+    margin-top: 260px;
+    margin-bottom: 220px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* Full-bleed scrolling row on phones, faded where pills are cut off */
+  .line-filter {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 20px;
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 20px, #000 calc(100% - 20px), transparent);
+    mask-image: linear-gradient(to right, transparent, #000 20px, #000 calc(100% - 20px), transparent);
+  }
+
+  .devices {
+    margin-top: 280px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .line-filter {
+    margin-top: 16px;
+  }
+
+  .devices {
+    margin-top: 300px;
   }
 }

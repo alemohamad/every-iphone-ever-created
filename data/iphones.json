@@ -4,6 +4,7 @@
       "id": "iphone-duo",
       "model": "iPhone Duo",
       "launchYear": 2026,
+      "line": "air-duo",
       "device": "iphone_duo_star_white.jpg",
       "colors": [
         {
@@ -168,6 +169,7 @@
       "id": "iphone-18-pro-max",
       "model": "iPhone 18 Pro Max",
       "launchYear": 2026,
+      "line": "pro",
       "device": "iphone_18_pro_max_burgundy.jpg",
       "colors": [
         {
@@ -326,6 +328,7 @@
       "id": "iphone-18-pro",
       "model": "iPhone 18 Pro",
       "launchYear": 2026,
+      "line": "pro",
       "device": "iphone_18_pro_burgundy.jpg",
       "colors": [
         {
@@ -484,6 +487,7 @@
       "id": "iphone-17e",
       "model": "iPhone 17e",
       "launchYear": 2026,
+      "line": "se-e",
       "device": "iphone_17e_soft_pink.jpg",
       "colors": [
         {
@@ -626,6 +630,7 @@
       "id": "iphone-17-pro-max",
       "model": "iPhone 17 Pro Max",
       "launchYear": 2025,
+      "line": "pro",
       "device": "iphone_17_pro_max_cosmic_orange.jpg",
       "colors": [
         {
@@ -779,6 +784,7 @@
       "id": "iphone-17-pro",
       "model": "iPhone 17 Pro",
       "launchYear": 2025,
+      "line": "pro",
       "device": "iphone_17_pro_cosmic_orange.jpg",
       "colors": [
         {
@@ -931,6 +937,7 @@
       "id": "iphone-air",
       "model": "iPhone Air",
       "launchYear": 2025,
+      "line": "air-duo",
       "device": "iphone_air_sky_blue.jpg",
       "colors": [
         {
@@ -1087,6 +1094,7 @@
       "id": "iphone-17",
       "model": "iPhone 17",
       "launchYear": 2025,
+      "line": "iphone",
       "device": "iphone_17_lavender.jpg",
       "colors": [
         {
@@ -1248,6 +1256,7 @@
       "id": "iphone-16e",
       "model": "iPhone 16e",
       "launchYear": 2024,
+      "line": "se-e",
       "device": "iphone_16e_white.jpg",
       "colors": [
         {
@@ -1379,6 +1388,7 @@
       "id": "iphone-16-pro-max",
       "model": "iPhone 16 Pro Max",
       "launchYear": 2024,
+      "line": "pro",
       "device": "iphone_16_pro_max_desert_titanium.jpg",
       "colors": [
         {
@@ -1524,6 +1534,7 @@
       "id": "iphone-16-pro",
       "model": "iPhone 16 Pro",
       "launchYear": 2024,
+      "line": "pro",
       "device": "iphone_16_pro_desert_titanium.jpg",
       "colors": [
         {
@@ -1670,6 +1681,7 @@
       "id": "iphone-16-plus",
       "model": "iPhone 16 Plus",
       "launchYear": 2024,
+      "line": "iphone",
       "device": "iphone_16_plus_ultramarine.jpg",
       "colors": [
         {
@@ -1817,6 +1829,7 @@
       "id": "iphone-16",
       "model": "iPhone 16",
       "launchYear": 2024,
+      "line": "iphone",
       "device": "iphone_16_ultramarine.jpg",
       "colors": [
         {
@@ -1964,6 +1977,7 @@
       "id": "iphone-15-pro-max",
       "model": "iPhone 15 Pro Max",
       "launchYear": 2023,
+      "line": "pro",
       "device": "iphone_15_pro_max_natural_titanium.jpg",
       "colors": [
         {
@@ -2108,6 +2122,7 @@
       "id": "iphone-15-pro",
       "model": "iPhone 15 Pro",
       "launchYear": 2023,
+      "line": "pro",
       "device": "iphone_15_pro_natural_titanium.jpg",
       "colors": [
         {
@@ -2253,6 +2268,7 @@
       "id": "iphone-15-plus",
       "model": "iPhone 15 Plus",
       "launchYear": 2023,
+      "line": "iphone",
       "device": "iphone_15_plus_pink.jpg",
       "colors": [
         {
@@ -2399,6 +2415,7 @@
       "id": "iphone-15",
       "model": "iPhone 15",
       "launchYear": 2023,
+      "line": "iphone",
       "device": "iphone_15_pink.jpg",
       "colors": [
         {
@@ -2545,6 +2562,7 @@
       "id": "iphone-14-pro-max",
       "model": "iPhone 14 Pro Max",
       "launchYear": 2022,
+      "line": "pro",
       "device": "iphone_14_pro_max_deep_purple.jpg",
       "colors": [
         {
@@ -2689,6 +2707,7 @@
       "id": "iphone-14-pro",
       "model": "iPhone 14 Pro",
       "launchYear": 2022,
+      "line": "pro",
       "device": "iphone_14_pro_deep_purple.jpg",
       "colors": [
         {
@@ -2834,6 +2853,7 @@
       "id": "iphone-14-plus",
       "model": "iPhone 14 Plus",
       "launchYear": 2022,
+      "line": "iphone",
       "device": "iphone_14_plus_blue.jpg",
       "colors": [
         {
@@ -2985,6 +3005,7 @@
       "id": "iphone-14",
       "model": "iPhone 14",
       "launchYear": 2022,
+      "line": "iphone",
       "device": "iphone_14_blue.jpg",
       "colors": [
         {
@@ -3136,6 +3157,7 @@
       "id": "iphone-se-(3rd-generation)",
       "model": "iPhone SE (3rd generation)",
       "launchYear": 2022,
+      "line": "se-e",
       "device": "iphone_se_3rd_gen_midnight.jpg",
       "colors": [
         {
@@ -3264,6 +3286,7 @@
       "id": "iphone-13-pro-max",
       "model": "iPhone 13 Pro Max",
       "launchYear": 2021,
+      "line": "pro",
       "device": "iphone_13_pro_max_alpine_green.jpg",
       "colors": [
         {
@@ -3408,6 +3431,7 @@
       "id": "iphone-13-pro",
       "model": "iPhone 13 Pro",
       "launchYear": 2021,
+      "line": "pro",
       "device": "iphone_13_pro_alpine_green.jpg",
       "colors": [
         {
@@ -3552,6 +3576,7 @@
       "id": "iphone-13",
       "model": "iPhone 13",
       "launchYear": 2021,
+      "line": "iphone",
       "device": "iphone_13_green.jpg",
       "colors": [
         {
@@ -3698,6 +3723,7 @@
       "id": "iphone-13-mini",
       "model": "iPhone 13 mini",
       "launchYear": 2021,
+      "line": "mini",
       "device": "iphone_13_mini_green.jpg",
       "colors": [
         {
@@ -3844,6 +3870,7 @@
       "id": "iphone-12-pro-max",
       "model": "iPhone 12 Pro Max",
       "launchYear": 2020,
+      "line": "pro",
       "device": "iphone_12_pro_max_pacific_blue.jpg",
       "colors": [
         {
@@ -3978,6 +4005,7 @@
       "id": "iphone-12-pro",
       "model": "iPhone 12 Pro",
       "launchYear": 2020,
+      "line": "pro",
       "device": "iphone_12_pro_pacific_blue.jpg",
       "colors": [
         {
@@ -4112,6 +4140,7 @@
       "id": "iphone-12",
       "model": "iPhone 12",
       "launchYear": 2020,
+      "line": "iphone",
       "device": "iphone_12_purple.jpg",
       "colors": [
         {
@@ -4256,6 +4285,7 @@
       "id": "iphone-12-mini",
       "model": "iPhone 12 mini",
       "launchYear": 2020,
+      "line": "mini",
       "device": "iphone_12_mini_purple.jpg",
       "colors": [
         {
@@ -4400,6 +4430,7 @@
       "id": "iphone-se-(2nd-generation)",
       "model": "iPhone SE (2nd generation)",
       "launchYear": 2020,
+      "line": "se-e",
       "device": "iphone_se_2nd_gen_black.jpg",
       "colors": [
         {
@@ -4524,6 +4555,7 @@
       "id": "iphone-11-pro-max",
       "model": "iPhone 11 Pro Max",
       "launchYear": 2019,
+      "line": "pro",
       "device": "iphone_11_pro_max_midnight_green.jpg",
       "colors": [
         {
@@ -4654,6 +4686,7 @@
       "id": "iphone-11-pro",
       "model": "iPhone 11 Pro",
       "launchYear": 2019,
+      "line": "pro",
       "device": "iphone_11_pro_midnight_green.jpg",
       "colors": [
         {
@@ -4718,7 +4751,7 @@
         "icon": "icon_ios.jpg",
         "supported": "iOS 27",
         "shipped": "iOS 13",
-        "status": "Supported"
+        "status": "Vintage"
       },
       "emergency": {
         "sos": true,
@@ -4784,6 +4817,7 @@
       "id": "iphone-11",
       "model": "iPhone 11",
       "launchYear": 2019,
+      "line": "iphone",
       "device": "iphone_11_purple.jpg",
       "colors": [
         {
@@ -4924,6 +4958,7 @@
       "id": "iphone-xs-max",
       "model": "iPhone XS Max",
       "launchYear": 2018,
+      "line": "iphone",
       "device": "iphone_xs_max_silver.jpg",
       "colors": [
         {
@@ -5048,6 +5083,7 @@
       "id": "iphone-xs",
       "model": "iPhone XS",
       "launchYear": 2018,
+      "line": "iphone",
       "device": "iphone_xs_silver.jpg",
       "colors": [
         {
@@ -5172,6 +5208,7 @@
       "id": "iphone-xr",
       "model": "iPhone XR",
       "launchYear": 2018,
+      "line": "iphone",
       "device": "iphone_xr_blue.jpg",
       "colors": [
         {
@@ -5311,6 +5348,7 @@
       "id": "iphone-x",
       "model": "iPhone X",
       "launchYear": 2017,
+      "line": "iphone",
       "device": "iphone_x_silver.jpg",
       "colors": [
         {
@@ -5364,7 +5402,7 @@
         "icon": "icon_ios.jpg",
         "supported": "iOS 16",
         "shipped": "iOS 11",
-        "status": "Vintage"
+        "status": "Obsolete"
       },
       "emergency": {
         "sos": true,
@@ -5429,6 +5467,7 @@
       "id": "iphone-8-plus",
       "model": "iPhone 8 Plus",
       "launchYear": 2017,
+      "line": "iphone",
       "device": "iphone_8_plus_silver.jpg",
       "colors": [
         {
@@ -5558,6 +5597,7 @@
       "id": "iphone-8",
       "model": "iPhone 8",
       "launchYear": 2017,
+      "line": "iphone",
       "device": "iphone_8_silver.jpg",
       "colors": [
         {
@@ -5685,6 +5725,7 @@
       "id": "iphone-7-plus",
       "model": "iPhone 7 Plus",
       "launchYear": 2016,
+      "line": "iphone",
       "device": "iphone_7_plus_silver.jpg",
       "colors": [
         {
@@ -5814,6 +5855,7 @@
       "id": "iphone-7",
       "model": "iPhone 7",
       "launchYear": 2016,
+      "line": "iphone",
       "device": "iphone_7_silver.jpg",
       "colors": [
         {
@@ -5941,6 +5983,7 @@
       "id": "iphone-se-(1st-generation)",
       "model": "iPhone SE (1st generation)",
       "launchYear": 2016,
+      "line": "se-e",
       "device": "iphone_se_silver.jpg",
       "colors": [
         {
@@ -5997,7 +6040,7 @@
         "icon": "icon_ios.jpg",
         "supported": "iOS 15",
         "shipped": "iOS 9",
-        "status": "Vintage"
+        "status": "Obsolete"
       },
       "emergency": {
         "sos": true,
@@ -6060,6 +6103,7 @@
       "id": "iphone-6s-plus",
       "model": "iPhone 6s Plus",
       "launchYear": 2015,
+      "line": "iphone",
       "device": "iphone_6s_plus_silver.jpg",
       "colors": [
         {
@@ -6116,7 +6160,7 @@
         "icon": "icon_ios.jpg",
         "supported": "iOS 15",
         "shipped": "iOS 9",
-        "status": "Obsolete"
+        "status": "Vintage"
       },
       "emergency": {
         "sos": true,
@@ -6179,6 +6223,7 @@
       "id": "iphone-6s",
       "model": "iPhone 6s",
       "launchYear": 2015,
+      "line": "iphone",
       "device": "iphone_6s_silver.jpg",
       "colors": [
         {
@@ -6235,7 +6280,7 @@
         "icon": "icon_ios.jpg",
         "supported": "iOS 15",
         "shipped": "iOS 9",
-        "status": "Obsolete"
+        "status": "Vintage"
       },
       "emergency": {
         "sos": true,
@@ -6298,6 +6343,7 @@
       "id": "iphone-6-plus",
       "model": "iPhone 6 Plus",
       "launchYear": 2014,
+      "line": "iphone",
       "device": "iphone_6_plus_silver.jpg",
       "colors": [
         {
@@ -6411,6 +6457,7 @@
       "id": "iphone-6",
       "model": "iPhone 6",
       "launchYear": 2014,
+      "line": "iphone",
       "device": "iphone_6_silver.jpg",
       "colors": [
         {
@@ -6525,6 +6572,7 @@
       "id": "iphone-5s",
       "model": "iPhone 5s",
       "launchYear": 2013,
+      "line": "iphone",
       "device": "iphone5s.jpg",
       "colors": [
         {
@@ -6635,6 +6683,7 @@
       "id": "iphone-5c",
       "model": "iPhone 5c",
       "launchYear": 2013,
+      "line": "iphone",
       "device": "iphone5c.jpg",
       "colors": [
         {
@@ -6753,6 +6802,7 @@
       "id": "iphone-5",
       "model": "iPhone 5",
       "launchYear": 2012,
+      "line": "iphone",
       "device": "iphone5.jpg",
       "colors": [
         {
@@ -6859,6 +6909,7 @@
       "id": "iphone-4s",
       "model": "iPhone 4s",
       "launchYear": 2011,
+      "line": "iphone",
       "device": "iphone4s.jpg",
       "colors": [
         {
@@ -6966,6 +7017,7 @@
       "id": "iphone-4",
       "model": "iPhone 4",
       "launchYear": 2010,
+      "line": "iphone",
       "device": "iPhone4.jpg",
       "colors": [
         {
@@ -7072,6 +7124,7 @@
       "id": "iphone-3gs",
       "model": "iPhone 3GS",
       "launchYear": 2009,
+      "line": "iphone",
       "device": "iphone3gs.jpg",
       "colors": [
         {
@@ -7176,6 +7229,7 @@
       "id": "iphone-3g",
       "model": "iPhone 3G",
       "launchYear": 2008,
+      "line": "iphone",
       "device": "iphone3g.jpg",
       "colors": [
         {
@@ -7279,6 +7333,7 @@
       "id": "iphone",
       "model": "iPhone",
       "launchYear": 2007,
+      "line": "iphone",
       "device": "iphone.jpg",
       "colors": [
         {
