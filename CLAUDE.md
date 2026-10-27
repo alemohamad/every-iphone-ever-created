@@ -34,9 +34,9 @@ Edit `data/iphones.json`, then run `npm run build`.
   "id": "iphone-17-pro-max",
   "model": "iPhone 17 Pro Max",
   "launchYear": 2025,
-  "device": "iphone17_pro_max.jpg",
+  "device": "iphone_17_pro_max_cosmic_orange.jpg",
   "colors": [
-    { "name": "Cosmic Orange", "hex": "#f77e2d" }
+    { "name": "Cosmic Orange", "hex": "#f77e2d", "image": "iphone_17_pro_max_cosmic_orange.jpg" }
   ],
   "display": {
     "size": "6.9″",
@@ -109,6 +109,7 @@ Edit `data/iphones.json`, then run `npm run build`.
 ### Notes
 
 - Colors use inline styles with hex codes
+- Each color can have an optional `image`; selecting the color swaps the device photo (`device` should match the first color's image). Per-color photos come from https://www.apple.com/iphone/compare/ (the `image-compare-*` classes in its stylesheet, `_large_2x.jpg` variant), trimmed of white padding and fitted on a white canvas with the same dimensions for every color of a model, so device sizes stay relative to each other (e.g. Pro Max 424px tall, Pro ~390px)
 - Use `\n` in JSON strings to create line breaks (converted to `<br>`), including in `display.type`
 - `dimensions.height`, `width` and `depth` are arrays of measurements, so folding models can
   carry a closed and an open size. `label` renders after the value on the same line; models with

@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 // Read the JSON data
 const dataPath = path.join(__dirname, '..', 'data', 'iphones.json');
@@ -9,6 +10,14 @@ const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 function formatText(text) {
   if (!text) return '';
   return text.replace(/\n/g, '<br>');
+}
+
+// Helper function to build a device image URL with a content hash,
+// so browsers fetch the new file whenever an image is replaced
+function deviceImageUrl(file) {
+  const content = fs.readFileSync(path.join(__dirname, '..', 'docs', 'images', file));
+  const hash = crypto.createHash('md5').update(content).digest('hex').slice(0, 8);
+  return `images/${file}?v=${hash}`;
 }
 
 // Helper function to format a single dimension measurement
@@ -31,14 +40,21 @@ function formatDimension(value, unit, isDepth = false) {
     .join('<br>');
 }
 
-// Generate color swatches with inline styles
-function generateColors(colors) {
+// Generate color selector: radio swatches plus the selected color's name
+function generateColors(colors, id) {
   if (!colors || colors.length === 0) {
     return '<div class="color"></div>';
   }
-  return colors
-    .map(color => `<div class="color" style="background-color: ${color.hex}" title="${color.name}"></div>`)
-    .join('\n        ');
+  const swatches = colors
+    .map((color, index) => `<label class="color-option" title="${color.name}">
+            <input type="radio" class="color-input" name="colors-${id}" value="${color.name}"${color.image ? ` data-image="${deviceImageUrl(color.image)}"` : ''}${index === 0 ? ' checked' : ''}>
+            <span class="color" style="background-color: ${color.hex}"></span>
+          </label>`)
+    .join('\n          ');
+  return `<div class="color-swatches" role="radiogroup" aria-label="Colors">
+          ${swatches}
+        </div>
+        <div class="color-name" aria-live="polite">${colors[0].name}</div>`;
 }
 
 // Generate display section
@@ -353,9 +369,9 @@ function generateiPhone(iphone) {
         <div class="launch-date">${iphone.launchYear}</div>
         <div class="model">${iphone.model}</div>
       </div>
-      <div class="model-device"><img src="images/${iphone.device}" loading="lazy" alt="${iphone.model}" class="model-device-pic"></div>
+      <div class="model-device"><img src="${deviceImageUrl(iphone.device)}" loading="lazy" alt="${iphone.model}" class="model-device-pic"></div>
       <div class="model-colors">
-        ${generateColors(iphone.colors)}
+        ${generateColors(iphone.colors, iphone.id)}
       </div>
       ${generateDisplay(iphone.display, iphone.dynamicIsland)}
       ${generateDesign(iphone.design)}
@@ -400,6 +416,7 @@ function generateHTML() {
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/every-iphone-ever-released.webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/color-selector.css" rel="stylesheet" type="text/css">
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
@@ -420,6 +437,15 @@ ${iphoneEntries}
   </section>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=690262dc38f8fd331f507117" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    document.addEventListener('change', function (event) {
+      if (!event.target.classList.contains('color-input')) return;
+      var colors = event.target.closest('.model-colors');
+      colors.querySelector('.color-name').textContent = event.target.value;
+      var image = event.target.dataset.image;
+      if (image) colors.previousElementSibling.querySelector('.model-device-pic').src = image;
+    });
+  </script>
 </body>
 </html>`;
 }

@@ -4,15 +4,17 @@
       "id": "iphone-duo",
       "model": "iPhone Duo",
       "launchYear": 2026,
-      "device": "iphone_duo.jpg",
+      "device": "iphone_duo_star_white.jpg",
       "colors": [
         {
           "name": "Star White",
-          "hex": "#fafafa"
+          "hex": "#fafafa",
+          "image": "iphone_duo_star_white.jpg"
         },
         {
           "name": "Night Sky",
-          "hex": "#3c4042"
+          "hex": "#3c4042",
+          "image": "iphone_duo_night_sky.jpg"
         }
       ],
       "display": {
@@ -166,23 +168,27 @@
       "id": "iphone-18-pro-max",
       "model": "iPhone 18 Pro Max",
       "launchYear": 2026,
-      "device": "iphone18_pro_max.jpg",
+      "device": "iphone_18_pro_max_burgundy.jpg",
       "colors": [
         {
           "name": "Burgundy",
-          "hex": "#4d1821"
+          "hex": "#4d1821",
+          "image": "iphone_18_pro_max_burgundy.jpg"
         },
         {
           "name": "Glacier",
-          "hex": "#e8f2ff"
+          "hex": "#e8f2ff",
+          "image": "iphone_18_pro_max_glacier.jpg"
         },
         {
           "name": "Silver",
-          "hex": "#f7f7f7"
+          "hex": "#f7f7f7",
+          "image": "iphone_18_pro_max_silver.jpg"
         },
         {
           "name": "Black",
-          "hex": "#3c3c3c"
+          "hex": "#3c3c3c",
+          "image": "iphone_18_pro_max_black.jpg"
         }
       ],
       "display": {
@@ -320,23 +326,27 @@
       "id": "iphone-18-pro",
       "model": "iPhone 18 Pro",
       "launchYear": 2026,
-      "device": "iphone18_pro.jpg",
+      "device": "iphone_18_pro_burgundy.jpg",
       "colors": [
         {
           "name": "Burgundy",
-          "hex": "#4d1821"
+          "hex": "#4d1821",
+          "image": "iphone_18_pro_burgundy.jpg"
         },
         {
           "name": "Glacier",
-          "hex": "#e8f2ff"
+          "hex": "#e8f2ff",
+          "image": "iphone_18_pro_glacier.jpg"
         },
         {
           "name": "Silver",
-          "hex": "#f7f7f7"
+          "hex": "#f7f7f7",
+          "image": "iphone_18_pro_silver.jpg"
         },
         {
           "name": "Black",
-          "hex": "#3c3c3c"
+          "hex": "#3c3c3c",
+          "image": "iphone_18_pro_black.jpg"
         }
       ],
       "display": {
@@ -474,19 +484,22 @@
       "id": "iphone-17e",
       "model": "iPhone 17e",
       "launchYear": 2026,
-      "device": "iphone17e.jpg",
+      "device": "iphone_17e_soft_pink.jpg",
       "colors": [
         {
           "name": "Soft Pink",
-          "hex": "#fce7e6"
+          "hex": "#fce7e6",
+          "image": "iphone_17e_soft_pink.jpg"
         },
         {
           "name": "White",
-          "hex": "#fafafa"
+          "hex": "#fafafa",
+          "image": "iphone_17e_white.jpg"
         },
         {
           "name": "Black",
-          "hex": "#3c4042"
+          "hex": "#3c4042",
+          "image": "iphone_17e_black.jpg"
         }
       ],
       "display": {
@@ -613,19 +626,22 @@
       "id": "iphone-17-pro-max",
       "model": "iPhone 17 Pro Max",
       "launchYear": 2025,
-      "device": "iphone17_pro_max.jpg",
+      "device": "iphone_17_pro_max_cosmic_orange.jpg",
       "colors": [
         {
           "name": "Cosmic Orange",
-          "hex": "#f77e2d"
+          "hex": "#f77e2d",
+          "image": "iphone_17_pro_max_cosmic_orange.jpg"
         },
         {
           "name": "Deep Blue",
-          "hex": "#32374a"
+          "hex": "#32374a",
+          "image": "iphone_17_pro_max_deep_blue.jpg"
         },
         {
           "name": "Silver",
-          "hex": "#f5f5f5"
+          "hex": "#f5f5f5",
+          "image": "iphone_17_pro_max_silver.jpg"
         }
       ],
       "display": {
@@ -763,19 +779,22 @@
       "id": "iphone-17-pro",
       "model": "iPhone 17 Pro",
       "launchYear": 2025,
-      "device": "iphone17_pro.jpg",
+      "device": "iphone_17_pro_cosmic_orange.jpg",
       "colors": [
         {
           "name": "Cosmic Orange",
-          "hex": "#f77e2d"
+          "hex": "#f77e2d",
+          "image": "iphone_17_pro_cosmic_orange.jpg"
         },
         {
           "name": "Deep Blue",
-          "hex": "#32374a"
+          "hex": "#32374a",
+          "image": "iphone_17_pro_deep_blue.jpg"
         },
         {
           "name": "Silver",
-          "hex": "#f5f5f5"
+          "hex": "#f5f5f5",
+          "image": "iphone_17_pro_silver.jpg"
         }
       ],
       "display": {
@@ -912,23 +931,27 @@
       "id": "iphone-air",
       "model": "iPhone Air",
       "launchYear": 2025,
-      "device": "iPhone_Air.jpg",
+      "device": "iphone_air_sky_blue.jpg",
       "colors": [
         {
           "name": "Sky Blue",
-          "hex": "#f0f9ff"
+          "hex": "#f0f9ff",
+          "image": "iphone_air_sky_blue.jpg"
         },
         {
           "name": "Light Gold",
-          "hex": "#fffcf5"
+          "hex": "#fffcf5",
+          "image": "iphone_air_light_gold.jpg"
         },
         {
           "name": "Cloud White",
-          "hex": "#fcfcfc"
+          "hex": "#fcfcfc",
+          "image": "iphone_air_cloud_white.jpg"
         },
         {
           "name": "Space Black",
-          "hex": "#000"
+          "hex": "#000",
+          "image": "iphone_air_space_black.jpg"
         }
       ],
       "display": {
@@ -1064,27 +1087,32 @@
       "id": "iphone-17",
       "model": "iPhone 17",
       "launchYear": 2025,
-      "device": "iphone17.jpg",
+      "device": "iphone_17_lavender.jpg",
       "colors": [
         {
           "name": "Lavender",
-          "hex": "#dfceea"
+          "hex": "#dfceea",
+          "image": "iphone_17_lavender.jpg"
         },
         {
           "name": "Sage",
-          "hex": "#a9b689"
+          "hex": "#a9b689",
+          "image": "iphone_17_sage.jpg"
         },
         {
           "name": "Mist Blue",
-          "hex": "#96aed1"
+          "hex": "#96aed1",
+          "image": "iphone_17_mist_blue.jpg"
         },
         {
           "name": "White",
-          "hex": "#ffffff"
+          "hex": "#ffffff",
+          "image": "iphone_17_white.jpg"
         },
         {
           "name": "Black",
-          "hex": "#353839"
+          "hex": "#353839",
+          "image": "iphone_17_black.jpg"
         }
       ],
       "display": {
@@ -1220,15 +1248,17 @@
       "id": "iphone-16e",
       "model": "iPhone 16e",
       "launchYear": 2024,
-      "device": "iphone16e.jpg",
+      "device": "iphone_16e_white.jpg",
       "colors": [
         {
           "name": "White",
-          "hex": "#fafafa"
+          "hex": "#fafafa",
+          "image": "iphone_16e_white.jpg"
         },
         {
           "name": "Black",
-          "hex": "#3c4042"
+          "hex": "#3c4042",
+          "image": "iphone_16e_black.jpg"
         }
       ],
       "display": {
@@ -1349,23 +1379,27 @@
       "id": "iphone-16-pro-max",
       "model": "iPhone 16 Pro Max",
       "launchYear": 2024,
-      "device": "iphone16-pro-max.jpg",
+      "device": "iphone_16_pro_max_desert_titanium.jpg",
       "colors": [
         {
           "name": "Desert Titanium",
-          "hex": "#bfa48f"
+          "hex": "#bfa48f",
+          "image": "iphone_16_pro_max_desert_titanium.jpg"
         },
         {
           "name": "Natural Titanium",
-          "hex": "#c2bcb2"
+          "hex": "#c2bcb2",
+          "image": "iphone_16_pro_max_natural_titanium.jpg"
         },
         {
           "name": "White Titanium",
-          "hex": "#f2f1ed"
+          "hex": "#f2f1ed",
+          "image": "iphone_16_pro_max_white_titanium.jpg"
         },
         {
           "name": "Black Titanium",
-          "hex": "#3c3c3d"
+          "hex": "#3c3c3d",
+          "image": "iphone_16_pro_max_black_titanium.jpg"
         }
       ],
       "display": {
@@ -1490,23 +1524,27 @@
       "id": "iphone-16-pro",
       "model": "iPhone 16 Pro",
       "launchYear": 2024,
-      "device": "iphone16-pro.jpg",
+      "device": "iphone_16_pro_desert_titanium.jpg",
       "colors": [
         {
           "name": "Desert Titanium",
-          "hex": "#bfa48f"
+          "hex": "#bfa48f",
+          "image": "iphone_16_pro_desert_titanium.jpg"
         },
         {
           "name": "Natural Titanium",
-          "hex": "#c2bcb2"
+          "hex": "#c2bcb2",
+          "image": "iphone_16_pro_natural_titanium.jpg"
         },
         {
           "name": "White Titanium",
-          "hex": "#f2f1ed"
+          "hex": "#f2f1ed",
+          "image": "iphone_16_pro_white_titanium.jpg"
         },
         {
           "name": "Black Titanium",
-          "hex": "#3c3c3d"
+          "hex": "#3c3c3d",
+          "image": "iphone_16_pro_black_titanium.jpg"
         }
       ],
       "display": {
@@ -1632,27 +1670,32 @@
       "id": "iphone-16-plus",
       "model": "iPhone 16 Plus",
       "launchYear": 2024,
-      "device": "iphone16-plus.jpg",
+      "device": "iphone_16_plus_ultramarine.jpg",
       "colors": [
         {
           "name": "Ultramarine",
-          "hex": "#9aadf6"
+          "hex": "#9aadf6",
+          "image": "iphone_16_plus_ultramarine.jpg"
         },
         {
           "name": "Teal",
-          "hex": "#b0d4d2"
+          "hex": "#b0d4d2",
+          "image": "iphone_16_plus_teal.jpg"
         },
         {
           "name": "Pink",
-          "hex": "#f2adda"
+          "hex": "#f2adda",
+          "image": "iphone_16_plus_pink.jpg"
         },
         {
           "name": "White",
-          "hex": "#fafafa"
+          "hex": "#fafafa",
+          "image": "iphone_16_plus_white.jpg"
         },
         {
           "name": "Black",
-          "hex": "#3c4042"
+          "hex": "#3c4042",
+          "image": "iphone_16_plus_black.jpg"
         }
       ],
       "display": {
@@ -1774,27 +1817,32 @@
       "id": "iphone-16",
       "model": "iPhone 16",
       "launchYear": 2024,
-      "device": "iphone16.jpg",
+      "device": "iphone_16_ultramarine.jpg",
       "colors": [
         {
           "name": "Ultramarine",
-          "hex": "#9aadf6"
+          "hex": "#9aadf6",
+          "image": "iphone_16_ultramarine.jpg"
         },
         {
           "name": "Teal",
-          "hex": "#b0d4d2"
+          "hex": "#b0d4d2",
+          "image": "iphone_16_teal.jpg"
         },
         {
           "name": "Pink",
-          "hex": "#f2adda"
+          "hex": "#f2adda",
+          "image": "iphone_16_pink.jpg"
         },
         {
           "name": "White",
-          "hex": "#fafafa"
+          "hex": "#fafafa",
+          "image": "iphone_16_white.jpg"
         },
         {
           "name": "Black",
-          "hex": "#3c4042"
+          "hex": "#3c4042",
+          "image": "iphone_16_black.jpg"
         }
       ],
       "display": {
@@ -1916,23 +1964,27 @@
       "id": "iphone-15-pro-max",
       "model": "iPhone 15 Pro Max",
       "launchYear": 2023,
-      "device": "iphone15_pro_max.jpg",
+      "device": "iphone_15_pro_max_natural_titanium.jpg",
       "colors": [
         {
           "name": "Natural Titanium",
-          "hex": "#837f7d"
+          "hex": "#837f7d",
+          "image": "iphone_15_pro_max_natural_titanium.jpg"
         },
         {
           "name": "Blue Titanium",
-          "hex": "#2f4452"
+          "hex": "#2f4452",
+          "image": "iphone_15_pro_max_blue_titanium.jpg"
         },
         {
           "name": "White Titanium",
-          "hex": "#ddd"
+          "hex": "#ddd",
+          "image": "iphone_15_pro_max_white_titanium.jpg"
         },
         {
           "name": "Black Titanium",
-          "hex": "#1b1b1b"
+          "hex": "#1b1b1b",
+          "image": "iphone_15_pro_max_black_titanium.jpg"
         }
       ],
       "display": {
@@ -2056,23 +2108,27 @@
       "id": "iphone-15-pro",
       "model": "iPhone 15 Pro",
       "launchYear": 2023,
-      "device": "iphone15_pro.jpg",
+      "device": "iphone_15_pro_natural_titanium.jpg",
       "colors": [
         {
           "name": "Natural Titanium",
-          "hex": "#837f7d"
+          "hex": "#837f7d",
+          "image": "iphone_15_pro_natural_titanium.jpg"
         },
         {
           "name": "Blue Titanium",
-          "hex": "#2f4452"
+          "hex": "#2f4452",
+          "image": "iphone_15_pro_blue_titanium.jpg"
         },
         {
           "name": "White Titanium",
-          "hex": "#ddd"
+          "hex": "#ddd",
+          "image": "iphone_15_pro_white_titanium.jpg"
         },
         {
           "name": "Black Titanium",
-          "hex": "#1b1b1b"
+          "hex": "#1b1b1b",
+          "image": "iphone_15_pro_black_titanium.jpg"
         }
       ],
       "display": {
@@ -2197,27 +2253,32 @@
       "id": "iphone-15-plus",
       "model": "iPhone 15 Plus",
       "launchYear": 2023,
-      "device": "iphone15_plus.jpg",
+      "device": "iphone_15_plus_pink.jpg",
       "colors": [
         {
           "name": "Pink",
-          "hex": "#e3c8ca"
+          "hex": "#e3c8ca",
+          "image": "iphone_15_plus_pink.jpg"
         },
         {
           "name": "Yellow",
-          "hex": "#e6e0c1"
+          "hex": "#e6e0c1",
+          "image": "iphone_15_plus_yellow.jpg"
         },
         {
           "name": "Green",
-          "hex": "#cad4c5"
+          "hex": "#cad4c5",
+          "image": "iphone_15_plus_green.jpg"
         },
         {
           "name": "Blue",
-          "hex": "#ced5d9"
+          "hex": "#ced5d9",
+          "image": "iphone_15_plus_blue.jpg"
         },
         {
           "name": "Black",
-          "hex": "#35393b"
+          "hex": "#35393b",
+          "image": "iphone_15_plus_black.jpg"
         }
       ],
       "display": {
@@ -2338,27 +2399,32 @@
       "id": "iphone-15",
       "model": "iPhone 15",
       "launchYear": 2023,
-      "device": "iphone15.jpg",
+      "device": "iphone_15_pink.jpg",
       "colors": [
         {
           "name": "Pink",
-          "hex": "#e3c8ca"
+          "hex": "#e3c8ca",
+          "image": "iphone_15_pink.jpg"
         },
         {
           "name": "Yellow",
-          "hex": "#e6e0c1"
+          "hex": "#e6e0c1",
+          "image": "iphone_15_yellow.jpg"
         },
         {
           "name": "Green",
-          "hex": "#cad4c5"
+          "hex": "#cad4c5",
+          "image": "iphone_15_green.jpg"
         },
         {
           "name": "Blue",
-          "hex": "#ced5d9"
+          "hex": "#ced5d9",
+          "image": "iphone_15_blue.jpg"
         },
         {
           "name": "Black",
-          "hex": "#35393b"
+          "hex": "#35393b",
+          "image": "iphone_15_black.jpg"
         }
       ],
       "display": {
@@ -2479,23 +2545,27 @@
       "id": "iphone-14-pro-max",
       "model": "iPhone 14 Pro Max",
       "launchYear": 2022,
-      "device": "iphone14_pro_max.jpg",
+      "device": "iphone_14_pro_max_deep_purple.jpg",
       "colors": [
         {
           "name": "Deep Purple",
-          "hex": "#594f63"
+          "hex": "#594f63",
+          "image": "iphone_14_pro_max_deep_purple.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#f4e8ce"
+          "hex": "#f4e8ce",
+          "image": "iphone_14_pro_max_gold.jpg"
         },
         {
           "name": "Silver",
-          "hex": "#f0f2f2"
+          "hex": "#f0f2f2",
+          "image": "iphone_14_pro_max_silver.jpg"
         },
         {
-          "name": "Black Titanium",
-          "hex": "#1b1b1b"
+          "name": "Space Black",
+          "hex": "#1b1b1b",
+          "image": "iphone_14_pro_max_space_black.jpg"
         }
       ],
       "display": {
@@ -2619,23 +2689,27 @@
       "id": "iphone-14-pro",
       "model": "iPhone 14 Pro",
       "launchYear": 2022,
-      "device": "iphone14_pro.jpg",
+      "device": "iphone_14_pro_deep_purple.jpg",
       "colors": [
         {
           "name": "Deep Purple",
-          "hex": "#594f63"
+          "hex": "#594f63",
+          "image": "iphone_14_pro_deep_purple.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#f4e8ce"
+          "hex": "#f4e8ce",
+          "image": "iphone_14_pro_gold.jpg"
         },
         {
           "name": "Silver",
-          "hex": "#f0f2f2"
+          "hex": "#f0f2f2",
+          "image": "iphone_14_pro_silver.jpg"
         },
         {
-          "name": "Black Titanium",
-          "hex": "#1b1b1b"
+          "name": "Space Black",
+          "hex": "#1b1b1b",
+          "image": "iphone_14_pro_space_black.jpg"
         }
       ],
       "display": {
@@ -2760,31 +2834,37 @@
       "id": "iphone-14-plus",
       "model": "iPhone 14 Plus",
       "launchYear": 2022,
-      "device": "iphone14_plus.jpg",
+      "device": "iphone_14_plus_blue.jpg",
       "colors": [
         {
           "name": "Blue",
-          "hex": "#a0b4c7"
+          "hex": "#a0b4c7",
+          "image": "iphone_14_plus_blue.jpg"
         },
         {
           "name": "Yellow",
-          "hex": "#e6e0c1"
+          "hex": "#e6e0c1",
+          "image": "iphone_14_plus_yellow.jpg"
         },
         {
-          "name": "Green",
-          "hex": "#cad4c5"
+          "name": "Purple",
+          "hex": "#e6ddeb",
+          "image": "iphone_14_plus_purple.jpg"
         },
         {
           "name": "Midnight",
-          "hex": "#222930"
+          "hex": "#222930",
+          "image": "iphone_14_plus_midnight.jpg"
         },
         {
           "name": "Starlight",
-          "hex": "#faf6f2"
+          "hex": "#faf6f2",
+          "image": "iphone_14_plus_starlight.jpg"
         },
         {
           "name": "Red",
-          "hex": "#fc0324"
+          "hex": "#fc0324",
+          "image": "iphone_14_plus_red.jpg"
         }
       ],
       "display": {
@@ -2905,31 +2985,37 @@
       "id": "iphone-14",
       "model": "iPhone 14",
       "launchYear": 2022,
-      "device": "iphone14.jpg",
+      "device": "iphone_14_blue.jpg",
       "colors": [
         {
           "name": "Blue",
-          "hex": "#a0b4c7"
+          "hex": "#a0b4c7",
+          "image": "iphone_14_blue.jpg"
         },
         {
           "name": "Yellow",
-          "hex": "#e6e0c1"
+          "hex": "#e6e0c1",
+          "image": "iphone_14_yellow.jpg"
         },
         {
-          "name": "Green",
-          "hex": "#cad4c5"
+          "name": "Purple",
+          "hex": "#e6ddeb",
+          "image": "iphone_14_purple.jpg"
         },
         {
           "name": "Midnight",
-          "hex": "#222930"
+          "hex": "#222930",
+          "image": "iphone_14_midnight.jpg"
         },
         {
           "name": "Starlight",
-          "hex": "#faf6f2"
+          "hex": "#faf6f2",
+          "image": "iphone_14_starlight.jpg"
         },
         {
           "name": "Red",
-          "hex": "#fc0324"
+          "hex": "#fc0324",
+          "image": "iphone_14_red.jpg"
         }
       ],
       "display": {
@@ -3050,19 +3136,22 @@
       "id": "iphone-se-(3rd-generation)",
       "model": "iPhone SE (3rd generation)",
       "launchYear": 2022,
-      "device": "iphoneSE_3rd_gen.jpg",
+      "device": "iphone_se_3rd_gen_midnight.jpg",
       "colors": [
         {
           "name": "Midnight",
-          "hex": "#232a31"
+          "hex": "#232a31",
+          "image": "iphone_se_3rd_gen_midnight.jpg"
         },
         {
           "name": "Starlight",
-          "hex": "#faf6f2"
+          "hex": "#faf6f2",
+          "image": "iphone_se_3rd_gen_starlight.jpg"
         },
         {
           "name": "Red",
-          "hex": "#bf0013"
+          "hex": "#bf0013",
+          "image": "iphone_se_3rd_gen_red.jpg"
         }
       ],
       "display": {
@@ -3175,27 +3264,32 @@
       "id": "iphone-13-pro-max",
       "model": "iPhone 13 Pro Max",
       "launchYear": 2021,
-      "device": "iphone13_pro_max.jpg",
+      "device": "iphone_13_pro_max_alpine_green.jpg",
       "colors": [
         {
           "name": "Alpine Green",
-          "hex": "#576856"
+          "hex": "#576856",
+          "image": "iphone_13_pro_max_alpine_green.jpg"
         },
         {
           "name": "Silver",
-          "hex": "#f1f2ed"
+          "hex": "#f1f2ed",
+          "image": "iphone_13_pro_max_silver.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#fae7cf"
+          "hex": "#fae7cf",
+          "image": "iphone_13_pro_max_gold.jpg"
         },
         {
           "name": "Graphite",
-          "hex": "#54524f"
+          "hex": "#54524f",
+          "image": "iphone_13_pro_max_graphite.jpg"
         },
         {
           "name": "Sierra Blue",
-          "hex": "#a7c1d9"
+          "hex": "#a7c1d9",
+          "image": "iphone_13_pro_max_sierra_blue.jpg"
         }
       ],
       "display": {
@@ -3314,27 +3408,32 @@
       "id": "iphone-13-pro",
       "model": "iPhone 13 Pro",
       "launchYear": 2021,
-      "device": "iphone13_pro.jpg",
+      "device": "iphone_13_pro_alpine_green.jpg",
       "colors": [
         {
           "name": "Alpine Green",
-          "hex": "#576856"
+          "hex": "#576856",
+          "image": "iphone_13_pro_alpine_green.jpg"
         },
         {
           "name": "Silver",
-          "hex": "#f1f2ed"
+          "hex": "#f1f2ed",
+          "image": "iphone_13_pro_silver.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#fae7cf"
+          "hex": "#fae7cf",
+          "image": "iphone_13_pro_gold.jpg"
         },
         {
           "name": "Graphite",
-          "hex": "#54524f"
+          "hex": "#54524f",
+          "image": "iphone_13_pro_graphite.jpg"
         },
         {
           "name": "Sierra Blue",
-          "hex": "#a7c1d9"
+          "hex": "#a7c1d9",
+          "image": "iphone_13_pro_sierra_blue.jpg"
         }
       ],
       "display": {
@@ -3453,31 +3552,37 @@
       "id": "iphone-13",
       "model": "iPhone 13",
       "launchYear": 2021,
-      "device": "iphone13.jpg",
+      "device": "iphone_13_green.jpg",
       "colors": [
         {
           "name": "Green",
-          "hex": "#394c38"
+          "hex": "#394c38",
+          "image": "iphone_13_green.jpg"
         },
         {
           "name": "Pink",
-          "hex": "#faddd7"
+          "hex": "#faddd7",
+          "image": "iphone_13_pink.jpg"
         },
         {
           "name": "Blue",
-          "hex": "#276787"
+          "hex": "#276787",
+          "image": "iphone_13_blue.jpg"
         },
         {
           "name": "Midnight",
-          "hex": "#232a31"
+          "hex": "#232a31",
+          "image": "iphone_13_midnight.jpg"
         },
         {
           "name": "Starlight",
-          "hex": "#faf6f2"
+          "hex": "#faf6f2",
+          "image": "iphone_13_starlight.jpg"
         },
         {
           "name": "Red",
-          "hex": "#bf0013"
+          "hex": "#bf0013",
+          "image": "iphone_13_red.jpg"
         }
       ],
       "display": {
@@ -3593,31 +3698,37 @@
       "id": "iphone-13-mini",
       "model": "iPhone 13 mini",
       "launchYear": 2021,
-      "device": "iphone13_mini.jpg",
+      "device": "iphone_13_mini_green.jpg",
       "colors": [
         {
           "name": "Green",
-          "hex": "#394c38"
+          "hex": "#394c38",
+          "image": "iphone_13_mini_green.jpg"
         },
         {
           "name": "Pink",
-          "hex": "#faddd7"
+          "hex": "#faddd7",
+          "image": "iphone_13_mini_pink.jpg"
         },
         {
           "name": "Blue",
-          "hex": "#276787"
+          "hex": "#276787",
+          "image": "iphone_13_mini_blue.jpg"
         },
         {
           "name": "Midnight",
-          "hex": "#232a31"
+          "hex": "#232a31",
+          "image": "iphone_13_mini_midnight.jpg"
         },
         {
           "name": "Starlight",
-          "hex": "#faf6f2"
+          "hex": "#faf6f2",
+          "image": "iphone_13_mini_starlight.jpg"
         },
         {
           "name": "Red",
-          "hex": "#bf0013"
+          "hex": "#bf0013",
+          "image": "iphone_13_mini_red.jpg"
         }
       ],
       "display": {
@@ -3733,23 +3844,27 @@
       "id": "iphone-12-pro-max",
       "model": "iPhone 12 Pro Max",
       "launchYear": 2020,
-      "device": "iphone12_pro_max.jpg",
+      "device": "iphone_12_pro_max_pacific_blue.jpg",
       "colors": [
         {
           "name": "Pacific Blue",
-          "hex": "#2d4e5c"
+          "hex": "#2d4e5c",
+          "image": "iphone_12_pro_max_pacific_blue.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#fcebd3"
+          "hex": "#fcebd3",
+          "image": "iphone_12_pro_max_gold.jpg"
         },
         {
           "name": "Graphite",
-          "hex": "#52514d"
+          "hex": "#52514d",
+          "image": "iphone_12_pro_max_graphite.jpg"
         },
         {
           "name": "Silver",
-          "hex": "#e3e4df"
+          "hex": "#e3e4df",
+          "image": "iphone_12_pro_max_silver.jpg"
         }
       ],
       "display": {
@@ -3863,23 +3978,27 @@
       "id": "iphone-12-pro",
       "model": "iPhone 12 Pro",
       "launchYear": 2020,
-      "device": "iphone12_pro.jpg",
+      "device": "iphone_12_pro_pacific_blue.jpg",
       "colors": [
         {
           "name": "Pacific Blue",
-          "hex": "#2d4e5c"
+          "hex": "#2d4e5c",
+          "image": "iphone_12_pro_pacific_blue.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#fcebd3"
+          "hex": "#fcebd3",
+          "image": "iphone_12_pro_gold.jpg"
         },
         {
           "name": "Graphite",
-          "hex": "#52514d"
+          "hex": "#52514d",
+          "image": "iphone_12_pro_graphite.jpg"
         },
         {
           "name": "Silver",
-          "hex": "#e3e4df"
+          "hex": "#e3e4df",
+          "image": "iphone_12_pro_silver.jpg"
         }
       ],
       "display": {
@@ -3993,31 +4112,37 @@
       "id": "iphone-12",
       "model": "iPhone 12",
       "launchYear": 2020,
-      "device": "iphone12.jpg",
+      "device": "iphone_12_purple.jpg",
       "colors": [
         {
           "name": "Purple",
-          "hex": "#b7afe6"
+          "hex": "#b7afe6",
+          "image": "iphone_12_purple.jpg"
         },
         {
           "name": "Blue",
-          "hex": "#023b63"
+          "hex": "#023b63",
+          "image": "iphone_12_blue.jpg"
         },
         {
           "name": "Green",
-          "hex": "#d8efd5"
+          "hex": "#d8efd5",
+          "image": "iphone_12_green.jpg"
         },
         {
           "name": "Red",
-          "hex": "#d82e2e"
+          "hex": "#d82e2e",
+          "image": "iphone_12_red.jpg"
         },
         {
           "name": "White",
-          "hex": "#f6f2ef"
+          "hex": "#f6f2ef",
+          "image": "iphone_12_white.jpg"
         },
         {
           "name": "Black",
-          "hex": "#25212b"
+          "hex": "#25212b",
+          "image": "iphone_12_black.jpg"
         }
       ],
       "display": {
@@ -4131,31 +4256,37 @@
       "id": "iphone-12-mini",
       "model": "iPhone 12 mini",
       "launchYear": 2020,
-      "device": "iphone12_mini.jpg",
+      "device": "iphone_12_mini_purple.jpg",
       "colors": [
         {
           "name": "Purple",
-          "hex": "#b7afe6"
+          "hex": "#b7afe6",
+          "image": "iphone_12_mini_purple.jpg"
         },
         {
           "name": "Blue",
-          "hex": "#023b63"
+          "hex": "#023b63",
+          "image": "iphone_12_mini_blue.jpg"
         },
         {
           "name": "Green",
-          "hex": "#d8efd5"
+          "hex": "#d8efd5",
+          "image": "iphone_12_mini_green.jpg"
         },
         {
           "name": "Red",
-          "hex": "#d82e2e"
+          "hex": "#d82e2e",
+          "image": "iphone_12_mini_red.jpg"
         },
         {
           "name": "White",
-          "hex": "#f6f2ef"
+          "hex": "#f6f2ef",
+          "image": "iphone_12_mini_white.jpg"
         },
         {
           "name": "Black",
-          "hex": "#25212b"
+          "hex": "#25212b",
+          "image": "iphone_12_mini_black.jpg"
         }
       ],
       "display": {
@@ -4269,19 +4400,22 @@
       "id": "iphone-se-(2nd-generation)",
       "model": "iPhone SE (2nd generation)",
       "launchYear": 2020,
-      "device": "iphoneSE_2nd_gen.jpg",
+      "device": "iphone_se_2nd_gen_black.jpg",
       "colors": [
         {
           "name": "Black",
-          "hex": "#262529"
+          "hex": "#262529",
+          "image": "iphone_se_2nd_gen_black.jpg"
         },
         {
           "name": "White",
-          "hex": "#f3f3f3"
+          "hex": "#f3f3f3",
+          "image": "iphone_se_2nd_gen_white.jpg"
         },
         {
           "name": "Red",
-          "hex": "#b41325"
+          "hex": "#b41325",
+          "image": "iphone_se_2nd_gen_red.jpg"
         }
       ],
       "display": {
@@ -4390,23 +4524,27 @@
       "id": "iphone-11-pro-max",
       "model": "iPhone 11 Pro Max",
       "launchYear": 2019,
-      "device": "iphone11_pro_max.jpg",
+      "device": "iphone_11_pro_max_midnight_green.jpg",
       "colors": [
         {
           "name": "Midnight Green",
-          "hex": "#4e5851"
+          "hex": "#4e5851",
+          "image": "iphone_11_pro_max_midnight_green.jpg"
         },
         {
           "name": "Silver",
-          "hex": "#ebebe3"
+          "hex": "#ebebe3",
+          "image": "iphone_11_pro_max_silver.jpg"
         },
         {
           "name": "Space Gray",
-          "hex": "#535150"
+          "hex": "#535150",
+          "image": "iphone_11_pro_max_space_gray.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#fad7bd"
+          "hex": "#fad7bd",
+          "image": "iphone_11_pro_max_gold.jpg"
         }
       ],
       "display": {
@@ -4516,23 +4654,27 @@
       "id": "iphone-11-pro",
       "model": "iPhone 11 Pro",
       "launchYear": 2019,
-      "device": "iphone11_pro.jpg",
+      "device": "iphone_11_pro_midnight_green.jpg",
       "colors": [
         {
           "name": "Midnight Green",
-          "hex": "#4e5851"
+          "hex": "#4e5851",
+          "image": "iphone_11_pro_midnight_green.jpg"
         },
         {
           "name": "Silver",
-          "hex": "#ebebe3"
+          "hex": "#ebebe3",
+          "image": "iphone_11_pro_silver.jpg"
         },
         {
           "name": "Space Gray",
-          "hex": "#535150"
+          "hex": "#535150",
+          "image": "iphone_11_pro_space_gray.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#fad7bd"
+          "hex": "#fad7bd",
+          "image": "iphone_11_pro_gold.jpg"
         }
       ],
       "display": {
@@ -4642,31 +4784,37 @@
       "id": "iphone-11",
       "model": "iPhone 11",
       "launchYear": 2019,
-      "device": "iphone11.jpg",
+      "device": "iphone_11_purple.jpg",
       "colors": [
         {
           "name": "Purple",
-          "hex": "#d1cdda"
+          "hex": "#d1cdda",
+          "image": "iphone_11_purple.jpg"
         },
         {
           "name": "Yellow",
-          "hex": "#ffe681"
+          "hex": "#ffe681",
+          "image": "iphone_11_yellow.jpg"
         },
         {
           "name": "Green",
-          "hex": "#aee1cd"
+          "hex": "#aee1cd",
+          "image": "iphone_11_green.jpg"
         },
         {
           "name": "Black",
-          "hex": "#1f2020"
+          "hex": "#1f2020",
+          "image": "iphone_11_black.jpg"
         },
         {
           "name": "White",
-          "hex": "#f9f6ef"
+          "hex": "#f9f6ef",
+          "image": "iphone_11_white.jpg"
         },
         {
           "name": "Red",
-          "hex": "#ba0c2e"
+          "hex": "#ba0c2e",
+          "image": "iphone_11_red.jpg"
         }
       ],
       "display": {
@@ -4776,19 +4924,22 @@
       "id": "iphone-xs-max",
       "model": "iPhone XS Max",
       "launchYear": 2018,
-      "device": "iphoneXS_max.jpg",
+      "device": "iphone_xs_max_silver.jpg",
       "colors": [
         {
           "name": "Silver",
-          "hex": "#e4e4e2"
+          "hex": "#e4e4e2",
+          "image": "iphone_xs_max_silver.jpg"
         },
         {
           "name": "Space Gray",
-          "hex": "#262529"
+          "hex": "#262529",
+          "image": "iphone_xs_max_space_gray.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#fadcc2"
+          "hex": "#fadcc2",
+          "image": "iphone_xs_max_gold.jpg"
         }
       ],
       "display": {
@@ -4897,19 +5048,22 @@
       "id": "iphone-xs",
       "model": "iPhone XS",
       "launchYear": 2018,
-      "device": "iphoneXS.jpg",
+      "device": "iphone_xs_silver.jpg",
       "colors": [
         {
           "name": "Silver",
-          "hex": "#e4e4e2"
+          "hex": "#e4e4e2",
+          "image": "iphone_xs_silver.jpg"
         },
         {
           "name": "Space Gray",
-          "hex": "#262529"
+          "hex": "#262529",
+          "image": "iphone_xs_space_gray.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#fadcc2"
+          "hex": "#fadcc2",
+          "image": "iphone_xs_gold.jpg"
         }
       ],
       "display": {
@@ -5018,31 +5172,37 @@
       "id": "iphone-xr",
       "model": "iPhone XR",
       "launchYear": 2018,
-      "device": "iphoneXR.jpg",
+      "device": "iphone_xr_blue.jpg",
       "colors": [
         {
           "name": "Blue",
-          "hex": "#48aee6"
+          "hex": "#48aee6",
+          "image": "iphone_xr_blue.jpg"
         },
         {
           "name": "White",
-          "hex": "#f3f3f3"
+          "hex": "#f3f3f3",
+          "image": "iphone_xr_white.jpg"
         },
         {
           "name": "Black",
-          "hex": "#2e3034"
+          "hex": "#2e3034",
+          "image": "iphone_xr_black.jpg"
         },
         {
           "name": "Yellow",
-          "hex": "#f9d045"
+          "hex": "#f9d045",
+          "image": "iphone_xr_yellow.jpg"
         },
         {
           "name": "Coral",
-          "hex": "#ff6e5a"
+          "hex": "#ff6e5a",
+          "image": "iphone_xr_coral.jpg"
         },
         {
           "name": "Red",
-          "hex": "#b41325"
+          "hex": "#b41325",
+          "image": "iphone_xr_red.jpg"
         }
       ],
       "display": {
@@ -5151,15 +5311,17 @@
       "id": "iphone-x",
       "model": "iPhone X",
       "launchYear": 2017,
-      "device": "iphoneX.jpg",
+      "device": "iphone_x_silver.jpg",
       "colors": [
         {
           "name": "Silver",
-          "hex": "#e4e4e2"
+          "hex": "#e4e4e2",
+          "image": "iphone_x_silver.jpg"
         },
         {
           "name": "Space Gray",
-          "hex": "#262529"
+          "hex": "#262529",
+          "image": "iphone_x_space_gray.jpg"
         }
       ],
       "display": {
@@ -5267,19 +5429,27 @@
       "id": "iphone-8-plus",
       "model": "iPhone 8 Plus",
       "launchYear": 2017,
-      "device": "iphone8plus.jpg",
+      "device": "iphone_8_plus_silver.jpg",
       "colors": [
         {
           "name": "Silver",
-          "hex": "#e2e3e4"
+          "hex": "#e2e3e4",
+          "image": "iphone_8_plus_silver.jpg"
         },
         {
           "name": "Space Gray",
-          "hex": "#272729"
+          "hex": "#272729",
+          "image": "iphone_8_plus_space_gray.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#f7e8dd"
+          "hex": "#f7e8dd",
+          "image": "iphone_8_plus_gold.jpg"
+        },
+        {
+          "name": "(PRODUCT)RED",
+          "hex": "#960111",
+          "image": "iphone_8_plus_productred.jpg"
         }
       ],
       "display": {
@@ -5388,19 +5558,27 @@
       "id": "iphone-8",
       "model": "iPhone 8",
       "launchYear": 2017,
-      "device": "iphone8.jpg",
+      "device": "iphone_8_silver.jpg",
       "colors": [
         {
           "name": "Silver",
-          "hex": "#e2e3e4"
+          "hex": "#e2e3e4",
+          "image": "iphone_8_silver.jpg"
         },
         {
           "name": "Space Gray",
-          "hex": "#272729"
+          "hex": "#272729",
+          "image": "iphone_8_space_gray.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#f7e8dd"
+          "hex": "#f7e8dd",
+          "image": "iphone_8_gold.jpg"
+        },
+        {
+          "name": "(PRODUCT)RED",
+          "hex": "#960111",
+          "image": "iphone_8_productred.jpg"
         }
       ],
       "display": {
@@ -5507,23 +5685,32 @@
       "id": "iphone-7-plus",
       "model": "iPhone 7 Plus",
       "launchYear": 2016,
-      "device": "iphone7plus.jpg",
+      "device": "iphone_7_plus_silver.jpg",
       "colors": [
         {
           "name": "Silver",
-          "hex": "#e2e3e4"
+          "hex": "#e2e3e4",
+          "image": "iphone_7_plus_silver.jpg"
         },
         {
           "name": "Black",
-          "hex": "#2e3034"
+          "hex": "#2e3034",
+          "image": "iphone_7_plus_black.jpg"
+        },
+        {
+          "name": "Jet Black",
+          "hex": "#0d0d0d",
+          "image": "iphone_7_plus_jet_black.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#e3ccb4"
+          "hex": "#e3ccb4",
+          "image": "iphone_7_plus_gold.jpg"
         },
         {
           "name": "Rose Gold",
-          "hex": "#ecc6c1"
+          "hex": "#ecc6c1",
+          "image": "iphone_7_plus_rose_gold.jpg"
         }
       ],
       "display": {
@@ -5627,23 +5814,32 @@
       "id": "iphone-7",
       "model": "iPhone 7",
       "launchYear": 2016,
-      "device": "iphone7.jpg",
+      "device": "iphone_7_silver.jpg",
       "colors": [
         {
           "name": "Silver",
-          "hex": "#e2e3e4"
+          "hex": "#e2e3e4",
+          "image": "iphone_7_silver.jpg"
         },
         {
           "name": "Black",
-          "hex": "#2e3034"
+          "hex": "#2e3034",
+          "image": "iphone_7_black.jpg"
+        },
+        {
+          "name": "Jet Black",
+          "hex": "#0d0d0d",
+          "image": "iphone_7_jet_black.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#e3ccb4"
+          "hex": "#e3ccb4",
+          "image": "iphone_7_gold.jpg"
         },
         {
           "name": "Rose Gold",
-          "hex": "#ecc6c1"
+          "hex": "#ecc6c1",
+          "image": "iphone_7_rose_gold.jpg"
         }
       ],
       "display": {
@@ -5745,23 +5941,27 @@
       "id": "iphone-se-(1st-generation)",
       "model": "iPhone SE (1st generation)",
       "launchYear": 2016,
-      "device": "iphoneSE.jpg",
+      "device": "iphone_se_silver.jpg",
       "colors": [
         {
           "name": "Silver",
-          "hex": "#e4e4e2"
+          "hex": "#e4e4e2",
+          "image": "iphone_se_silver.jpg"
         },
         {
           "name": "Space Gray",
-          "hex": "#262529"
+          "hex": "#262529",
+          "image": "iphone_se_space_gray.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#fadcc2"
+          "hex": "#fadcc2",
+          "image": "iphone_se_gold.jpg"
         },
         {
           "name": "Rose Gold",
-          "hex": "#ecc6c1"
+          "hex": "#ecc6c1",
+          "image": "iphone_se_rose_gold.jpg"
         }
       ],
       "display": {
@@ -5860,23 +6060,27 @@
       "id": "iphone-6s-plus",
       "model": "iPhone 6s Plus",
       "launchYear": 2015,
-      "device": "iphone6splus.jpg",
+      "device": "iphone_6s_plus_silver.jpg",
       "colors": [
         {
           "name": "Silver",
-          "hex": "#e2e3e4"
+          "hex": "#e2e3e4",
+          "image": "iphone_6s_plus_silver.jpg"
         },
         {
           "name": "Space Gray",
-          "hex": "#b1b2b7"
+          "hex": "#b1b2b7",
+          "image": "iphone_6s_plus_space_gray.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#e3ccb4"
+          "hex": "#e3ccb4",
+          "image": "iphone_6s_plus_gold.jpg"
         },
         {
           "name": "Rose Gold",
-          "hex": "#ecc6c1"
+          "hex": "#ecc6c1",
+          "image": "iphone_6s_plus_rose_gold.jpg"
         }
       ],
       "display": {
@@ -5975,23 +6179,27 @@
       "id": "iphone-6s",
       "model": "iPhone 6s",
       "launchYear": 2015,
-      "device": "iphone6s.jpg",
+      "device": "iphone_6s_silver.jpg",
       "colors": [
         {
           "name": "Silver",
-          "hex": "#e2e3e4"
+          "hex": "#e2e3e4",
+          "image": "iphone_6s_silver.jpg"
         },
         {
           "name": "Space Gray",
-          "hex": "#b1b2b7"
+          "hex": "#b1b2b7",
+          "image": "iphone_6s_space_gray.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#e3ccb4"
+          "hex": "#e3ccb4",
+          "image": "iphone_6s_gold.jpg"
         },
         {
           "name": "Rose Gold",
-          "hex": "#ecc6c1"
+          "hex": "#ecc6c1",
+          "image": "iphone_6s_rose_gold.jpg"
         }
       ],
       "display": {
@@ -6090,19 +6298,22 @@
       "id": "iphone-6-plus",
       "model": "iPhone 6 Plus",
       "launchYear": 2014,
-      "device": "iphone6plus.jpg",
+      "device": "iphone_6_plus_silver.jpg",
       "colors": [
         {
           "name": "Silver",
-          "hex": "#e2e3e4"
+          "hex": "#e2e3e4",
+          "image": "iphone_6_plus_silver.jpg"
         },
         {
           "name": "Space Gray",
-          "hex": "#b1b2b7"
+          "hex": "#b1b2b7",
+          "image": "iphone_6_plus_space_gray.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#e3ccb4"
+          "hex": "#e3ccb4",
+          "image": "iphone_6_plus_gold.jpg"
         }
       ],
       "display": {
@@ -6200,19 +6411,22 @@
       "id": "iphone-6",
       "model": "iPhone 6",
       "launchYear": 2014,
-      "device": "iphone6.jpg",
+      "device": "iphone_6_silver.jpg",
       "colors": [
         {
           "name": "Silver",
-          "hex": "#e2e3e4"
+          "hex": "#e2e3e4",
+          "image": "iphone_6_silver.jpg"
         },
         {
           "name": "Space Gray",
-          "hex": "#b1b2b7"
+          "hex": "#b1b2b7",
+          "image": "iphone_6_space_gray.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#e3ccb4"
+          "hex": "#e3ccb4",
+          "image": "iphone_6_gold.jpg"
         }
       ],
       "display": {
