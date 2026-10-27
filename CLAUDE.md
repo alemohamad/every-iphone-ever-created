@@ -17,9 +17,9 @@ This reads `data/iphones.json` and generates `index.html`.
 │   └── iphones.json      # iPhone data (source of truth)
 ├── scripts/
 │   └── generate-html.js  # HTML generator script
-├── css/                  # Webflow stylesheets
+├── css/                  # Webflow stylesheets, plus color-selector.css (shared with the iPad site) and site.css
 ├── images/               # Device images and icons
-├── js/                   # Webflow scripts
+├── js/                   # Webflow scripts, plus site.js (year navigation, arrows, links to a model)
 └── index.html            # Generated output (do not edit directly)
 ```
 

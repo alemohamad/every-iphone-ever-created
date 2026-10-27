@@ -1,0 +1,123 @@
+/* Site additions (kept separate from the Webflow export) */
+
+/* Row label at the top of each spec section: hidden visually, still read by screen readers */
+.model-section-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* On phones, size each column to the screen so one model fits at a time */
+@media screen and (max-width: 479px) {
+  .model-content {
+    width: calc(100vw - 40px);
+  }
+}
+
+/* Model names link to themselves so a model can be shared */
+.model-header .model {
+  display: block;
+}
+
+/* Footer holds the year navigation between the two texts */
+.footer {
+  align-items: center;
+  gap: 16px;
+}
+
+.year-nav {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.year-nav-years {
+  display: flex;
+  gap: 2px;
+  min-width: 0;
+  padding: 0 12px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  /* Fade the years that are cut off at either end */
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 14px, #000 calc(100% - 14px), transparent);
+  mask-image: linear-gradient(to right, transparent, #000 14px, #000 calc(100% - 14px), transparent);
+}
+
+.year-nav-years::-webkit-scrollbar {
+  display: none;
+}
+
+.year-nav-year {
+  flex: none;
+  padding: 5px 9px;
+  border-radius: 980px;
+  color: #6e6e73;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+.year-nav-year:hover {
+  color: #000;
+  background-color: #0000000d;
+  text-decoration: none;
+}
+
+.year-nav-year.is-active {
+  color: #fff;
+  background-color: #000;
+}
+
+.year-nav-arrow {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  color: #000;
+  background-color: #0000000f;
+  cursor: pointer;
+}
+
+.year-nav-arrow:hover:not(:disabled) {
+  background-color: #0000001f;
+}
+
+.year-nav-arrow:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.year-nav-year:focus-visible,
+.year-nav-arrow:focus-visible {
+  outline: 2px solid #0071e3;
+  outline-offset: 2px;
+}
+
+/* Stacked footer: navigation on its own row at the top */
+@media screen and (max-width: 991px) {
+  .footer {
+    align-items: stretch;
+    gap: 8px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+  }
+
+  .year-nav {
+    order: -1;
+  }
+
+  .devices {
+    margin-bottom: 170px;
+  }
+}

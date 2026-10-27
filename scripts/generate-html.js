@@ -363,33 +363,68 @@ function generateDimensions(dimensions) {
       </div>`;
 }
 
+// Add a row label at the top of a section, skipping cells with nothing in them
+function withLabel(label, html) {
+  if (!html || html === '<div class="model-content"></div>' || html.includes('model-screen-detail empty')) {
+    return html;
+  }
+  return html.replace('<div class="model-content">', `<div class="model-content"><div class="model-section-label">${label}</div>`);
+}
+
+// Anchor used for links to a model, e.g. #iphone-se-3rd-generation
+function modelAnchor(iphone) {
+  return iphone.id.replace(/[()]/g, '');
+}
+
+// Generate the year navigation: arrows plus one link per launch year,
+// pointing at the first (newest) model released that year
+function generateYearNav(iphones) {
+  const years = [];
+  iphones.forEach(iphone => {
+    if (!years.some(year => year.year === iphone.launchYear)) {
+      years.push({ year: iphone.launchYear, anchor: modelAnchor(iphone) });
+    }
+  });
+  const chevron = points => `<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="${points}" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  const links = years
+    .map(year => `<a href="#${year.anchor}" class="year-nav-year" data-year="${year.year}">${year.year}</a>`)
+    .join('\n        ');
+  return `<nav class="year-nav" aria-label="Jump to year">
+      <button type="button" class="year-nav-arrow" data-direction="-1" aria-label="Previous model">${chevron('M7.5 2.5 4 6l3.5 3.5')}</button>
+      <div class="year-nav-years">
+        ${links}
+      </div>
+      <button type="button" class="year-nav-arrow" data-direction="1" aria-label="Next model">${chevron('M4.5 2.5 8 6 4.5 9.5')}</button>
+    </nav>`;
+}
+
 // Generate a single iPhone entry
 function generateiPhone(iphone) {
-  return `      <div class="model-header">
+  return `      <div class="model-header" id="${modelAnchor(iphone)}" data-year="${iphone.launchYear}">
         <div class="launch-date">${iphone.launchYear}</div>
-        <div class="model">${iphone.model}</div>
+        <a href="#${modelAnchor(iphone)}" class="model">${iphone.model}</a>
       </div>
       <div class="model-device"><img src="${deviceImageUrl(iphone.device)}" loading="lazy" alt="${iphone.model}" class="model-device-pic"></div>
       <div class="model-colors">
         ${generateColors(iphone.colors, iphone.id)}
       </div>
-      ${generateDisplay(iphone.display, iphone.dynamicIsland)}
-      ${generateDesign(iphone.design)}
-      ${generateAppleIntelligence(iphone.appleIntelligence)}
-      ${generateChip(iphone.chip)}
+      ${withLabel('Display', generateDisplay(iphone.display, iphone.dynamicIsland))}
+      ${withLabel('Design', generateDesign(iphone.design))}
+      ${withLabel('Apple Intelligence', generateAppleIntelligence(iphone.appleIntelligence))}
+      ${withLabel('Chip', generateChip(iphone.chip))}
       ${generateDynamicIsland(iphone.dynamicIsland)}
-      ${generateFrontCamera(iphone.frontCamera)}
-      ${generateRearCamera(iphone.rearCamera)}
-      ${generateOpticalZoom(iphone.opticalZoomIcon)}
-      ${generateApertureCamera(iphone.apertureCamera)}
-      ${generateiOS(iphone.ios)}
-      ${generateEmergency(iphone.emergency)}
-      ${generateBattery(iphone.battery)}
-      ${generateConnector(iphone.connector)}
-      ${generateBiometrics(iphone.biometrics)}
-      ${generateCellular(iphone.cellular)}
-      ${generateDurability(iphone.durability)}
-      ${generateMagSafe(iphone.magsafe)}
+      ${withLabel('Front camera', generateFrontCamera(iphone.frontCamera))}
+      ${withLabel('Rear camera', generateRearCamera(iphone.rearCamera))}
+      ${withLabel('Optical zoom', generateOpticalZoom(iphone.opticalZoomIcon))}
+      ${withLabel('Aperture', generateApertureCamera(iphone.apertureCamera))}
+      ${withLabel('iOS', generateiOS(iphone.ios))}
+      ${withLabel('Safety', generateEmergency(iphone.emergency))}
+      ${withLabel('Battery', generateBattery(iphone.battery))}
+      ${withLabel('Connector', generateConnector(iphone.connector))}
+      ${withLabel('Authentication', generateBiometrics(iphone.biometrics))}
+      ${withLabel('Cellular', generateCellular(iphone.cellular))}
+      ${withLabel('Durability', generateDurability(iphone.durability))}
+      ${withLabel('MagSafe', generateMagSafe(iphone.magsafe))}
       ${generateCapacity(iphone.capacity)}
       ${generateDimensions(iphone.dimensions)}`;
 }
@@ -411,12 +446,13 @@ function generateHTML() {
   <meta content="Apple’s iPhone has developed MASSIVELY over the past decade, adding in faster processors and bigger screens. But it’s not until you look at ALL the iPhone models that have been released, do you see just how far we’ve come since 2007." property="twitter:description">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="width=device-width, initial-scale=1, minimum-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/every-iphone-ever-released.webflow.css" rel="stylesheet" type="text/css">
   <link href="css/color-selector.css" rel="stylesheet" type="text/css">
+  <link href="css/site.css" rel="stylesheet" type="text/css">
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
@@ -433,6 +469,7 @@ ${iphoneEntries}
   </section>
   <section class="footer">
     <div>iPhone is a trademark of Apple Inc., registered in the U.S. and other countries.</div>
+    ${generateYearNav(data.iphones)}
     <a href="https://alemohamad.com/" target="_blank">Curated by <strong class="bold-text">Ale Mohamad</strong></a>
   </section>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=690262dc38f8fd331f507117" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -446,6 +483,7 @@ ${iphoneEntries}
       if (image) colors.previousElementSibling.querySelector('.model-device-pic').src = image;
     });
   </script>
+  <script src="js/site.js" type="text/javascript"></script>
 </body>
 </html>`;
 }
