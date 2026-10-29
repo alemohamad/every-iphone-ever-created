@@ -517,6 +517,7 @@ ${iphoneEntries}
     });
   </script>
   <script src="js/site.js" type="text/javascript"></script>
+  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "637477eeac2d4637a6d3efb21d1cfc9e"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>`;
 }
