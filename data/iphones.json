@@ -6573,19 +6573,22 @@
       "model": "iPhone 5s",
       "launchYear": 2013,
       "line": "iphone",
-      "device": "iphone5s.jpg",
+      "device": "iphone_5s_silver.jpg",
       "colors": [
         {
           "name": "Silver",
-          "hex": "#e2e3e4"
+          "hex": "#e2e3e4",
+          "image": "iphone_5s_silver.jpg"
         },
         {
           "name": "Space Gray",
-          "hex": "#b1b2b7"
+          "hex": "#b1b2b7",
+          "image": "iphone_5s_space_gray.jpg"
         },
         {
           "name": "Gold",
-          "hex": "#e3ccb4"
+          "hex": "#e3ccb4",
+          "image": "iphone_5s_gold.jpg"
         }
       ],
       "display": {
@@ -6684,27 +6687,32 @@
       "model": "iPhone 5c",
       "launchYear": 2013,
       "line": "iphone",
-      "device": "iphone5c.jpg",
+      "device": "iphone_5c_white.jpg",
       "colors": [
         {
           "name": "White",
-          "hex": "#f0eff2"
+          "hex": "#f0eff2",
+          "image": "iphone_5c_white.jpg"
         },
         {
-          "name": "Red",
-          "hex": "#f67873"
+          "name": "Pink",
+          "hex": "#f67873",
+          "image": "iphone_5c_pink.jpg"
         },
         {
           "name": "Yellow",
-          "hex": "#fdf078"
+          "hex": "#fdf078",
+          "image": "iphone_5c_yellow.jpg"
         },
         {
           "name": "Blue",
-          "hex": "#4dbdf9"
+          "hex": "#4dbdf9",
+          "image": "iphone_5c_blue.jpg"
         },
         {
           "name": "Green",
-          "hex": "#a2ee73"
+          "hex": "#a2ee73",
+          "image": "iphone_5c_green.jpg"
         }
       ],
       "display": {
@@ -6803,15 +6811,17 @@
       "model": "iPhone 5",
       "launchYear": 2012,
       "line": "iphone",
-      "device": "iphone5.jpg",
+      "device": "iphone_5_white_silver.jpg",
       "colors": [
         {
-          "name": "Silver",
-          "hex": "#e2e3e4"
+          "name": "White & Silver",
+          "hex": "#e2e3e4",
+          "image": "iphone_5_white_silver.jpg"
         },
         {
-          "name": "Space Gray",
-          "hex": "#262529"
+          "name": "Black & Slate",
+          "hex": "#262529",
+          "image": "iphone_5_black_slate.jpg"
         }
       ],
       "display": {
@@ -6910,15 +6920,17 @@
       "model": "iPhone 4s",
       "launchYear": 2011,
       "line": "iphone",
-      "device": "iphone4s.jpg",
+      "device": "iphone_4s_white.jpg",
       "colors": [
         {
           "name": "White",
-          "hex": "#f6f2ef"
+          "hex": "#f6f2ef",
+          "image": "iphone_4s_white.jpg"
         },
         {
           "name": "Black",
-          "hex": "#2e3034"
+          "hex": "#2e3034",
+          "image": "iphone_4s_black.jpg"
         }
       ],
       "display": {
@@ -7018,15 +7030,17 @@
       "model": "iPhone 4",
       "launchYear": 2010,
       "line": "iphone",
-      "device": "iPhone4.jpg",
+      "device": "iphone_4_white.jpg",
       "colors": [
         {
           "name": "White",
-          "hex": "#f6f2ef"
+          "hex": "#f6f2ef",
+          "image": "iphone_4_white.jpg"
         },
         {
           "name": "Black",
-          "hex": "#2e3034"
+          "hex": "#2e3034",
+          "image": "iphone_4_black.jpg"
         }
       ],
       "display": {
@@ -7125,15 +7139,17 @@
       "model": "iPhone 3GS",
       "launchYear": 2009,
       "line": "iphone",
-      "device": "iphone3gs.jpg",
+      "device": "iphone_3gs_white.jpg",
       "colors": [
         {
           "name": "White",
-          "hex": "#f3f3f3"
+          "hex": "#f3f3f3",
+          "image": "iphone_3gs_white.jpg"
         },
         {
           "name": "Black",
-          "hex": "#2e3034"
+          "hex": "#2e3034",
+          "image": "iphone_3gs_black.jpg"
         }
       ],
       "display": {
@@ -7230,7 +7246,7 @@
       "model": "iPhone 3G",
       "launchYear": 2008,
       "line": "iphone",
-      "device": "iphone3g.jpg",
+      "device": "iphone_3g_black.jpg",
       "colors": [
         {
           "name": "White",
@@ -7238,7 +7254,8 @@
         },
         {
           "name": "Black",
-          "hex": "#2e3034"
+          "hex": "#2e3034",
+          "image": "iphone_3g_black.jpg"
         }
       ],
       "display": {
@@ -7334,11 +7351,12 @@
       "model": "iPhone",
       "launchYear": 2007,
       "line": "iphone",
-      "device": "iphone.jpg",
+      "device": "iphone_original.jpg",
       "colors": [
         {
           "name": "Original",
-          "hex": "#f5f5f7"
+          "hex": "#f5f5f7",
+          "image": "iphone_original.jpg"
         }
       ],
       "display": {
